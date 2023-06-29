@@ -1,7 +1,7 @@
 # ConfigCollector
 [![Collector](https://github.com/yebekhe/ConfigCollector/actions/workflows/ConfigUpdate.yml/badge.svg)](https://github.com/yebekhe/ConfigCollector/actions/workflows/ConfigUpdate.yml) [![Channels](https://github.com/yebekhe/ConfigCollector/actions/workflows/ProviderUpdate.yml/badge.svg)](https://github.com/yebekhe/ConfigCollector/actions/workflows/ProviderUpdate.yml)
 
-This project is intended for educational purposes only. Any other use of it, including commercial, personal, or non-educational use, is not accepted!
+<b>This project is intended for educational purposes only. Any other use of it, including commercial, personal, or non-educational use, is not accepted!</b>
 
 This is a PHP script that collects V2Ray subscription links from various sources and saves them to different files based on their protocol type (VMess, VLess, Trojan, and Shadowsocks). 
 

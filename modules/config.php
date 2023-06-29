@@ -74,7 +74,23 @@ $Types = [
     "V2RayTz" => ["vless", "trojan"],
     "VmessProtocol" => ["vless", "trojan", "ss"],
     "MehradLearn" => ["vless"],
-    "SafeNet_Server" => ["vmess", "vless"]
-];
+    "SafeNet_Server" => ["vmess", "vless"],
+    "ovpn2" => ["vmess", "vless", "trojan"],
+    "lrnbymaa" => ["vless"],
+    "vpn_tehran" => ["vmess", "vless", "trojan"],
+    "OutlineVpnOfficial" => ["ss"],
+    "v2ray_vpn_ir" => ["vmess", "vless", "trojan"],
+    "v2_team" => ["vmess", "vless"],
+    "proxy_kafee" => ["vless"],
+    "ConfigsHUB" => ["vmess", "vless", "trojan"],
+    "AlienVPN402" => ["ss"],
+    "TheHotVPN" => ["vless"],
+    "freeconfigv2" => ["vmess", "vless"],
+    "V2rayngninja" => ["vless", "ss"],
+    "iSegaro" => ["vless"],
+    "bright_vpn" => ["vless", "ss"],
+    "talentvpn" => ["vless"],
+    "proxystore11" => ["vless"],
+    ];
 
 ?>

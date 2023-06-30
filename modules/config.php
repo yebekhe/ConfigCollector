@@ -66,7 +66,7 @@ $Types = [
     "v2ray1_ng" => ["vmess", "vless", "trojan"],
     "vless_vmess" => ["vmess", "vless"],
     "MTConfig" => ["vmess", "vless", "ss"],
-    "lagvpn13" => ["vless"],
+    "PNG_V2rayNG" => ["vless"],
     "v2rayNG_VPNN" => ["vless"],
     "vmess_vless_v2rayng" => ["vmess", "vless", "trojan", "ss"],
     "FreeIranT" => ["vless"],
@@ -91,6 +91,11 @@ $Types = [
     "bright_vpn" => ["vless", "ss"],
     "talentvpn" => ["vless"],
     "proxystore11" => ["vless"],
-    ];
+    "yaney_01" => ["vmess", "trojan", "ss"],
+    "rayvps" => ["vless"],
+    "free1_vpn" => ["vmess", "vless", "vless"],
+    "Parsashonam" => ["vless"],
+    
+];
 
 ?>

@@ -1,0 +1,226 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+profile:
+  store-selected: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  nameserver:
+    - 8.8.8.8
+    - 1.0.0.1
+    - https://dns.google/dns-query
+  fallback:
+    - 1.1.1.1
+    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - 112.215.203.254
+  default-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 112.215.203.254
+proxies:
+  - name: "@free4allVPN|🇬🇧|109.63"
+    server: 212.102.53.79
+    port: 443
+    type: ss
+    cipher: aes-128-gcm
+    password: shadowsocks
+    udp: true
+  - name: "@free4allVPN|🇺🇸|37.18"
+    server: 169.197.142.187
+    port: 443
+    type: ss
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+    udp: true
+  - name: "@free4allVPN|🇬🇧|112.82"
+    server: 212.102.53.198
+    port: 443
+    type: ss
+    cipher: aes-128-gcm
+    password: shadowsocks
+    udp: true
+  - name: "@xrayzxn|🇫🇷|122.84"
+    server: 51.178.87.37
+    port: 805
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+    udp: true
+  - name: "@xrayzxn|🇫🇷|112.49"
+    server: 149.202.82.172
+    port: 5004
+    type: ss
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+    udp: true
+  - name: "@xrayzxn|🇫🇷|139.41"
+    server: 54.36.174.181
+    port: 8119
+    type: ss
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+    udp: true
+  - name: "@MTConfig|🇬🇧|104.75"
+    server: 13.87.75.178
+    port: 7294
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: r0G2OWdFqqfcz34LYr9inz
+    udp: true
+  - name: "@VmessProtocol|🇩🇪|124.41"
+    server: 145.239.1.100
+    port: 9102
+    type: ss
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+    udp: true
+  - name: "@VmessProtocol|🇩🇪|123.94"
+    server: 145.239.1.100
+    port: 6379
+    type: ss
+    cipher: aes-256-gcm
+    password: zDNVedRFPQexG9v
+    udp: true
+  - name: "@OutlineVpnOfficial|🇫🇷|207.15"
+    server: ak1792.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    port: 7001
+    type: ss
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+    udp: true
+  - name: "@OutlineVpnOfficial|🇬🇧|131.24"
+    server: ak1793.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    port: 443
+    type: ss
+    cipher: aes-128-gcm
+    password: shadowsocks
+    udp: true
+  - name: "@OutlineVpnOfficial|🇯🇵|148.82"
+    server: ak1794.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    port: 812
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+    udp: true
+  - name: "@AlienVPN402|🇫🇷|112.92"
+    server: 149.202.82.172
+    port: 8882
+    type: ss
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+    udp: true
+  - name: "@AlienVPN402|🇳🇱|119.46"
+    server: 109.201.152.181
+    port: 443
+    type: ss
+    cipher: aes-128-cfb
+    password: shadowsocks
+    udp: true
+  - name: "@AlienVPN402|🇫🇷|113.07"
+    server: 149.202.82.172
+    port: 6697
+    type: ss
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+    udp: true
+proxy-groups:
+  - name: MANUAL
+    type: select
+    proxies:
+      - "@free4allVPN|🇬🇧|109.63"
+      - "@free4allVPN|🇺🇸|37.18"
+      - "@free4allVPN|🇬🇧|112.82"
+      - "@xrayzxn|🇫🇷|122.84"
+      - "@xrayzxn|🇫🇷|112.49"
+      - "@xrayzxn|🇫🇷|139.41"
+      - "@MTConfig|🇬🇧|104.75"
+      - "@VmessProtocol|🇩🇪|124.41"
+      - "@VmessProtocol|🇩🇪|123.94"
+      - "@OutlineVpnOfficial|🇫🇷|207.15"
+      - "@OutlineVpnOfficial|🇬🇧|131.24"
+      - "@OutlineVpnOfficial|🇯🇵|148.82"
+      - "@AlienVPN402|🇫🇷|112.92"
+      - "@AlienVPN402|🇳🇱|119.46"
+      - "@AlienVPN402|🇫🇷|113.07"
+      - LOAD-BALANCE
+      - BEST-PING
+      - FALLBACK
+      - DIRECT
+  - name: LOAD-BALANCE
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://hi.bonds.id/ping
+    interval: 300
+    proxies:
+      - "@free4allVPN|🇬🇧|109.63"
+      - "@free4allVPN|🇺🇸|37.18"
+      - "@free4allVPN|🇬🇧|112.82"
+      - "@xrayzxn|🇫🇷|122.84"
+      - "@xrayzxn|🇫🇷|112.49"
+      - "@xrayzxn|🇫🇷|139.41"
+      - "@MTConfig|🇬🇧|104.75"
+      - "@VmessProtocol|🇩🇪|124.41"
+      - "@VmessProtocol|🇩🇪|123.94"
+      - "@OutlineVpnOfficial|🇫🇷|207.15"
+      - "@OutlineVpnOfficial|🇬🇧|131.24"
+      - "@OutlineVpnOfficial|🇯🇵|148.82"
+      - "@AlienVPN402|🇫🇷|112.92"
+      - "@AlienVPN402|🇳🇱|119.46"
+      - "@AlienVPN402|🇫🇷|113.07"
+  - name: BEST-PING
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "@free4allVPN|🇬🇧|109.63"
+      - "@free4allVPN|🇺🇸|37.18"
+      - "@free4allVPN|🇬🇧|112.82"
+      - "@xrayzxn|🇫🇷|122.84"
+      - "@xrayzxn|🇫🇷|112.49"
+      - "@xrayzxn|🇫🇷|139.41"
+      - "@MTConfig|🇬🇧|104.75"
+      - "@VmessProtocol|🇩🇪|124.41"
+      - "@VmessProtocol|🇩🇪|123.94"
+      - "@OutlineVpnOfficial|🇫🇷|207.15"
+      - "@OutlineVpnOfficial|🇬🇧|131.24"
+      - "@OutlineVpnOfficial|🇯🇵|148.82"
+      - "@AlienVPN402|🇫🇷|112.92"
+      - "@AlienVPN402|🇳🇱|119.46"
+      - "@AlienVPN402|🇫🇷|113.07"
+  - name: FALLBACK
+    type: fallback
+    url: http://hi.bonds.id/ping
+    interval: 300
+    proxies:
+      - "@free4allVPN|🇬🇧|109.63"
+      - "@free4allVPN|🇺🇸|37.18"
+      - "@free4allVPN|🇬🇧|112.82"
+      - "@xrayzxn|🇫🇷|122.84"
+      - "@xrayzxn|🇫🇷|112.49"
+      - "@xrayzxn|🇫🇷|139.41"
+      - "@MTConfig|🇬🇧|104.75"
+      - "@VmessProtocol|🇩🇪|124.41"
+      - "@VmessProtocol|🇩🇪|123.94"
+      - "@OutlineVpnOfficial|🇫🇷|207.15"
+      - "@OutlineVpnOfficial|🇬🇧|131.24"
+      - "@OutlineVpnOfficial|🇯🇵|148.82"
+      - "@AlienVPN402|🇫🇷|112.92"
+      - "@AlienVPN402|🇳🇱|119.46"
+      - "@AlienVPN402|🇫🇷|113.07"
+rules:
+  - MATCH,MANUAL

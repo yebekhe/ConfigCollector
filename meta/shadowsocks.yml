@@ -32,84 +32,91 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: "@free4allVPN|🇬🇧|144.79"
+  - name: "@free4allVPN|🇬🇧|113.51"
     server: 212.102.53.79
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: "@free4allVPN|🇺🇸|2.11"
+  - name: "@free4allVPN|🇺🇸|38.44"
     server: 169.197.142.187
     port: 443
     type: ss
     cipher: aes-256-gcm
     password: pKEW8JPByTVTLtM
     udp: true
-  - name: "@free4allVPN|🇬🇧|145.47"
+  - name: "@free4allVPN|🇬🇧|113.39"
     server: 212.102.53.198
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: "@xrayzxn|🇫🇷|160.53"
+  - name: "@xrayzxn|🇫🇷|123.31"
     server: 51.178.87.37
     port: 805
     type: ss
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
     udp: true
-  - name: "@xrayzxn|🇫🇷|155.65"
+  - name: "@xrayzxn|🇫🇷|120.13"
     server: 149.202.82.172
     port: 5004
     type: ss
     cipher: aes-256-gcm
     password: g5MeD6Ft3CWlJId
     udp: true
-  - name: "@xrayzxn|🇫🇷|170.9"
+  - name: "@xrayzxn|🇫🇷|141.06"
     server: 54.36.174.181
     port: 8119
     type: ss
     cipher: aes-256-gcm
     password: cdBIDV42DCwnfIN
     udp: true
-  - name: "@VmessProtocol|🇩🇪|158.27"
+  - name: "@VmessProtocol|🇩🇪|124.94"
     server: 145.239.1.100
     port: 9102
     type: ss
     cipher: aes-256-gcm
     password: e4FCWrgpkji3QY
     udp: true
-  - name: "@VmessProtocol|🇩🇪|157.56"
+  - name: "@VmessProtocol|🇩🇪|129.59"
     server: 145.239.1.100
     port: 6379
     type: ss
     cipher: aes-256-gcm
     password: zDNVedRFPQexG9v
     udp: true
-  - name: "@OutlineVpnOfficial|🇯🇵|249.9"
+  - name: "@OutlineVpnOfficial|🇯🇵|135.27"
     server: ak1794.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
     port: 812
     type: ss
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
     udp: true
-  - name: "@OutlineVpnOfficial|🇳🇱|149.99"
+  - name: "@OutlineVpnOfficial|🇳🇱|158.92"
     server: ak1795.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
     port: 6679
     type: ss
     cipher: aes-256-gcm
     password: TEzjfAYq2IjtuoS
     udp: true
-  - name: "@AlienVPN402|🇳🇱|151.49"
+  - name: "@OutlineVpnOfficial|🇵🇱|150.08"
+    server: ak1796.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    port: 3306
+    type: ss
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+    udp: true
+  - name: "@AlienVPN402|🇳🇱|119.37"
     server: 213.108.110.117
     port: 8080
     type: ss
     cipher: chacha20-ietf-poly1305
     password: qGjmI8WQlF0tfhDbkLqGdN
     udp: true
-  - name: "@AlienVPN402|🇫🇷|173.42"
+  - name: "@AlienVPN402|🇫🇷|138.8"
     server: 54.36.174.181
     port: 9102
     type: ss
@@ -120,18 +127,19 @@ proxy-groups:
   - name: MANUAL
     type: select
     proxies:
-      - "@free4allVPN|🇬🇧|144.79"
-      - "@free4allVPN|🇺🇸|2.11"
-      - "@free4allVPN|🇬🇧|145.47"
-      - "@xrayzxn|🇫🇷|160.53"
-      - "@xrayzxn|🇫🇷|155.65"
-      - "@xrayzxn|🇫🇷|170.9"
-      - "@VmessProtocol|🇩🇪|158.27"
-      - "@VmessProtocol|🇩🇪|157.56"
-      - "@OutlineVpnOfficial|🇯🇵|249.9"
-      - "@OutlineVpnOfficial|🇳🇱|149.99"
-      - "@AlienVPN402|🇳🇱|151.49"
-      - "@AlienVPN402|🇫🇷|173.42"
+      - "@free4allVPN|🇬🇧|113.51"
+      - "@free4allVPN|🇺🇸|38.44"
+      - "@free4allVPN|🇬🇧|113.39"
+      - "@xrayzxn|🇫🇷|123.31"
+      - "@xrayzxn|🇫🇷|120.13"
+      - "@xrayzxn|🇫🇷|141.06"
+      - "@VmessProtocol|🇩🇪|124.94"
+      - "@VmessProtocol|🇩🇪|129.59"
+      - "@OutlineVpnOfficial|🇯🇵|135.27"
+      - "@OutlineVpnOfficial|🇳🇱|158.92"
+      - "@OutlineVpnOfficial|🇵🇱|150.08"
+      - "@AlienVPN402|🇳🇱|119.37"
+      - "@AlienVPN402|🇫🇷|138.8"
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -142,52 +150,55 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@free4allVPN|🇬🇧|144.79"
-      - "@free4allVPN|🇺🇸|2.11"
-      - "@free4allVPN|🇬🇧|145.47"
-      - "@xrayzxn|🇫🇷|160.53"
-      - "@xrayzxn|🇫🇷|155.65"
-      - "@xrayzxn|🇫🇷|170.9"
-      - "@VmessProtocol|🇩🇪|158.27"
-      - "@VmessProtocol|🇩🇪|157.56"
-      - "@OutlineVpnOfficial|🇯🇵|249.9"
-      - "@OutlineVpnOfficial|🇳🇱|149.99"
-      - "@AlienVPN402|🇳🇱|151.49"
-      - "@AlienVPN402|🇫🇷|173.42"
+      - "@free4allVPN|🇬🇧|113.51"
+      - "@free4allVPN|🇺🇸|38.44"
+      - "@free4allVPN|🇬🇧|113.39"
+      - "@xrayzxn|🇫🇷|123.31"
+      - "@xrayzxn|🇫🇷|120.13"
+      - "@xrayzxn|🇫🇷|141.06"
+      - "@VmessProtocol|🇩🇪|124.94"
+      - "@VmessProtocol|🇩🇪|129.59"
+      - "@OutlineVpnOfficial|🇯🇵|135.27"
+      - "@OutlineVpnOfficial|🇳🇱|158.92"
+      - "@OutlineVpnOfficial|🇵🇱|150.08"
+      - "@AlienVPN402|🇳🇱|119.37"
+      - "@AlienVPN402|🇫🇷|138.8"
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - "@free4allVPN|🇬🇧|144.79"
-      - "@free4allVPN|🇺🇸|2.11"
-      - "@free4allVPN|🇬🇧|145.47"
-      - "@xrayzxn|🇫🇷|160.53"
-      - "@xrayzxn|🇫🇷|155.65"
-      - "@xrayzxn|🇫🇷|170.9"
-      - "@VmessProtocol|🇩🇪|158.27"
-      - "@VmessProtocol|🇩🇪|157.56"
-      - "@OutlineVpnOfficial|🇯🇵|249.9"
-      - "@OutlineVpnOfficial|🇳🇱|149.99"
-      - "@AlienVPN402|🇳🇱|151.49"
-      - "@AlienVPN402|🇫🇷|173.42"
+      - "@free4allVPN|🇬🇧|113.51"
+      - "@free4allVPN|🇺🇸|38.44"
+      - "@free4allVPN|🇬🇧|113.39"
+      - "@xrayzxn|🇫🇷|123.31"
+      - "@xrayzxn|🇫🇷|120.13"
+      - "@xrayzxn|🇫🇷|141.06"
+      - "@VmessProtocol|🇩🇪|124.94"
+      - "@VmessProtocol|🇩🇪|129.59"
+      - "@OutlineVpnOfficial|🇯🇵|135.27"
+      - "@OutlineVpnOfficial|🇳🇱|158.92"
+      - "@OutlineVpnOfficial|🇵🇱|150.08"
+      - "@AlienVPN402|🇳🇱|119.37"
+      - "@AlienVPN402|🇫🇷|138.8"
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@free4allVPN|🇬🇧|144.79"
-      - "@free4allVPN|🇺🇸|2.11"
-      - "@free4allVPN|🇬🇧|145.47"
-      - "@xrayzxn|🇫🇷|160.53"
-      - "@xrayzxn|🇫🇷|155.65"
-      - "@xrayzxn|🇫🇷|170.9"
-      - "@VmessProtocol|🇩🇪|158.27"
-      - "@VmessProtocol|🇩🇪|157.56"
-      - "@OutlineVpnOfficial|🇯🇵|249.9"
-      - "@OutlineVpnOfficial|🇳🇱|149.99"
-      - "@AlienVPN402|🇳🇱|151.49"
-      - "@AlienVPN402|🇫🇷|173.42"
+      - "@free4allVPN|🇬🇧|113.51"
+      - "@free4allVPN|🇺🇸|38.44"
+      - "@free4allVPN|🇬🇧|113.39"
+      - "@xrayzxn|🇫🇷|123.31"
+      - "@xrayzxn|🇫🇷|120.13"
+      - "@xrayzxn|🇫🇷|141.06"
+      - "@VmessProtocol|🇩🇪|124.94"
+      - "@VmessProtocol|🇩🇪|129.59"
+      - "@OutlineVpnOfficial|🇯🇵|135.27"
+      - "@OutlineVpnOfficial|🇳🇱|158.92"
+      - "@OutlineVpnOfficial|🇵🇱|150.08"
+      - "@AlienVPN402|🇳🇱|119.37"
+      - "@AlienVPN402|🇫🇷|138.8"
 rules:
   - MATCH,MANUAL

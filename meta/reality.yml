@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: REALITY|@ProxyFn|🇨🇭|159.53
+  - name: REALITY|@ProxyFn|🇨🇭|122.12
     server: 193.168.144.46
     port: 443
     type: vless
@@ -45,7 +45,7 @@ proxies:
     grpc-opts:
       grpc-service-name: /
     udp: true
-  - name: REALITY|@daorzadannet|🇺🇸|159.13
+  - name: REALITY|@daorzadannet|🇺🇸|124.09
     server: "[0000:0000:0000:0000:0000:ffff:74ca:65d1]"
     port: 443
     type: vless
@@ -56,17 +56,18 @@ proxies:
     skip-cert-verify: true
     servername: www.speedtest.net
     udp: true
-  - name: REALITY|@Outline_Vpn|🇩🇪|164.15
-    server: big.melov2ray.store
-    port: 27158
+  - name: REALITY|@Outline_Vpn|🇩🇰|127.66
+    server: 38.180.20.221
+    port: 15172
     type: vless
-    uuid: 82afda67-711a-4ae1-89f5-789b182160d7
+    uuid: fa994681-f88a-4c80-a0ab-fa2bafdb14d5
     cipher: auto
     tls: false
+    flow: xtls-rprx-vision
     skip-cert-verify: true
-    servername: ftp.debian.org
+    servername: zula.ir
     udp: true
-  - name: REALITY|@vpn_xw|🇩🇪|160.58
+  - name: REALITY|@vpn_xw|🇩🇪|124.1
     server: 206.81.20.118
     port: 443
     type: vless
@@ -79,7 +80,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C%40vpn_xw%2C"
     udp: true
-  - name: REALITY|@prrofile_purple|🚩|7.79
+  - name: REALITY|@prrofile_purple|🚩|10.04
     server: 5.75.208.218
     port: 443
     type: vless
@@ -90,7 +91,7 @@ proxies:
     skip-cert-verify: true
     servername: www.speedtest.net
     udp: true
-  - name: REALITY|@WomanLifeFreedomVPN|🇩🇪|179.11
+  - name: REALITY|@WomanLifeFreedomVPN|🇩🇪|167.87
     server: speedtest.wlftest.xyz
     port: 443
     type: vless
@@ -101,7 +102,18 @@ proxies:
     skip-cert-verify: true
     servername: www.speedtest.net
     udp: true
-  - name: REALITY|@customv2ray|🇩🇪|152.82
+  - name: REALITY|@internet4iran|🇩🇪|124.01
+    server: 5.75.208.218
+    port: 443
+    type: vless
+    uuid: 4cd29e96-3732-4be9-bb5a-78760b188e68
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: www.speedtest.net
+    udp: true
+  - name: REALITY|@customv2ray|🇩🇪|123.3
     server: 89.23.108.139
     port: 8443
     type: vless
@@ -112,7 +124,7 @@ proxies:
     skip-cert-verify: true
     servername: www.speedtest.net
     udp: true
-  - name: REALITY|@v2rayNG_Matsuri|🇸🇪|229.64
+  - name: REALITY|@v2rayNG_Matsuri|🇸🇪|180.46
     server: srv20.kiava.fun
     port: 443
     type: vless
@@ -123,7 +135,7 @@ proxies:
     skip-cert-verify: true
     servername: www.tradingview.com
     udp: true
-  - name: REALITY|@ShadowProxy66|🇸🇪|170.39
+  - name: REALITY|@ShadowProxy66|🇸🇪|136.26
     server: 46.246.98.173
     port: 8443
     type: vless
@@ -134,7 +146,7 @@ proxies:
     skip-cert-verify: true
     servername: discord.com
     udp: true
-  - name: REALITY|@Helix_Servers|🇩🇪|159.52
+  - name: REALITY|@Helix_Servers|🇩🇪|128.33
     server: 128.140.60.188
     port: 8443
     type: vless
@@ -147,7 +159,18 @@ proxies:
     grpc-opts:
       grpc-service-name: "%40Helix_Servers-%40Helix_Servers-%40Helix_Servers-%40Helix_Servers-%40Helix_Servers-"
     udp: true
-  - name: REALITY|@VpnProSec|🇩🇪|167.86
+  - name: REALITY|@PAINB0Y|🇳🇱|200.26
+    server: rezatajik.rezatajik.art
+    port: 443
+    type: vless
+    uuid: 575806c1-5178-4e5f-9193-85bf0502063b
+    cipher: auto
+    tls: false
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    servername: discord.com
+    udp: true
+  - name: REALITY|@VpnProSec|🇩🇪|166.9
     server: for2.vpnprosec.shop
     port: 443
     type: vless
@@ -158,7 +181,7 @@ proxies:
     skip-cert-verify: true
     servername: zula.ir
     udp: true
-  - name: REALITY|@iran_ray|🇩🇪|371.14
+  - name: REALITY|@iran_ray|🇩🇪|141.48
     server: free.iran-ray.top
     port: 443
     type: vless
@@ -168,18 +191,7 @@ proxies:
     skip-cert-verify: true
     servername: discord.com
     udp: true
-  - name: REALITY|@INIT1984|🇩🇰|159.58
-    server: 38.180.20.221
-    port: 15172
-    type: vless
-    uuid: fa994681-f88a-4c80-a0ab-fa2bafdb14d5
-    cipher: auto
-    tls: false
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: REALITY|@CloudCityy|🇩🇪|158.27
+  - name: REALITY|@CloudCityy|🇩🇪|127.7
     server: 209.38.196.133
     port: 21617
     type: vless
@@ -192,7 +204,7 @@ proxies:
     grpc-opts:
       grpc-service-name: Id-telegram-%40CloudCityy%20%40CloudCityy%20%20%20%20%20%20%20%20Id-telegram-%40CloudCityy%20%40CloudCityy
     udp: true
-  - name: REALITY|@DarkVPNpro|🇳🇱|152.02
+  - name: REALITY|@DarkVPNpro|🇳🇱|115
     server: 45.67.210.7
     port: 2083
     type: vless
@@ -203,7 +215,7 @@ proxies:
     skip-cert-verify: true
     servername: www.speedtest.net
     udp: true
-  - name: REALITY|@Proxy_PJ|🇩🇪|160.3
+  - name: REALITY|@Proxy_PJ|🇩🇪|124.03
     server: 134.255.216.72
     port: 3344
     type: vless
@@ -214,7 +226,7 @@ proxies:
     skip-cert-verify: true
     servername: filimo.com
     udp: true
-  - name: REALITY|@v2ray1_ng|🇸🇪|182.43
+  - name: REALITY|@v2ray1_ng|🇸🇪|180.19
     server: srv21.kiava.fun
     port: 443
     type: vless
@@ -225,18 +237,7 @@ proxies:
     skip-cert-verify: true
     servername: aws.amazon.com
     udp: true
-  - name: REALITY|@v2rayNG_VPNN|🇩🇪|156.08
-    server: 159.89.20.34
-    port: 443
-    type: vless
-    uuid: 2598ded7-00f0-484a-f02f-c70aca947a34
-    cipher: auto
-    tls: false
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    servername: zula.ir
-    udp: true
-  - name: REALITY|@SafeNet_Server|🇩🇪|176.94
+  - name: REALITY|@SafeNet_Server|🇩🇪|171.47
     server: speedtest.wlftest.xyz
     port: 443
     type: vless
@@ -246,7 +247,7 @@ proxies:
     skip-cert-verify: true
     servername: www.speedtest.net
     udp: true
-  - name: REALITY|@vpn_tehran|🇩🇪|159.28
+  - name: REALITY|@vpn_tehran|🇩🇪|126.95
     server: 64.226.124.31
     port: 443
     type: vless
@@ -259,7 +260,7 @@ proxies:
     grpc-opts:
       grpc-service-name: /
     udp: true
-  - name: REALITY|@freeconfigv2|🇩🇪|158.67
+  - name: REALITY|@freeconfigv2|🇩🇪|123.14
     server: 217.160.36.169
     port: 443
     type: vless
@@ -270,7 +271,7 @@ proxies:
     skip-cert-verify: true
     servername: yahoo.com
     udp: true
-  - name: REALITY|@V2rayngninja|🇩🇪|165.57
+  - name: REALITY|@V2rayngninja|🇩🇪|180.45
     server: mtn3.alighaemi9731.online
     port: 443
     type: vless
@@ -281,7 +282,7 @@ proxies:
     skip-cert-verify: true
     servername: hostgator.com
     udp: true
-  - name: REALITY|@iSegaro|🇩🇪|unavailable
+  - name: REALITY|@iSegaro|🇩🇪|124.23
     server: 89.23.108.139
     port: 8443
     type: vless
@@ -292,7 +293,7 @@ proxies:
     skip-cert-verify: true
     servername: www.speedtest.net
     udp: true
-  - name: REALITY|@bright_vpn|🇩🇪|159.01
+  - name: REALITY|@bright_vpn|🇩🇪|124.23
     server: 49.13.0.193
     port: 443
     type: vless
@@ -303,7 +304,7 @@ proxies:
     skip-cert-verify: true
     servername: www.speedtest.net
     udp: true
-  - name: REALITY|@talentvpn|🚩|5.32
+  - name: REALITY|@talentvpn|🚩|31.7
     server: r1.bestvipirr.online
     port: 443
     type: vless
@@ -317,31 +318,31 @@ proxy-groups:
   - name: MANUAL
     type: select
     proxies:
-      - REALITY|@ProxyFn|🇨🇭|159.53
-      - REALITY|@daorzadannet|🇺🇸|159.13
-      - REALITY|@Outline_Vpn|🇩🇪|164.15
-      - REALITY|@vpn_xw|🇩🇪|160.58
-      - REALITY|@prrofile_purple|🚩|7.79
-      - REALITY|@WomanLifeFreedomVPN|🇩🇪|179.11
-      - REALITY|@customv2ray|🇩🇪|152.82
-      - REALITY|@v2rayNG_Matsuri|🇸🇪|229.64
-      - REALITY|@ShadowProxy66|🇸🇪|170.39
-      - REALITY|@Helix_Servers|🇩🇪|159.52
-      - REALITY|@VpnProSec|🇩🇪|167.86
-      - REALITY|@iran_ray|🇩🇪|371.14
-      - REALITY|@INIT1984|🇩🇰|159.58
-      - REALITY|@CloudCityy|🇩🇪|158.27
-      - REALITY|@DarkVPNpro|🇳🇱|152.02
-      - REALITY|@Proxy_PJ|🇩🇪|160.3
-      - REALITY|@v2ray1_ng|🇸🇪|182.43
-      - REALITY|@v2rayNG_VPNN|🇩🇪|156.08
-      - REALITY|@SafeNet_Server|🇩🇪|176.94
-      - REALITY|@vpn_tehran|🇩🇪|159.28
-      - REALITY|@freeconfigv2|🇩🇪|158.67
-      - REALITY|@V2rayngninja|🇩🇪|165.57
-      - REALITY|@iSegaro|🇩🇪|unavailable
-      - REALITY|@bright_vpn|🇩🇪|159.01
-      - REALITY|@talentvpn|🚩|5.32
+      - REALITY|@ProxyFn|🇨🇭|122.12
+      - REALITY|@daorzadannet|🇺🇸|124.09
+      - REALITY|@Outline_Vpn|🇩🇰|127.66
+      - REALITY|@vpn_xw|🇩🇪|124.1
+      - REALITY|@prrofile_purple|🚩|10.04
+      - REALITY|@WomanLifeFreedomVPN|🇩🇪|167.87
+      - REALITY|@internet4iran|🇩🇪|124.01
+      - REALITY|@customv2ray|🇩🇪|123.3
+      - REALITY|@v2rayNG_Matsuri|🇸🇪|180.46
+      - REALITY|@ShadowProxy66|🇸🇪|136.26
+      - REALITY|@Helix_Servers|🇩🇪|128.33
+      - REALITY|@PAINB0Y|🇳🇱|200.26
+      - REALITY|@VpnProSec|🇩🇪|166.9
+      - REALITY|@iran_ray|🇩🇪|141.48
+      - REALITY|@CloudCityy|🇩🇪|127.7
+      - REALITY|@DarkVPNpro|🇳🇱|115
+      - REALITY|@Proxy_PJ|🇩🇪|124.03
+      - REALITY|@v2ray1_ng|🇸🇪|180.19
+      - REALITY|@SafeNet_Server|🇩🇪|171.47
+      - REALITY|@vpn_tehran|🇩🇪|126.95
+      - REALITY|@freeconfigv2|🇩🇪|123.14
+      - REALITY|@V2rayngninja|🇩🇪|180.45
+      - REALITY|@iSegaro|🇩🇪|124.23
+      - REALITY|@bright_vpn|🇩🇪|124.23
+      - REALITY|@talentvpn|🚩|31.7
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -352,91 +353,91 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - REALITY|@ProxyFn|🇨🇭|159.53
-      - REALITY|@daorzadannet|🇺🇸|159.13
-      - REALITY|@Outline_Vpn|🇩🇪|164.15
-      - REALITY|@vpn_xw|🇩🇪|160.58
-      - REALITY|@prrofile_purple|🚩|7.79
-      - REALITY|@WomanLifeFreedomVPN|🇩🇪|179.11
-      - REALITY|@customv2ray|🇩🇪|152.82
-      - REALITY|@v2rayNG_Matsuri|🇸🇪|229.64
-      - REALITY|@ShadowProxy66|🇸🇪|170.39
-      - REALITY|@Helix_Servers|🇩🇪|159.52
-      - REALITY|@VpnProSec|🇩🇪|167.86
-      - REALITY|@iran_ray|🇩🇪|371.14
-      - REALITY|@INIT1984|🇩🇰|159.58
-      - REALITY|@CloudCityy|🇩🇪|158.27
-      - REALITY|@DarkVPNpro|🇳🇱|152.02
-      - REALITY|@Proxy_PJ|🇩🇪|160.3
-      - REALITY|@v2ray1_ng|🇸🇪|182.43
-      - REALITY|@v2rayNG_VPNN|🇩🇪|156.08
-      - REALITY|@SafeNet_Server|🇩🇪|176.94
-      - REALITY|@vpn_tehran|🇩🇪|159.28
-      - REALITY|@freeconfigv2|🇩🇪|158.67
-      - REALITY|@V2rayngninja|🇩🇪|165.57
-      - REALITY|@iSegaro|🇩🇪|unavailable
-      - REALITY|@bright_vpn|🇩🇪|159.01
-      - REALITY|@talentvpn|🚩|5.32
+      - REALITY|@ProxyFn|🇨🇭|122.12
+      - REALITY|@daorzadannet|🇺🇸|124.09
+      - REALITY|@Outline_Vpn|🇩🇰|127.66
+      - REALITY|@vpn_xw|🇩🇪|124.1
+      - REALITY|@prrofile_purple|🚩|10.04
+      - REALITY|@WomanLifeFreedomVPN|🇩🇪|167.87
+      - REALITY|@internet4iran|🇩🇪|124.01
+      - REALITY|@customv2ray|🇩🇪|123.3
+      - REALITY|@v2rayNG_Matsuri|🇸🇪|180.46
+      - REALITY|@ShadowProxy66|🇸🇪|136.26
+      - REALITY|@Helix_Servers|🇩🇪|128.33
+      - REALITY|@PAINB0Y|🇳🇱|200.26
+      - REALITY|@VpnProSec|🇩🇪|166.9
+      - REALITY|@iran_ray|🇩🇪|141.48
+      - REALITY|@CloudCityy|🇩🇪|127.7
+      - REALITY|@DarkVPNpro|🇳🇱|115
+      - REALITY|@Proxy_PJ|🇩🇪|124.03
+      - REALITY|@v2ray1_ng|🇸🇪|180.19
+      - REALITY|@SafeNet_Server|🇩🇪|171.47
+      - REALITY|@vpn_tehran|🇩🇪|126.95
+      - REALITY|@freeconfigv2|🇩🇪|123.14
+      - REALITY|@V2rayngninja|🇩🇪|180.45
+      - REALITY|@iSegaro|🇩🇪|124.23
+      - REALITY|@bright_vpn|🇩🇪|124.23
+      - REALITY|@talentvpn|🚩|31.7
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - REALITY|@ProxyFn|🇨🇭|159.53
-      - REALITY|@daorzadannet|🇺🇸|159.13
-      - REALITY|@Outline_Vpn|🇩🇪|164.15
-      - REALITY|@vpn_xw|🇩🇪|160.58
-      - REALITY|@prrofile_purple|🚩|7.79
-      - REALITY|@WomanLifeFreedomVPN|🇩🇪|179.11
-      - REALITY|@customv2ray|🇩🇪|152.82
-      - REALITY|@v2rayNG_Matsuri|🇸🇪|229.64
-      - REALITY|@ShadowProxy66|🇸🇪|170.39
-      - REALITY|@Helix_Servers|🇩🇪|159.52
-      - REALITY|@VpnProSec|🇩🇪|167.86
-      - REALITY|@iran_ray|🇩🇪|371.14
-      - REALITY|@INIT1984|🇩🇰|159.58
-      - REALITY|@CloudCityy|🇩🇪|158.27
-      - REALITY|@DarkVPNpro|🇳🇱|152.02
-      - REALITY|@Proxy_PJ|🇩🇪|160.3
-      - REALITY|@v2ray1_ng|🇸🇪|182.43
-      - REALITY|@v2rayNG_VPNN|🇩🇪|156.08
-      - REALITY|@SafeNet_Server|🇩🇪|176.94
-      - REALITY|@vpn_tehran|🇩🇪|159.28
-      - REALITY|@freeconfigv2|🇩🇪|158.67
-      - REALITY|@V2rayngninja|🇩🇪|165.57
-      - REALITY|@iSegaro|🇩🇪|unavailable
-      - REALITY|@bright_vpn|🇩🇪|159.01
-      - REALITY|@talentvpn|🚩|5.32
+      - REALITY|@ProxyFn|🇨🇭|122.12
+      - REALITY|@daorzadannet|🇺🇸|124.09
+      - REALITY|@Outline_Vpn|🇩🇰|127.66
+      - REALITY|@vpn_xw|🇩🇪|124.1
+      - REALITY|@prrofile_purple|🚩|10.04
+      - REALITY|@WomanLifeFreedomVPN|🇩🇪|167.87
+      - REALITY|@internet4iran|🇩🇪|124.01
+      - REALITY|@customv2ray|🇩🇪|123.3
+      - REALITY|@v2rayNG_Matsuri|🇸🇪|180.46
+      - REALITY|@ShadowProxy66|🇸🇪|136.26
+      - REALITY|@Helix_Servers|🇩🇪|128.33
+      - REALITY|@PAINB0Y|🇳🇱|200.26
+      - REALITY|@VpnProSec|🇩🇪|166.9
+      - REALITY|@iran_ray|🇩🇪|141.48
+      - REALITY|@CloudCityy|🇩🇪|127.7
+      - REALITY|@DarkVPNpro|🇳🇱|115
+      - REALITY|@Proxy_PJ|🇩🇪|124.03
+      - REALITY|@v2ray1_ng|🇸🇪|180.19
+      - REALITY|@SafeNet_Server|🇩🇪|171.47
+      - REALITY|@vpn_tehran|🇩🇪|126.95
+      - REALITY|@freeconfigv2|🇩🇪|123.14
+      - REALITY|@V2rayngninja|🇩🇪|180.45
+      - REALITY|@iSegaro|🇩🇪|124.23
+      - REALITY|@bright_vpn|🇩🇪|124.23
+      - REALITY|@talentvpn|🚩|31.7
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - REALITY|@ProxyFn|🇨🇭|159.53
-      - REALITY|@daorzadannet|🇺🇸|159.13
-      - REALITY|@Outline_Vpn|🇩🇪|164.15
-      - REALITY|@vpn_xw|🇩🇪|160.58
-      - REALITY|@prrofile_purple|🚩|7.79
-      - REALITY|@WomanLifeFreedomVPN|🇩🇪|179.11
-      - REALITY|@customv2ray|🇩🇪|152.82
-      - REALITY|@v2rayNG_Matsuri|🇸🇪|229.64
-      - REALITY|@ShadowProxy66|🇸🇪|170.39
-      - REALITY|@Helix_Servers|🇩🇪|159.52
-      - REALITY|@VpnProSec|🇩🇪|167.86
-      - REALITY|@iran_ray|🇩🇪|371.14
-      - REALITY|@INIT1984|🇩🇰|159.58
-      - REALITY|@CloudCityy|🇩🇪|158.27
-      - REALITY|@DarkVPNpro|🇳🇱|152.02
-      - REALITY|@Proxy_PJ|🇩🇪|160.3
-      - REALITY|@v2ray1_ng|🇸🇪|182.43
-      - REALITY|@v2rayNG_VPNN|🇩🇪|156.08
-      - REALITY|@SafeNet_Server|🇩🇪|176.94
-      - REALITY|@vpn_tehran|🇩🇪|159.28
-      - REALITY|@freeconfigv2|🇩🇪|158.67
-      - REALITY|@V2rayngninja|🇩🇪|165.57
-      - REALITY|@iSegaro|🇩🇪|unavailable
-      - REALITY|@bright_vpn|🇩🇪|159.01
-      - REALITY|@talentvpn|🚩|5.32
+      - REALITY|@ProxyFn|🇨🇭|122.12
+      - REALITY|@daorzadannet|🇺🇸|124.09
+      - REALITY|@Outline_Vpn|🇩🇰|127.66
+      - REALITY|@vpn_xw|🇩🇪|124.1
+      - REALITY|@prrofile_purple|🚩|10.04
+      - REALITY|@WomanLifeFreedomVPN|🇩🇪|167.87
+      - REALITY|@internet4iran|🇩🇪|124.01
+      - REALITY|@customv2ray|🇩🇪|123.3
+      - REALITY|@v2rayNG_Matsuri|🇸🇪|180.46
+      - REALITY|@ShadowProxy66|🇸🇪|136.26
+      - REALITY|@Helix_Servers|🇩🇪|128.33
+      - REALITY|@PAINB0Y|🇳🇱|200.26
+      - REALITY|@VpnProSec|🇩🇪|166.9
+      - REALITY|@iran_ray|🇩🇪|141.48
+      - REALITY|@CloudCityy|🇩🇪|127.7
+      - REALITY|@DarkVPNpro|🇳🇱|115
+      - REALITY|@Proxy_PJ|🇩🇪|124.03
+      - REALITY|@v2ray1_ng|🇸🇪|180.19
+      - REALITY|@SafeNet_Server|🇩🇪|171.47
+      - REALITY|@vpn_tehran|🇩🇪|126.95
+      - REALITY|@freeconfigv2|🇩🇪|123.14
+      - REALITY|@V2rayngninja|🇩🇪|180.45
+      - REALITY|@iSegaro|🇩🇪|124.23
+      - REALITY|@bright_vpn|🇩🇪|124.23
+      - REALITY|@talentvpn|🚩|31.7
 rules:
   - MATCH,MANUAL

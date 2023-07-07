@@ -1,0 +1,241 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+profile:
+  store-selected: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  nameserver:
+    - 8.8.8.8
+    - 1.0.0.1
+    - https://dns.google/dns-query
+  fallback:
+    - 1.1.1.1
+    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - 112.215.203.254
+  default-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 112.215.203.254
+proxies:
+  - name: "|@PrivateVPNs|83.36"
+    server: 13.36.67.216
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+  - name: "|@PrivateVPNs|78.08"
+    server: 18.133.224.178
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+  - name: "|@PrivateVPNs|76.18"
+    server: 3.10.227.183
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+  - name: "|@DirectVPN|13.56"
+    server: 3.133.161.253
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+  - name: "|@DirectVPN|83.17"
+    server: 34.221.163.71
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+  - name: "|@DirectVPN|92.06"
+    server: 54.191.213.57
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+  - name: "|@oneclickvpnkeys|191.41"
+    server: free-v2ray-panel.devefun.ink
+    port: 1935
+    type: trojan
+    password: fWCdFcWBZ8
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: "|@oneclickvpnkeys|2.28"
+    server: 3.88.178.239
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+  - name: "|@oneclickvpnkeys|2"
+    server: 3.93.63.87
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    sni: trj.rollingnext.co.uk
+    udp: true
+  - name: "|@ovpn2|116.87"
+    server: us1.chuqiangtou.net
+    port: 4003
+    type: trojan
+    password: TJCfE7Mx2YcA8kX8zg
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: "|@ovpn2|76.87"
+    server: us3.chuqiangtou.net
+    port: 4003
+    type: trojan
+    password: TJCfE7Mx2YcA8kX8zg
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: "|@vpn_tehran|496.73"
+    server: link4.kuaidog004.top
+    port: 17236
+    type: trojan
+    password: c3f2d799-10b5-458f-a400-010b8a7d9128
+    skip-cert-verify: true
+    sni: link4.kuaidog004.top
+    udp: true
+  - name: "|@yaney_01|233.54"
+    server: 152.70.74.66
+    port: 443
+    type: trojan
+    password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: "|@yaney_01|83.72"
+    server: 217.79.181.82
+    port: 443
+    type: trojan
+    password: 718c4ef4-9f65-496c-9547-f27e4226c4f5
+    skip-cert-verify: true
+    sni: downloadde.xn--mes358acgm99l.com
+    udp: true
+  - name: "|@yaney_01|64.37"
+    server: 163.123.192.152
+    port: 443
+    type: trojan
+    password: 718c4ef4-9f65-496c-9547-f27e4226c4f5
+    skip-cert-verify: true
+    sni: downloadus.xn--mes358acgm99l.com
+    udp: true
+proxy-groups:
+  - name: MANUAL
+    type: select
+    proxies:
+      - "|@PrivateVPNs|83.36"
+      - "|@PrivateVPNs|78.08"
+      - "|@PrivateVPNs|76.18"
+      - "|@DirectVPN|13.56"
+      - "|@DirectVPN|83.17"
+      - "|@DirectVPN|92.06"
+      - "|@oneclickvpnkeys|191.41"
+      - "|@oneclickvpnkeys|2.28"
+      - "|@oneclickvpnkeys|2"
+      - "|@ovpn2|116.87"
+      - "|@ovpn2|76.87"
+      - "|@vpn_tehran|496.73"
+      - "|@yaney_01|233.54"
+      - "|@yaney_01|83.72"
+      - "|@yaney_01|64.37"
+      - LOAD-BALANCE
+      - BEST-PING
+      - FALLBACK
+      - DIRECT
+  - name: LOAD-BALANCE
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://hi.bonds.id/ping
+    interval: 300
+    proxies:
+      - "|@PrivateVPNs|83.36"
+      - "|@PrivateVPNs|78.08"
+      - "|@PrivateVPNs|76.18"
+      - "|@DirectVPN|13.56"
+      - "|@DirectVPN|83.17"
+      - "|@DirectVPN|92.06"
+      - "|@oneclickvpnkeys|191.41"
+      - "|@oneclickvpnkeys|2.28"
+      - "|@oneclickvpnkeys|2"
+      - "|@ovpn2|116.87"
+      - "|@ovpn2|76.87"
+      - "|@vpn_tehran|496.73"
+      - "|@yaney_01|233.54"
+      - "|@yaney_01|83.72"
+      - "|@yaney_01|64.37"
+  - name: BEST-PING
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "|@PrivateVPNs|83.36"
+      - "|@PrivateVPNs|78.08"
+      - "|@PrivateVPNs|76.18"
+      - "|@DirectVPN|13.56"
+      - "|@DirectVPN|83.17"
+      - "|@DirectVPN|92.06"
+      - "|@oneclickvpnkeys|191.41"
+      - "|@oneclickvpnkeys|2.28"
+      - "|@oneclickvpnkeys|2"
+      - "|@ovpn2|116.87"
+      - "|@ovpn2|76.87"
+      - "|@vpn_tehran|496.73"
+      - "|@yaney_01|233.54"
+      - "|@yaney_01|83.72"
+      - "|@yaney_01|64.37"
+  - name: FALLBACK
+    type: fallback
+    url: http://hi.bonds.id/ping
+    interval: 300
+    proxies:
+      - "|@PrivateVPNs|83.36"
+      - "|@PrivateVPNs|78.08"
+      - "|@PrivateVPNs|76.18"
+      - "|@DirectVPN|13.56"
+      - "|@DirectVPN|83.17"
+      - "|@DirectVPN|92.06"
+      - "|@oneclickvpnkeys|191.41"
+      - "|@oneclickvpnkeys|2.28"
+      - "|@oneclickvpnkeys|2"
+      - "|@ovpn2|116.87"
+      - "|@ovpn2|76.87"
+      - "|@vpn_tehran|496.73"
+      - "|@yaney_01|233.54"
+      - "|@yaney_01|83.72"
+      - "|@yaney_01|64.37"
+rules:
+  - MATCH,MANUAL

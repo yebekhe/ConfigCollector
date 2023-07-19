@@ -46,13 +46,6 @@ proxies:
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: "@proxyymeliii   کانفیگ رایگااان"
-    server: 52.166.127.150
-    port: 30018
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 6GNISMWBwsvd3qLMhVDjfg
-    udp: true
   - name: "@vless_new | تلگرام عضو بشید"
     server: 54.36.174.181
     port: 6679
@@ -66,6 +59,13 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: Qiz9xWRGKG1Lz11yu6D3nm
+    udp: true
+  - name: "@vless_new | تلگرام عضو بشید 3"
+    server: 52.166.127.150
+    port: 30018
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 6GNISMWBwsvd3qLMhVDjfg
     udp: true
   - name: www.outline.network (AU)
     server: ak1808.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
@@ -102,20 +102,28 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
     udp: true
+  - name: _JP_日本
+    server: 43.207.78.190
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - United Kingdom Datacamp
       - United Kingdom Datacamp 2
-      - "@proxyymeliii   کانفیگ رایگااان"
       - "@vless_new | تلگرام عضو بشید"
       - "@vless_new | تلگرام عضو بشید 2"
+      - "@vless_new | تلگرام عضو بشید 3"
       - www.outline.network (AU)
       - www.outline.network (CA)
       - www.outline.network (DE)
       - _KR_韩国
       - _SG_新加坡
+      - _JP_日本
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -128,14 +136,15 @@ proxy-groups:
     proxies:
       - United Kingdom Datacamp
       - United Kingdom Datacamp 2
-      - "@proxyymeliii   کانفیگ رایگااان"
       - "@vless_new | تلگرام عضو بشید"
       - "@vless_new | تلگرام عضو بشید 2"
+      - "@vless_new | تلگرام عضو بشید 3"
       - www.outline.network (AU)
       - www.outline.network (CA)
       - www.outline.network (DE)
       - _KR_韩国
       - _SG_新加坡
+      - _JP_日本
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
@@ -144,14 +153,15 @@ proxy-groups:
     proxies:
       - United Kingdom Datacamp
       - United Kingdom Datacamp 2
-      - "@proxyymeliii   کانفیگ رایگااان"
       - "@vless_new | تلگرام عضو بشید"
       - "@vless_new | تلگرام عضو بشید 2"
+      - "@vless_new | تلگرام عضو بشید 3"
       - www.outline.network (AU)
       - www.outline.network (CA)
       - www.outline.network (DE)
       - _KR_韩国
       - _SG_新加坡
+      - _JP_日本
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
@@ -159,13 +169,14 @@ proxy-groups:
     proxies:
       - United Kingdom Datacamp
       - United Kingdom Datacamp 2
-      - "@proxyymeliii   کانفیگ رایگااان"
       - "@vless_new | تلگرام عضو بشید"
       - "@vless_new | تلگرام عضو بشید 2"
+      - "@vless_new | تلگرام عضو بشید 3"
       - www.outline.network (AU)
       - www.outline.network (CA)
       - www.outline.network (DE)
       - _KR_韩国
       - _SG_新加坡
+      - _JP_日本
 rules:
   - MATCH,MANUAL

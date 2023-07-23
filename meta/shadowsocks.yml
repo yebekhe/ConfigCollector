@@ -53,13 +53,6 @@ proxies:
     cipher: aes-256-gcm
     password: pKEW8JPByTVTLtM
     udp: true
-  - name: www.outline.network (PL)
-    server: ak1813.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 6379
-    type: ss
-    cipher: aes-256-gcm
-    password: zDNVedRFPQexG9v
-    udp: true
 proxy-groups:
   - name: MANUAL
     type: select
@@ -67,7 +60,6 @@ proxy-groups:
       - Telegram | @FNET00📱
       - www.outline.network (FR)
       - www.outline.network (GB)
-      - www.outline.network (PL)
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -81,7 +73,6 @@ proxy-groups:
       - Telegram | @FNET00📱
       - www.outline.network (FR)
       - www.outline.network (GB)
-      - www.outline.network (PL)
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
@@ -91,7 +82,6 @@ proxy-groups:
       - Telegram | @FNET00📱
       - www.outline.network (FR)
       - www.outline.network (GB)
-      - www.outline.network (PL)
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
@@ -100,6 +90,5 @@ proxy-groups:
       - Telegram | @FNET00📱
       - www.outline.network (FR)
       - www.outline.network (GB)
-      - www.outline.network (PL)
 rules:
   - MATCH,MANUAL

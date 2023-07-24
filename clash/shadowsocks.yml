@@ -8,12 +8,13 @@ proxies:
   - {name: 🇬🇧 United Kingdom Datacamp, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 🇬🇧 United Kingdom Datacamp 2, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: Telegram | @FNET00📱, server: passconf.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: qGjmI8WQlF0tfhDbkLqGdN, udp: true}
+  - {name: Telegram | @FNET00📱 2, server: 51.145.64.113, port: 34945, type: ss, cipher: chacha20-ietf-poly1305, password: VpPDK1qkFQAwYKZsAyl3dG, udp: true}
   - {name: "@proxyymeliii", server: 51.132.131.116, port: 16297, type: ss, cipher: chacha20-ietf-poly1305, password: WiPAew0Qgpg220ZCltuG8z, udp: true}
   - {name: "@proxyymeliii 2", server: 51.68.206.229, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: "@vless_new | تلگرام عضو بشید", server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇫🇷 www.outline.network (FR), server: ak1811.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 🇬🇧 www.outline.network (GB), server: ak1812.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 🇵🇱 www.outline.network (PL), server: ak1813.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇸🇬 www.outline.network (SG), server: ak1814.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 33087, type: ss, cipher: chacha20-ietf-poly1305, password: GBmjxtQpX3tSk0LQw2lrr8, udp: true}
   - {name: US1, server: 104.168.13.80, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: Epl46de5ryftug88ePd, udp: true}
 proxy-groups:
   - name: 🚀 MANUAL
@@ -24,12 +25,13 @@ proxy-groups:
       - 🇬🇧 United Kingdom Datacamp
       - 🇬🇧 United Kingdom Datacamp 2
       - Telegram | @FNET00📱
+      - Telegram | @FNET00📱 2
       - "@proxyymeliii"
       - "@proxyymeliii 2"
       - "@vless_new | تلگرام عضو بشید"
-      - 🇫🇷 www.outline.network (FR)
       - 🇬🇧 www.outline.network (GB)
       - 🇵🇱 www.outline.network (PL)
+      - 🇸🇬 www.outline.network (SG)
       - US1
   - name: ♻️ AUTO SELECT
     type: url-test
@@ -40,12 +42,13 @@ proxy-groups:
       - 🇬🇧 United Kingdom Datacamp
       - 🇬🇧 United Kingdom Datacamp 2
       - Telegram | @FNET00📱
+      - Telegram | @FNET00📱 2
       - "@proxyymeliii"
       - "@proxyymeliii 2"
       - "@vless_new | تلگرام عضو بشید"
-      - 🇫🇷 www.outline.network (FR)
       - 🇬🇧 www.outline.network (GB)
       - 🇵🇱 www.outline.network (PL)
+      - 🇸🇬 www.outline.network (SG)
       - US1
   - name: 🎯 GLOBAL DIRECT
     type: select
@@ -67,12 +70,13 @@ proxy-groups:
       - 🇬🇧 United Kingdom Datacamp
       - 🇬🇧 United Kingdom Datacamp 2
       - Telegram | @FNET00📱
+      - Telegram | @FNET00📱 2
       - "@proxyymeliii"
       - "@proxyymeliii 2"
       - "@vless_new | تلگرام عضو بشید"
-      - 🇫🇷 www.outline.network (FR)
       - 🇬🇧 www.outline.network (GB)
       - 🇵🇱 www.outline.network (PL)
+      - 🇸🇬 www.outline.network (SG)
       - US1
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 GLOBAL DIRECT

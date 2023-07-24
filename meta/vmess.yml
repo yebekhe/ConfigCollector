@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: "@free4allVPN | US🇺🇸 | 44.17ms"
+  - name: "@free4allVPN | US🇺🇸 | 45.66ms"
     server: cloudconebbb.gorgorchicken.one
     port: 8443
     type: vmess
@@ -48,7 +48,7 @@ proxies:
       headers:
         Host: cloudconebbb.gorgorchicken.one
     udp: true
-  - name: "@free4allVPN | US🇺🇸 | 78.92ms"
+  - name: "@free4allVPN | US🇺🇸 | 271.3ms"
     server: 69.25.115.162
     port: 443
     type: vmess
@@ -64,7 +64,7 @@ proxies:
       headers:
         Host: www.69908657.xyz
     udp: true
-  - name: "@free4allVPN | US🇺🇸 | 55.36ms"
+  - name: "@free4allVPN | US🇺🇸 | 61.02ms"
     server: vus5.0bad.com
     port: 443
     type: vmess
@@ -80,7 +80,7 @@ proxies:
       headers:
         Host: vus5.0bad.com
     udp: true
-  - name: "@v2ray_outlineir | US🇺🇸 | 102.97ms"
+  - name: "@v2ray_outlineir | US🇺🇸 | 109.45ms"
     server: 156.225.67.229
     port: 50881
     type: vmess
@@ -91,40 +91,50 @@ proxies:
     skip-cert-verify: true
     servername: ""
     udp: true
-  - name: "@oneclickvpnkeys | US🇺🇸 | 18.02ms"
-    server: 23.225.211.21
-    port: 42941
+  - name: "@oneclickvpnkeys | US🇺🇸 | -13.01ms"
+    server: 89.116.38.191
+    port: 3456
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+    udp: true
+  - name: "@oneclickvpnkeys | US🇺🇸 | -8.81ms"
+    server: 89.116.38.193
+    port: 3456
+    type: vmess
+    uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+    udp: true
+  - name: "@oneclickvpnkeys | NL🇳🇱 | 57.55ms"
+    server: 154.84.1.101
+    port: 52801
+    type: vmess
+    uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf
     alterId: 64
     cipher: auto
     tls: false
     skip-cert-verify: true
     servername: ""
     udp: true
-  - name: "@oneclickvpnkeys | US🇺🇸 | 16.97ms"
-    server: 23.225.211.18
-    port: 42941
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ""
-    udp: true
-  - name: "@oneclickvpnkeys | US🇺🇸 | 67.15ms"
-    server: 45.199.138.165
-    port: 55016
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ""
-    udp: true
-  - name: "@prrofile_purple | RELAY🚩 | 63.08ms"
+  - name: "@prrofile_purple | RELAY🚩 | 55.27ms"
     server: mtn-amteam.ddns.net
     port: 2095
     type: vmess
@@ -143,7 +153,7 @@ proxies:
         Host:
           - www.speedtest.net
     udp: true
-  - name: "@customv2ray | US🇺🇸 | 107.24ms"
+  - name: "@customv2ray | US🇺🇸 | 111.62ms"
     server: 156.225.67.229
     port: 50881
     type: vmess
@@ -154,7 +164,7 @@ proxies:
     skip-cert-verify: true
     servername: ""
     udp: true
-  - name: "@customv2ray | US🇺🇸 | 114.54ms"
+  - name: "@customv2ray | US🇺🇸 | 107.06ms"
     server: 45.199.138.173
     port: 42019
     type: vmess
@@ -165,7 +175,7 @@ proxies:
     skip-cert-verify: true
     servername: ""
     udp: true
-  - name: "@customv2ray | US🇺🇸 | 114.86ms"
+  - name: "@customv2ray | US🇺🇸 | 105.55ms"
     server: 45.199.138.29
     port: 48344
     type: vmess
@@ -176,7 +186,7 @@ proxies:
     skip-cert-verify: true
     servername: ""
     udp: true
-  - name: "@vpn_ioss | US🇺🇸 | 57.76ms"
+  - name: "@vpn_ioss | RELAY🚩 | 59.47ms"
     server: jolimolilap.com
     port: 2087
     type: vmess
@@ -190,39 +200,7 @@ proxies:
     grpc-opts:
       grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf
     udp: true
-  - name: "@ShadowProxy66 | US🇺🇸 | 28.8ms"
-    server: 89.116.38.191
-    port: 3456
-    type: vmess
-    uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ""
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /
-    udp: true
-  - name: "@ShadowProxy66 | US🇺🇸 | 27.64ms"
-    server: 89.116.38.193
-    port: 3456
-    type: vmess
-    uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ""
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /
-    udp: true
-  - name: "@Proxy_PJ | BY🇧🇾 | 1122.13ms"
+  - name: "@Proxy_PJ | BY🇧🇾 | 1255.82ms"
     server: mt-198.244.231.79.nip.io
     port: 443
     type: vmess
@@ -241,7 +219,7 @@ proxies:
         Host:
           - internet.life.com.by
     udp: true
-  - name: "@vless_vmess | RELAY🚩 | 8.86ms"
+  - name: "@vless_vmess | RELAY🚩 | 11.7ms"
     server: mtn-amteam.ddns.net
     port: 2095
     type: vmess
@@ -260,7 +238,7 @@ proxies:
         Host:
           - www.speedtest.net
     udp: true
-  - name: "@vless_vmess | RELAY🚩 | 131.03ms"
+  - name: "@vless_vmess | RELAY🚩 | 121.48ms"
     server: mci-amteam.ddns.net
     port: 2052
     type: vmess
@@ -276,7 +254,7 @@ proxies:
       headers:
         Host: free.amteamspace.monster
     udp: true
-  - name: "@vmess_vless_v2rayng | US🇺🇸 | 270.81ms"
+  - name: "@vmess_vless_v2rayng | US🇺🇸 | 238.22ms"
     server: 95.179.168.5
     port: 2083
     type: vmess
@@ -290,7 +268,7 @@ proxies:
     grpc-opts:
       grpc-service-name: /
     udp: true
-  - name: "@vmess_vless_v2rayng | US🇺🇸 | 42.53ms"
+  - name: "@vmess_vless_v2rayng | US🇺🇸 | 42.87ms"
     server: 89.116.38.208
     port: 3456
     type: vmess
@@ -306,7 +284,7 @@ proxies:
       path:
         - /
     udp: true
-  - name: "@vmess_vless_v2rayng | RELAY🚩 | 7.66ms"
+  - name: "@vmess_vless_v2rayng | US🇺🇸 | 9.07ms"
     server: 51.15.19.206
     port: 80
     type: vmess
@@ -322,7 +300,7 @@ proxies:
       headers:
         Host: zula.ir
     udp: true
-  - name: "@Cov2ray | US🇺🇸 | 276.44ms"
+  - name: "@Cov2ray | US🇺🇸 | 228.03ms"
     server: 23.227.60.184
     port: 2096
     type: vmess
@@ -336,7 +314,7 @@ proxies:
     grpc-opts:
       grpc-service-name: vmgrpc
     udp: true
-  - name: "@ovpn2 | RELAY🚩 | 50.5ms"
+  - name: "@ovpn2 | RELAY🚩 | 47.83ms"
     server: support.cloudflare.com
     port: 80
     type: vmess
@@ -352,7 +330,7 @@ proxies:
       headers:
         Host: b3.iraniancp.click
     udp: true
-  - name: "@vpn_tehran | US🇺🇸 | 22.25ms"
+  - name: "@vpn_tehran | US🇺🇸 | 26.27ms"
     server: 89.116.38.199
     port: 3456
     type: vmess
@@ -368,7 +346,23 @@ proxies:
       path:
         - /
     udp: true
-  - name: "@yaney_01 | RELAY🚩 | 38.48ms"
+  - name: "@ConfigsHUB | RELAY🚩 | 144.65ms"
+    server: ::ffff:5fb3:a2df
+    port: 2053
+    type: vmess
+    uuid: 8FF7FB92-0511-4396-BC2D-793C08ADA33E
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: q.cr0009.workers.dev
+    network: ws
+    ws-opts:
+      path: /Amsterdam.kotick.site/speedtest
+      headers:
+        Host: q.cr0009.workers.dev
+    udp: true
+  - name: "@yaney_01 | RELAY🚩 | 28.83ms"
     server: dashboard.autoly.ir
     port: 443
     type: vmess
@@ -384,7 +378,7 @@ proxies:
       headers:
         Host: panel2.hodorauth.com
     udp: true
-  - name: "@yaney_01 | US🇺🇸 | -16.55ms"
+  - name: "@yaney_01 | US🇺🇸 | -18.82ms"
     server: dashboard.autoly.ir
     port: 443
     type: vmess
@@ -400,7 +394,7 @@ proxies:
       headers:
         Host: panel2.hodorauth.com
     udp: true
-  - name: "@yaney_01 | US🇺🇸 | -21.35ms"
+  - name: "@yaney_01 | RELAY🚩 | -21.59ms"
     server: dashboard.autoly.ir
     port: 443
     type: vmess
@@ -416,7 +410,7 @@ proxies:
       headers:
         Host: panel2.hodorauth.com
     udp: true
-  - name: "@fnet00 | DE🇩🇪 | 122.28ms"
+  - name: "@fnet00 | DE🇩🇪 | 122.32ms"
     server: 128.140.41.123
     port: 443
     type: vmess
@@ -436,33 +430,32 @@ proxy-groups:
   - name: MANUAL
     type: select
     proxies:
-      - "@free4allVPN | US🇺🇸 | 44.17ms"
-      - "@free4allVPN | US🇺🇸 | 78.92ms"
-      - "@free4allVPN | US🇺🇸 | 55.36ms"
-      - "@v2ray_outlineir | US🇺🇸 | 102.97ms"
-      - "@oneclickvpnkeys | US🇺🇸 | 18.02ms"
-      - "@oneclickvpnkeys | US🇺🇸 | 16.97ms"
-      - "@oneclickvpnkeys | US🇺🇸 | 67.15ms"
-      - "@prrofile_purple | RELAY🚩 | 63.08ms"
-      - "@customv2ray | US🇺🇸 | 107.24ms"
-      - "@customv2ray | US🇺🇸 | 114.54ms"
-      - "@customv2ray | US🇺🇸 | 114.86ms"
-      - "@vpn_ioss | US🇺🇸 | 57.76ms"
-      - "@ShadowProxy66 | US🇺🇸 | 28.8ms"
-      - "@ShadowProxy66 | US🇺🇸 | 27.64ms"
-      - "@Proxy_PJ | BY🇧🇾 | 1122.13ms"
-      - "@vless_vmess | RELAY🚩 | 8.86ms"
-      - "@vless_vmess | RELAY🚩 | 131.03ms"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 270.81ms"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 42.53ms"
-      - "@vmess_vless_v2rayng | RELAY🚩 | 7.66ms"
-      - "@Cov2ray | US🇺🇸 | 276.44ms"
-      - "@ovpn2 | RELAY🚩 | 50.5ms"
-      - "@vpn_tehran | US🇺🇸 | 22.25ms"
-      - "@yaney_01 | RELAY🚩 | 38.48ms"
-      - "@yaney_01 | US🇺🇸 | -16.55ms"
-      - "@yaney_01 | US🇺🇸 | -21.35ms"
-      - "@fnet00 | DE🇩🇪 | 122.28ms"
+      - "@free4allVPN | US🇺🇸 | 45.66ms"
+      - "@free4allVPN | US🇺🇸 | 271.3ms"
+      - "@free4allVPN | US🇺🇸 | 61.02ms"
+      - "@v2ray_outlineir | US🇺🇸 | 109.45ms"
+      - "@oneclickvpnkeys | US🇺🇸 | -13.01ms"
+      - "@oneclickvpnkeys | US🇺🇸 | -8.81ms"
+      - "@oneclickvpnkeys | NL🇳🇱 | 57.55ms"
+      - "@prrofile_purple | RELAY🚩 | 55.27ms"
+      - "@customv2ray | US🇺🇸 | 111.62ms"
+      - "@customv2ray | US🇺🇸 | 107.06ms"
+      - "@customv2ray | US🇺🇸 | 105.55ms"
+      - "@vpn_ioss | RELAY🚩 | 59.47ms"
+      - "@Proxy_PJ | BY🇧🇾 | 1255.82ms"
+      - "@vless_vmess | RELAY🚩 | 11.7ms"
+      - "@vless_vmess | RELAY🚩 | 121.48ms"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 238.22ms"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 42.87ms"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 9.07ms"
+      - "@Cov2ray | US🇺🇸 | 228.03ms"
+      - "@ovpn2 | RELAY🚩 | 47.83ms"
+      - "@vpn_tehran | US🇺🇸 | 26.27ms"
+      - "@ConfigsHUB | RELAY🚩 | 144.65ms"
+      - "@yaney_01 | RELAY🚩 | 28.83ms"
+      - "@yaney_01 | US🇺🇸 | -18.82ms"
+      - "@yaney_01 | RELAY🚩 | -21.59ms"
+      - "@fnet00 | DE🇩🇪 | 122.32ms"
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -473,97 +466,94 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@free4allVPN | US🇺🇸 | 44.17ms"
-      - "@free4allVPN | US🇺🇸 | 78.92ms"
-      - "@free4allVPN | US🇺🇸 | 55.36ms"
-      - "@v2ray_outlineir | US🇺🇸 | 102.97ms"
-      - "@oneclickvpnkeys | US🇺🇸 | 18.02ms"
-      - "@oneclickvpnkeys | US🇺🇸 | 16.97ms"
-      - "@oneclickvpnkeys | US🇺🇸 | 67.15ms"
-      - "@prrofile_purple | RELAY🚩 | 63.08ms"
-      - "@customv2ray | US🇺🇸 | 107.24ms"
-      - "@customv2ray | US🇺🇸 | 114.54ms"
-      - "@customv2ray | US🇺🇸 | 114.86ms"
-      - "@vpn_ioss | US🇺🇸 | 57.76ms"
-      - "@ShadowProxy66 | US🇺🇸 | 28.8ms"
-      - "@ShadowProxy66 | US🇺🇸 | 27.64ms"
-      - "@Proxy_PJ | BY🇧🇾 | 1122.13ms"
-      - "@vless_vmess | RELAY🚩 | 8.86ms"
-      - "@vless_vmess | RELAY🚩 | 131.03ms"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 270.81ms"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 42.53ms"
-      - "@vmess_vless_v2rayng | RELAY🚩 | 7.66ms"
-      - "@Cov2ray | US🇺🇸 | 276.44ms"
-      - "@ovpn2 | RELAY🚩 | 50.5ms"
-      - "@vpn_tehran | US🇺🇸 | 22.25ms"
-      - "@yaney_01 | RELAY🚩 | 38.48ms"
-      - "@yaney_01 | US🇺🇸 | -16.55ms"
-      - "@yaney_01 | US🇺🇸 | -21.35ms"
-      - "@fnet00 | DE🇩🇪 | 122.28ms"
+      - "@free4allVPN | US🇺🇸 | 45.66ms"
+      - "@free4allVPN | US🇺🇸 | 271.3ms"
+      - "@free4allVPN | US🇺🇸 | 61.02ms"
+      - "@v2ray_outlineir | US🇺🇸 | 109.45ms"
+      - "@oneclickvpnkeys | US🇺🇸 | -13.01ms"
+      - "@oneclickvpnkeys | US🇺🇸 | -8.81ms"
+      - "@oneclickvpnkeys | NL🇳🇱 | 57.55ms"
+      - "@prrofile_purple | RELAY🚩 | 55.27ms"
+      - "@customv2ray | US🇺🇸 | 111.62ms"
+      - "@customv2ray | US🇺🇸 | 107.06ms"
+      - "@customv2ray | US🇺🇸 | 105.55ms"
+      - "@vpn_ioss | RELAY🚩 | 59.47ms"
+      - "@Proxy_PJ | BY🇧🇾 | 1255.82ms"
+      - "@vless_vmess | RELAY🚩 | 11.7ms"
+      - "@vless_vmess | RELAY🚩 | 121.48ms"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 238.22ms"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 42.87ms"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 9.07ms"
+      - "@Cov2ray | US🇺🇸 | 228.03ms"
+      - "@ovpn2 | RELAY🚩 | 47.83ms"
+      - "@vpn_tehran | US🇺🇸 | 26.27ms"
+      - "@ConfigsHUB | RELAY🚩 | 144.65ms"
+      - "@yaney_01 | RELAY🚩 | 28.83ms"
+      - "@yaney_01 | US🇺🇸 | -18.82ms"
+      - "@yaney_01 | RELAY🚩 | -21.59ms"
+      - "@fnet00 | DE🇩🇪 | 122.32ms"
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - "@free4allVPN | US🇺🇸 | 44.17ms"
-      - "@free4allVPN | US🇺🇸 | 78.92ms"
-      - "@free4allVPN | US🇺🇸 | 55.36ms"
-      - "@v2ray_outlineir | US🇺🇸 | 102.97ms"
-      - "@oneclickvpnkeys | US🇺🇸 | 18.02ms"
-      - "@oneclickvpnkeys | US🇺🇸 | 16.97ms"
-      - "@oneclickvpnkeys | US🇺🇸 | 67.15ms"
-      - "@prrofile_purple | RELAY🚩 | 63.08ms"
-      - "@customv2ray | US🇺🇸 | 107.24ms"
-      - "@customv2ray | US🇺🇸 | 114.54ms"
-      - "@customv2ray | US🇺🇸 | 114.86ms"
-      - "@vpn_ioss | US🇺🇸 | 57.76ms"
-      - "@ShadowProxy66 | US🇺🇸 | 28.8ms"
-      - "@ShadowProxy66 | US🇺🇸 | 27.64ms"
-      - "@Proxy_PJ | BY🇧🇾 | 1122.13ms"
-      - "@vless_vmess | RELAY🚩 | 8.86ms"
-      - "@vless_vmess | RELAY🚩 | 131.03ms"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 270.81ms"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 42.53ms"
-      - "@vmess_vless_v2rayng | RELAY🚩 | 7.66ms"
-      - "@Cov2ray | US🇺🇸 | 276.44ms"
-      - "@ovpn2 | RELAY🚩 | 50.5ms"
-      - "@vpn_tehran | US🇺🇸 | 22.25ms"
-      - "@yaney_01 | RELAY🚩 | 38.48ms"
-      - "@yaney_01 | US🇺🇸 | -16.55ms"
-      - "@yaney_01 | US🇺🇸 | -21.35ms"
-      - "@fnet00 | DE🇩🇪 | 122.28ms"
+      - "@free4allVPN | US🇺🇸 | 45.66ms"
+      - "@free4allVPN | US🇺🇸 | 271.3ms"
+      - "@free4allVPN | US🇺🇸 | 61.02ms"
+      - "@v2ray_outlineir | US🇺🇸 | 109.45ms"
+      - "@oneclickvpnkeys | US🇺🇸 | -13.01ms"
+      - "@oneclickvpnkeys | US🇺🇸 | -8.81ms"
+      - "@oneclickvpnkeys | NL🇳🇱 | 57.55ms"
+      - "@prrofile_purple | RELAY🚩 | 55.27ms"
+      - "@customv2ray | US🇺🇸 | 111.62ms"
+      - "@customv2ray | US🇺🇸 | 107.06ms"
+      - "@customv2ray | US🇺🇸 | 105.55ms"
+      - "@vpn_ioss | RELAY🚩 | 59.47ms"
+      - "@Proxy_PJ | BY🇧🇾 | 1255.82ms"
+      - "@vless_vmess | RELAY🚩 | 11.7ms"
+      - "@vless_vmess | RELAY🚩 | 121.48ms"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 238.22ms"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 42.87ms"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 9.07ms"
+      - "@Cov2ray | US🇺🇸 | 228.03ms"
+      - "@ovpn2 | RELAY🚩 | 47.83ms"
+      - "@vpn_tehran | US🇺🇸 | 26.27ms"
+      - "@ConfigsHUB | RELAY🚩 | 144.65ms"
+      - "@yaney_01 | RELAY🚩 | 28.83ms"
+      - "@yaney_01 | US🇺🇸 | -18.82ms"
+      - "@yaney_01 | RELAY🚩 | -21.59ms"
+      - "@fnet00 | DE🇩🇪 | 122.32ms"
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@free4allVPN | US🇺🇸 | 44.17ms"
-      - "@free4allVPN | US🇺🇸 | 78.92ms"
-      - "@free4allVPN | US🇺🇸 | 55.36ms"
-      - "@v2ray_outlineir | US🇺🇸 | 102.97ms"
-      - "@oneclickvpnkeys | US🇺🇸 | 18.02ms"
-      - "@oneclickvpnkeys | US🇺🇸 | 16.97ms"
-      - "@oneclickvpnkeys | US🇺🇸 | 67.15ms"
-      - "@prrofile_purple | RELAY🚩 | 63.08ms"
-      - "@customv2ray | US🇺🇸 | 107.24ms"
-      - "@customv2ray | US🇺🇸 | 114.54ms"
-      - "@customv2ray | US🇺🇸 | 114.86ms"
-      - "@vpn_ioss | US🇺🇸 | 57.76ms"
-      - "@ShadowProxy66 | US🇺🇸 | 28.8ms"
-      - "@ShadowProxy66 | US🇺🇸 | 27.64ms"
-      - "@Proxy_PJ | BY🇧🇾 | 1122.13ms"
-      - "@vless_vmess | RELAY🚩 | 8.86ms"
-      - "@vless_vmess | RELAY🚩 | 131.03ms"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 270.81ms"
-      - "@vmess_vless_v2rayng | US🇺🇸 | 42.53ms"
-      - "@vmess_vless_v2rayng | RELAY🚩 | 7.66ms"
-      - "@Cov2ray | US🇺🇸 | 276.44ms"
-      - "@ovpn2 | RELAY🚩 | 50.5ms"
-      - "@vpn_tehran | US🇺🇸 | 22.25ms"
-      - "@yaney_01 | RELAY🚩 | 38.48ms"
-      - "@yaney_01 | US🇺🇸 | -16.55ms"
-      - "@yaney_01 | US🇺🇸 | -21.35ms"
-      - "@fnet00 | DE🇩🇪 | 122.28ms"
+      - "@free4allVPN | US🇺🇸 | 45.66ms"
+      - "@free4allVPN | US🇺🇸 | 271.3ms"
+      - "@free4allVPN | US🇺🇸 | 61.02ms"
+      - "@v2ray_outlineir | US🇺🇸 | 109.45ms"
+      - "@oneclickvpnkeys | US🇺🇸 | -13.01ms"
+      - "@oneclickvpnkeys | US🇺🇸 | -8.81ms"
+      - "@oneclickvpnkeys | NL🇳🇱 | 57.55ms"
+      - "@prrofile_purple | RELAY🚩 | 55.27ms"
+      - "@customv2ray | US🇺🇸 | 111.62ms"
+      - "@customv2ray | US🇺🇸 | 107.06ms"
+      - "@customv2ray | US🇺🇸 | 105.55ms"
+      - "@vpn_ioss | RELAY🚩 | 59.47ms"
+      - "@Proxy_PJ | BY🇧🇾 | 1255.82ms"
+      - "@vless_vmess | RELAY🚩 | 11.7ms"
+      - "@vless_vmess | RELAY🚩 | 121.48ms"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 238.22ms"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 42.87ms"
+      - "@vmess_vless_v2rayng | US🇺🇸 | 9.07ms"
+      - "@Cov2ray | US🇺🇸 | 228.03ms"
+      - "@ovpn2 | RELAY🚩 | 47.83ms"
+      - "@vpn_tehran | US🇺🇸 | 26.27ms"
+      - "@ConfigsHUB | RELAY🚩 | 144.65ms"
+      - "@yaney_01 | RELAY🚩 | 28.83ms"
+      - "@yaney_01 | US🇺🇸 | -18.82ms"
+      - "@yaney_01 | RELAY🚩 | -21.59ms"
+      - "@fnet00 | DE🇩🇪 | 122.32ms"
 rules:
   - MATCH,MANUAL

@@ -5,195 +5,183 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 26.53ms", server: cloudconebbb.gorgorchicken.one, port: 8443, type: vmess, uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: cloudconebbb.gorgorchicken.one, network: ws, ws-opts: {path: /cloudconebbb, headers: {Host: cloudconebbb.gorgorchicken.one}}, udp: true}
-  - {name: 🇺🇸 @free4allVPN | US🇺🇸 | www.69908657.xyz:443 | 138.5ms, server: 69.25.115.162, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.69908657.xyz, network: ws, ws-opts: {path: /path/1688983782619, headers: {Host: www.69908657.xyz}}, udp: true}
-  - {name: 🇺🇸 @free4allVPN | US🇺🇸 | vus5.0bad.com:443 | 64.4ms, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vus5.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vus5.0bad.com}}, udp: true}
-  - {name: 🇺🇸 @oneclickvpnkeys | US🇺🇸 | Dusseldorf.kotick.site:443 | 20.65ms, server: ::ffff:6815:5b86, port: 443, type: vmess, uuid: 8FF7FB92-0511-4396-BC2D-793C08ADA33E, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: Dusseldorf.kotick.site, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 89.116.38.191:3456 | 11.97ms, server: 89.116.38.191, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "@prrofile_purple | RELAY🚩 | www.speedtest.net:2095 | 13.91ms", server: mtn-amteam.ddns.net, port: 2095, type: vmess, uuid: 1b67f7a2-6c77-4865-8587-5ce9ec432465, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "@prrofile_purple | FI🇫🇮 | 95.217.17.96:46746 | 117.83ms", server: 95.217.17.96, port: 46746, type: vmess, uuid: 27850e8c-5a1d-4238-e0c1-8dd1a8261cd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @azadi_az_inja_migzare | US🇺🇸 | 89.116.38.193:3456 | 12.64ms, server: 89.116.38.193, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @customv2ray | US🇺🇸 | 45.199.138.158:49234 | 90.15ms, server: 45.199.138.158, port: 49234, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "@customv2ray | BY🇧🇾 | internet.life.com.by:443 | 460.94ms", server: mt-198.244.231.79.nip.io, port: 443, type: vmess, uuid: bcb78528-ee4f-4622-8d81-cfb1eae0be52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 @customv2ray | FR🇫🇷 | 156.249.18.127:48100 | 85.44ms, server: 156.249.18.127, port: 48100, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @vpn_ioss | US🇺🇸 | 45.199.138.29:48344 | 91.51ms, server: 45.199.138.29, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 @ShadowProxy66 | DE🇩🇪 | 45.76.86.164:2087 | 89.9ms, server: 45.76.86.164, port: 2087, type: vmess, uuid: d5350465-ab63-4d30-ebda-5cbe0751cbd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇩🇪 @ShadowProxy66 | DE🇩🇪 | 45.76.86.164:2096 | 90.53ms, server: 45.76.86.164, port: 2096, type: vmess, uuid: 3f9cf9f3-a8d4-4999-dd5e-8068fdc0c37e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 409.35ms", server: mt-198.244.231.79.nip.io, port: 443, type: vmess, uuid: bcb78528-ee4f-4622-8d81-cfb1eae0be52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @Proxy_PJ | US🇺🇸 | 45.199.138.166:55016 | 112.63ms, server: 45.199.138.166, port: 55016, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @proxyymeliii | US🇺🇸 | ro1.socifiles.com:2096 | 216.64ms, server: 23.227.60.184, port: 2096, type: vmess, uuid: 3a4ae180-2aaf-11ee-a273-1239d0255272, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: "", network: grpc, grpc-opts: {grpc-service-name: vmgrpc}, udp: true}
-  - {name: "@vless_vmess | RELAY🚩 | scaleway.696960.xyz:443 | 21.54ms", server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /root/, headers: {Host: scaleway.696960.xyz}}, udp: true}
-  - {name: "@vless_vmess | RELAY🚩 | dedi2.1808.cf:443 | 221.27ms", server: 104.25.167.88, port: 443, type: vmess, uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: dedi2.1808.cf, network: ws, ws-opts: {path: a2284cc1, headers: {Host: dedi2.1808.cf}}, udp: true}
-  - {name: 🇳🇱 @vless_vmess | NL🇳🇱 | 51.15.75.140:443 | 84.93ms, server: 51.15.75.140, port: 443, type: vmess, uuid: 4df65f62-99d9-42d1-a4b9-a35b37b26873, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | channel.VMesskhodam.top:2083 | 279.76ms, server: 95.179.168.5, port: 2083, type: vmess, uuid: 66b88881-57c5-497c-ab8b-891fa53aed90, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: "", network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | 89.116.38.208:3456 | 15.04ms, server: 89.116.38.208, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | zula.ir:80 | 6.06ms, server: 51.15.19.206, port: 80, type: vmess, uuid: c903c1c0-2465-11ee-b733-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /op3mxf12, headers: {Host: zula.ir}}, udp: true}
-  - {name: 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 224.99ms, server: 23.227.60.184, port: 2083, type: vmess, uuid: 97bd6f10-29f1-11ee-ba8f-1239d0255272, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: "", network: grpc, grpc-opts: {grpc-service-name: vmgrpc}, udp: true}
-  - {name: 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 176.69ms, server: 95.179.255.136, port: 2083, type: vmess, uuid: 3a4ae180-2aaf-11ee-a273-1239d0255272, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: "", network: grpc, grpc-opts: {grpc-service-name: vmgrpc}, udp: true}
-  - {name: 🇺🇸 @ovpn2 | US🇺🇸 | b3.iraniancp.click:80 | 142.75ms, server: support.cloudflare.com, port: 80, type: vmess, uuid: 44c467a9-8f0d-41a5-f00b-86569753e5b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b3.iraniancp.click}}, udp: true}
-  - {name: 🇺🇸 @vpn_tehran | US🇺🇸 | free.amteamspace.monster:2052 | 19.97ms, server: mci-amteam.ddns.net, port: 2052, type: vmess, uuid: 2e729928-ba42-4ece-a540-157558db4b6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /@AM_TEAMMM, headers: {Host: free.amteamspace.monster}}, udp: true}
-  - {name: "@ConfigsHUB | BY🇧🇾 | internet.life.com.by:443 | 634.57ms", server: 62.233.57.38, port: 443, type: vmess, uuid: c66d1c03-ef5e-4994-a7a4-d41855867f13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 @ConfigsHUB | NL🇳🇱 | 51.15.75.140:443 | 84.66ms, server: 51.15.75.140, port: 443, type: vmess, uuid: 4df65f62-99d9-42d1-a4b9-a35b37b26873, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 @proxystore11 | US🇺🇸 | 156.225.67.229:50881 | 86.05ms, server: 156.225.67.229, port: 50881, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 53.88ms", server: dashboard.autoly.ir, port: 443, type: vmess, uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Lille.kotick.site/speedtest, headers: {Host: panel2.hodorauth.com}}, udp: true}
-  - {name: "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 6.39ms", server: dashboard.autoly.ir, port: 443, type: vmess, uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /z.zorro.tk/ou, headers: {Host: panel2.hodorauth.com}}, udp: true}
-  - {name: "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 6.47ms", server: dashboard.autoly.ir, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ming2.kiwireich.com/ray, headers: {Host: panel2.hodorauth.com}}, udp: true}
-  - {name: 🇩🇪 @fnet00 | DE🇩🇪 | 209.38.245.39:80 | 97.36ms, server: 209.38.245.39, port: 80, type: vmess, uuid: 900f1ecf-8f8f-4b19-c1d9-1633605e7e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @v2rayng_config_amin | US🇺🇸 | 89.116.38.199:3456 | 12.41ms, server: 89.116.38.199, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "@PrivateVPNs | SE🇸🇪 | 13.48.48.252:22222 | 114.31ms", server: 13.48.48.252, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 @PrivateVPNs | DE🇩🇪 | 3.64.12.197:22222 | 127.63ms, server: 3.64.12.197, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 @PrivateVPNs | DE🇩🇪 | 18.194.28.220:22222 | 126.77ms, server: 18.194.28.220, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇦 @DirectVPN | CA🇨🇦 | 35.183.81.230:22222 | 30.31ms, server: 35.183.81.230, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇦 @DirectVPN | CA🇨🇦 | 15.222.236.121:22222 | 23.3ms, server: 15.222.236.121, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @DirectVPN | US🇺🇸 | 18.222.115.226:22222 | 17.68ms, server: 18.222.115.226, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @NetAccount | US🇺🇸 | us3.aitrjc.xyz:10283 | 82.69ms, server: us3.aitrjc.xyz, port: 10283, type: trojan, password: 0577e1da-5566-4f44-b5f2-3aebedb317f2, sni: us3.aitrjc.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 @oneclickvpnkeys | HK🇭🇰 | nl-node.cvbaoli.cn:38003 | 491.1ms, server: nl-node.cvbaoli.cn, port: 38003, type: trojan, password: d84387a1-1173-4c32-bcb5-303f9098461c, sni: tlsmd5sum.jbok.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 @oneclickvpnkeys | HK🇭🇰 | ru-node.cvbaoli.cn:54579 | 342.54ms, server: ru-node.cvbaoli.cn, port: 54579, type: trojan, password: d84387a1-1173-4c32-bcb5-303f9098461c, sni: tlsmd5sum.jbok.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 127.68ms, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 154.47ms, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 @proxystore11 | FR🇫🇷 | ssrsub.t17.trojan.tel:80 | 266.48ms, server: ssrsub.t17.trojan.tel, port: 80, type: trojan, password: 92ccb4d3-3825-40a1-ae2f-bc6cb2bd1718, sni: hk.jd.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 @proxystore11 | SG🇸🇬 | ssrsub.o09.trojan.tel:80 | 544.37ms, server: ssrsub.o09.trojan.tel, port: 80, type: trojan, password: 92ccb4d3-3825-40a1-ae2f-bc6cb2bd1718, sni: hk.jd.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 20.84ms, server: 64.227.131.19, port: 443, type: trojan, password: 21c6c7cb-332b-4a0c-9ad7-dff9c3111442, sni: us02web.zoom.us, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 6.15ms, server: 128.199.221.46, port: 443, type: trojan, password: 6dd8ffa0-26f7-11ee-945d-1239d0255272, sni: us02web.zoom.us, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 5.78ms, server: 147.182.216.10, port: 443, type: trojan, password: 71148cca-0963-4abe-ab01-7cea982c1513, sni: us02web.zoom.us, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.79:443 | 79.03ms, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 79.17ms, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 🇬🇧 @proxyymeliii | GB🇬🇧 | 51.68.206.229:8080 | 84.16ms, server: 51.68.206.229, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇫🇷 @vmess_vless_v2rayng | FR🇫🇷 | 54.36.174.181:6679 | 105.48ms, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇵🇱 @OutlineVpnOfficial | PL🇵🇱 | ak1813.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 218.44ms, server: ak1813.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇸🇬 @OutlineVpnOfficial | SG🇸🇬 | ak1814.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:33087 | 372.58ms, server: ak1814.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 33087, type: ss, cipher: chacha20-ietf-poly1305, password: GBmjxtQpX3tSk0LQw2lrr8, udp: true}
-  - {name: "@OutlineVpnOfficial | UA🇺🇦 | ak1815.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:444 | 135.12ms", server: ak1815.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Chayf4Frea, udp: true}
-  - {name: 🇺🇸 @yaney_01 | US🇺🇸 | 104.168.13.80:8080 | 72.54ms, server: 104.168.13.80, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: Epl46de5ryftug88ePd, udp: true}
+  - {name: 🇺🇸 @free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 56.01ms, server: cloudconebbb.gorgorchicken.one, port: 8443, type: vmess, uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: cloudconebbb.gorgorchicken.one, network: ws, ws-opts: {path: /cloudconebbb, headers: {Host: cloudconebbb.gorgorchicken.one}}, udp: true}
+  - {name: 🇺🇸 @free4allVPN | US🇺🇸 | www.69908657.xyz:443 | 380.29ms, server: 69.25.115.162, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.69908657.xyz, network: ws, ws-opts: {path: /path/1688983782619, headers: {Host: www.69908657.xyz}}, udp: true}
+  - {name: 🇺🇸 @free4allVPN | US🇺🇸 | vus5.0bad.com:443 | 63.22ms, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vus5.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vus5.0bad.com}}, udp: true}
+  - {name: 🇫🇷 @oneclickvpnkeys | FR🇫🇷 | 156.249.18.161:42292 | 113.81ms, server: 156.249.18.161, port: 42292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 156.225.67.229:50881 | 114.28ms, server: 156.225.67.229, port: 50881, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "@prrofile_purple | RELAY🚩 | www.speedtest.net:2095 | 77.06ms", server: mtn-amteam.ddns.net, port: 2095, type: vmess, uuid: 1b67f7a2-6c77-4865-8587-5ce9ec432465, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "@prrofile_purple | FI🇫🇮 | 95.217.17.96:46746 | 145.79ms", server: 95.217.17.96, port: 46746, type: vmess, uuid: 27850e8c-5a1d-4238-e0c1-8dd1a8261cd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @azadi_az_inja_migzare | US🇺🇸 | 89.116.38.191:3456 | 50.62ms, server: 89.116.38.191, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @azadi_az_inja_migzare | US🇺🇸 | 89.116.38.193:3456 | 46.1ms, server: 89.116.38.193, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "@customv2ray | BY🇧🇾 | internet.life.com.by:443 | 1087.04ms", server: 62.233.57.38, port: 443, type: vmess, uuid: c66d1c03-ef5e-4994-a7a4-d41855867f13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @customv2ray | US🇺🇸 | 156.225.67.229:50881 | 111.13ms, server: 156.225.67.229, port: 50881, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @vpn_ioss | US🇺🇸 | 45.199.138.29:48344 | 110.36ms, server: 45.199.138.29, port: 48344, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 1265.27ms", server: mt-198.244.231.79.nip.io, port: 443, type: vmess, uuid: bcb78528-ee4f-4622-8d81-cfb1eae0be52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 @hashmakvpn | DE🇩🇪 | 91.107.167.79:8443 | 122.86ms, server: 91.107.167.79, port: 8443, type: vmess, uuid: 7813dd7e-7a7a-4df2-f35d-726f445ed2ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "@Proxy_PJ | BY🇧🇾 | internet.life.com.by:443 | 1371.89ms", server: mt-198.244.231.79.nip.io, port: 443, type: vmess, uuid: bcb78528-ee4f-4622-8d81-cfb1eae0be52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @Proxy_PJ | US🇺🇸 | 45.199.138.166:55016 | 113.42ms, server: 45.199.138.166, port: 55016, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @proxyymeliii | US🇺🇸 | ro1.socifiles.com:2096 | 235.68ms, server: 23.227.60.184, port: 2096, type: vmess, uuid: 3a4ae180-2aaf-11ee-a273-1239d0255272, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: "", network: grpc, grpc-opts: {grpc-service-name: vmgrpc}, udp: true}
+  - {name: 🇺🇸 @vless_vmess | US🇺🇸 | scaleway.696960.xyz:443 | 71.91ms, server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /root/, headers: {Host: scaleway.696960.xyz}}, udp: true}
+  - {name: 🇺🇸 @vless_vmess | US🇺🇸 | dedi2.1808.cf:443 | 355.13ms, server: 104.25.167.88, port: 443, type: vmess, uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: dedi2.1808.cf, network: ws, ws-opts: {path: a2284cc1, headers: {Host: dedi2.1808.cf}}, udp: true}
+  - {name: 🇳🇱 @vless_vmess | NL🇳🇱 | 51.15.75.140:443 | 113.81ms, server: 51.15.75.140, port: 443, type: vmess, uuid: 4df65f62-99d9-42d1-a4b9-a35b37b26873, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | channel.VMesskhodam.top:2083 | 272.44ms, server: 95.179.168.5, port: 2083, type: vmess, uuid: 66b88881-57c5-497c-ab8b-891fa53aed90, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: "", network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | 89.116.38.208:3456 | 46.04ms, server: 89.116.38.208, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "@vmess_vless_v2rayng | RELAY🚩 | zula.ir:80 | 17.44ms", server: 51.15.19.206, port: 80, type: vmess, uuid: c903c1c0-2465-11ee-b733-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /op3mxf12, headers: {Host: zula.ir}}, udp: true}
+  - {name: 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 243.26ms, server: 23.227.60.184, port: 2083, type: vmess, uuid: 97bd6f10-29f1-11ee-ba8f-1239d0255272, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: "", network: grpc, grpc-opts: {grpc-service-name: vmgrpc}, udp: true}
+  - {name: 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 235.12ms, server: 95.179.255.136, port: 2083, type: vmess, uuid: 3a4ae180-2aaf-11ee-a273-1239d0255272, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: "", network: grpc, grpc-opts: {grpc-service-name: vmgrpc}, udp: true}
+  - {name: "@ovpn2 | RELAY🚩 | b3.iraniancp.click:80 | 72.4ms", server: support.cloudflare.com, port: 80, type: vmess, uuid: 44c467a9-8f0d-41a5-f00b-86569753e5b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: b3.iraniancp.click}}, udp: true}
+  - {name: "@vpn_tehran | RELAY🚩 | free.amteamspace.monster:2052 | 429.58ms", server: mci-amteam.ddns.net, port: 2052, type: vmess, uuid: 2e729928-ba42-4ece-a540-157558db4b6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /@AM_TEAMMM, headers: {Host: free.amteamspace.monster}}, udp: true}
+  - {name: 🇳🇱 @proxystore11 | NL🇳🇱 | 51.15.75.140:443 | 113.99ms, server: 51.15.75.140, port: 443, type: vmess, uuid: 4df65f62-99d9-42d1-a4b9-a35b37b26873, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 63.24ms", server: dashboard.autoly.ir, port: 443, type: vmess, uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Lille.kotick.site/speedtest, headers: {Host: panel2.hodorauth.com}}, udp: true}
+  - {name: 🇺🇸 @yaney_01 | US🇺🇸 | panel2.hodorauth.com:443 | 16.26ms, server: dashboard.autoly.ir, port: 443, type: vmess, uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /z.zorro.tk/ou, headers: {Host: panel2.hodorauth.com}}, udp: true}
+  - {name: "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 16.01ms", server: dashboard.autoly.ir, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ming2.kiwireich.com/ray, headers: {Host: panel2.hodorauth.com}}, udp: true}
+  - {name: 🇩🇪 @fnet00 | DE🇩🇪 | 209.38.245.39:80 | 124.95ms, server: 209.38.245.39, port: 80, type: vmess, uuid: 900f1ecf-8f8f-4b19-c1d9-1633605e7e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "@v2rayng_config_amin | RELAY🚩 | 4MAMKSKMAMKSKMASKMAKSK4AKIWJSDSDxaSASQIWQIMAXMAZXKM.mkasdmaskdkmaskdasdlkasdmkasdasdasmkdkmasd.site.:2087 | 70.05ms", server: jolimolilap.com, port: 2087, type: vmess, uuid: 98bd45bd-ad4a-4480-87b2-84f81c09aaa8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: jolimolilap.com, network: grpc, grpc-opts: {grpc-service-name: fffffffstrrrrryyyyhhhhsnnnkakkkkdllllssasdf}, udp: true}
+  - {name: 🇺🇸 @v2rayng_config_amin | US🇺🇸 | 89.116.38.199:3456 | 46.04ms, server: 89.116.38.199, port: 3456, type: vmess, uuid: 32e49539-f569-403d-b4b6-a8978c040d5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 @PrivateVPNs | GB🇬🇧 | 35.178.172.180:22222 | 121.84ms, server: 35.178.172.180, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: "@PrivateVPNs | IE🇮🇪 | 54.229.46.11:22222 | 99.36ms", server: 54.229.46.11, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: "@PrivateVPNs | IE🇮🇪 | 34.245.230.244:22222 | 150.28ms", server: 34.245.230.244, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @DirectVPN | US🇺🇸 | 3.15.3.79:22222 | 35.78ms, server: 3.15.3.79, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @DirectVPN | US🇺🇸 | 54.245.40.3:22222 | 49.35ms, server: 54.245.40.3, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @NetAccount | US🇺🇸 | us3.aitrjc.xyz:10283 | 98.41ms, server: us3.aitrjc.xyz, port: 10283, type: trojan, password: 0577e1da-5566-4f44-b5f2-3aebedb317f2, sni: us3.aitrjc.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | 3.17.74.206:22222 | 81.37ms, server: 3.17.74.206, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇷 @vmess_vless_v2rayng | FR🇫🇷 | 13.38.12.86:22222 | 113.88ms, server: 13.38.12.86, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 158.4ms, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 158.75ms, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 29.32ms, server: 64.227.131.19, port: 443, type: trojan, password: 21c6c7cb-332b-4a0c-9ad7-dff9c3111442, sni: us02web.zoom.us, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 14.91ms, server: 128.199.221.46, port: 443, type: trojan, password: 6dd8ffa0-26f7-11ee-945d-1239d0255272, sni: us02web.zoom.us, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 15.89ms, server: 147.182.216.10, port: 443, type: trojan, password: 71148cca-0963-4abe-ab01-7cea982c1513, sni: us02web.zoom.us, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.79:443 | 107.63ms, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 107.68ms, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 🇬🇧 @proxyymeliii | GB🇬🇧 | 51.68.206.229:8080 | 113.38ms, server: 51.68.206.229, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇫🇷 @vmess_vless_v2rayng | FR🇫🇷 | 54.36.174.181:6679 | 138.35ms, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇵🇱 @OutlineVpnOfficial | PL🇵🇱 | ak1813.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 188.7ms, server: ak1813.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇸🇬 @OutlineVpnOfficial | SG🇸🇬 | ak1814.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:33087 | 257.95ms, server: ak1814.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 33087, type: ss, cipher: chacha20-ietf-poly1305, password: GBmjxtQpX3tSk0LQw2lrr8, udp: true}
+  - {name: "@OutlineVpnOfficial | UA🇺🇦 | ak1815.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:444 | 199.95ms", server: ak1815.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: Chayf4Frea, udp: true}
+  - {name: 🇺🇸 @yaney_01 | US🇺🇸 | 104.168.13.80:8080 | 47.1ms, server: 104.168.13.80, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: Epl46de5ryftug88ePd, udp: true}
 proxy-groups:
   - name: 🚀 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - DIRECT
-      - "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 26.53ms"
-      - 🇺🇸 @free4allVPN | US🇺🇸 | www.69908657.xyz:443 | 138.5ms
-      - 🇺🇸 @free4allVPN | US🇺🇸 | vus5.0bad.com:443 | 64.4ms
-      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | Dusseldorf.kotick.site:443 | 20.65ms
-      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 89.116.38.191:3456 | 11.97ms
-      - "@prrofile_purple | RELAY🚩 | www.speedtest.net:2095 | 13.91ms"
-      - "@prrofile_purple | FI🇫🇮 | 95.217.17.96:46746 | 117.83ms"
-      - 🇺🇸 @azadi_az_inja_migzare | US🇺🇸 | 89.116.38.193:3456 | 12.64ms
-      - 🇺🇸 @customv2ray | US🇺🇸 | 45.199.138.158:49234 | 90.15ms
-      - "@customv2ray | BY🇧🇾 | internet.life.com.by:443 | 460.94ms"
-      - 🇫🇷 @customv2ray | FR🇫🇷 | 156.249.18.127:48100 | 85.44ms
-      - 🇺🇸 @vpn_ioss | US🇺🇸 | 45.199.138.29:48344 | 91.51ms
-      - 🇩🇪 @ShadowProxy66 | DE🇩🇪 | 45.76.86.164:2087 | 89.9ms
-      - 🇩🇪 @ShadowProxy66 | DE🇩🇪 | 45.76.86.164:2096 | 90.53ms
-      - "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 409.35ms"
-      - 🇺🇸 @Proxy_PJ | US🇺🇸 | 45.199.138.166:55016 | 112.63ms
-      - 🇺🇸 @proxyymeliii | US🇺🇸 | ro1.socifiles.com:2096 | 216.64ms
-      - "@vless_vmess | RELAY🚩 | scaleway.696960.xyz:443 | 21.54ms"
-      - "@vless_vmess | RELAY🚩 | dedi2.1808.cf:443 | 221.27ms"
-      - 🇳🇱 @vless_vmess | NL🇳🇱 | 51.15.75.140:443 | 84.93ms
-      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | channel.VMesskhodam.top:2083 | 279.76ms
-      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | 89.116.38.208:3456 | 15.04ms
-      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | zula.ir:80 | 6.06ms
-      - 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 224.99ms
-      - 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 176.69ms
-      - 🇺🇸 @ovpn2 | US🇺🇸 | b3.iraniancp.click:80 | 142.75ms
-      - 🇺🇸 @vpn_tehran | US🇺🇸 | free.amteamspace.monster:2052 | 19.97ms
-      - "@ConfigsHUB | BY🇧🇾 | internet.life.com.by:443 | 634.57ms"
-      - 🇳🇱 @ConfigsHUB | NL🇳🇱 | 51.15.75.140:443 | 84.66ms
-      - 🇺🇸 @proxystore11 | US🇺🇸 | 156.225.67.229:50881 | 86.05ms
-      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 53.88ms"
-      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 6.39ms"
-      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 6.47ms"
-      - 🇩🇪 @fnet00 | DE🇩🇪 | 209.38.245.39:80 | 97.36ms
-      - 🇺🇸 @v2rayng_config_amin | US🇺🇸 | 89.116.38.199:3456 | 12.41ms
-      - "@PrivateVPNs | SE🇸🇪 | 13.48.48.252:22222 | 114.31ms"
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 3.64.12.197:22222 | 127.63ms
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 18.194.28.220:22222 | 126.77ms
-      - 🇨🇦 @DirectVPN | CA🇨🇦 | 35.183.81.230:22222 | 30.31ms
-      - 🇨🇦 @DirectVPN | CA🇨🇦 | 15.222.236.121:22222 | 23.3ms
-      - 🇺🇸 @DirectVPN | US🇺🇸 | 18.222.115.226:22222 | 17.68ms
-      - 🇺🇸 @NetAccount | US🇺🇸 | us3.aitrjc.xyz:10283 | 82.69ms
-      - 🇭🇰 @oneclickvpnkeys | HK🇭🇰 | nl-node.cvbaoli.cn:38003 | 491.1ms
-      - 🇭🇰 @oneclickvpnkeys | HK🇭🇰 | ru-node.cvbaoli.cn:54579 | 342.54ms
-      - 🇺🇸 @ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 127.68ms
-      - 🇺🇸 @ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 154.47ms
-      - 🇫🇷 @proxystore11 | FR🇫🇷 | ssrsub.t17.trojan.tel:80 | 266.48ms
-      - 🇸🇬 @proxystore11 | SG🇸🇬 | ssrsub.o09.trojan.tel:80 | 544.37ms
-      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 20.84ms
-      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 6.15ms
-      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 5.78ms
-      - 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.79:443 | 79.03ms
-      - 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 79.17ms
-      - 🇬🇧 @proxyymeliii | GB🇬🇧 | 51.68.206.229:8080 | 84.16ms
-      - 🇫🇷 @vmess_vless_v2rayng | FR🇫🇷 | 54.36.174.181:6679 | 105.48ms
-      - 🇵🇱 @OutlineVpnOfficial | PL🇵🇱 | ak1813.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 218.44ms
-      - 🇸🇬 @OutlineVpnOfficial | SG🇸🇬 | ak1814.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:33087 | 372.58ms
-      - "@OutlineVpnOfficial | UA🇺🇦 | ak1815.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:444 | 135.12ms"
-      - 🇺🇸 @yaney_01 | US🇺🇸 | 104.168.13.80:8080 | 72.54ms
+      - 🇺🇸 @free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 56.01ms
+      - 🇺🇸 @free4allVPN | US🇺🇸 | www.69908657.xyz:443 | 380.29ms
+      - 🇺🇸 @free4allVPN | US🇺🇸 | vus5.0bad.com:443 | 63.22ms
+      - 🇫🇷 @oneclickvpnkeys | FR🇫🇷 | 156.249.18.161:42292 | 113.81ms
+      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 156.225.67.229:50881 | 114.28ms
+      - "@prrofile_purple | RELAY🚩 | www.speedtest.net:2095 | 77.06ms"
+      - "@prrofile_purple | FI🇫🇮 | 95.217.17.96:46746 | 145.79ms"
+      - 🇺🇸 @azadi_az_inja_migzare | US🇺🇸 | 89.116.38.191:3456 | 50.62ms
+      - 🇺🇸 @azadi_az_inja_migzare | US🇺🇸 | 89.116.38.193:3456 | 46.1ms
+      - "@customv2ray | BY🇧🇾 | internet.life.com.by:443 | 1087.04ms"
+      - 🇺🇸 @customv2ray | US🇺🇸 | 156.225.67.229:50881 | 111.13ms
+      - 🇺🇸 @vpn_ioss | US🇺🇸 | 45.199.138.29:48344 | 110.36ms
+      - "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 1265.27ms"
+      - 🇩🇪 @hashmakvpn | DE🇩🇪 | 91.107.167.79:8443 | 122.86ms
+      - "@Proxy_PJ | BY🇧🇾 | internet.life.com.by:443 | 1371.89ms"
+      - 🇺🇸 @Proxy_PJ | US🇺🇸 | 45.199.138.166:55016 | 113.42ms
+      - 🇺🇸 @proxyymeliii | US🇺🇸 | ro1.socifiles.com:2096 | 235.68ms
+      - 🇺🇸 @vless_vmess | US🇺🇸 | scaleway.696960.xyz:443 | 71.91ms
+      - 🇺🇸 @vless_vmess | US🇺🇸 | dedi2.1808.cf:443 | 355.13ms
+      - 🇳🇱 @vless_vmess | NL🇳🇱 | 51.15.75.140:443 | 113.81ms
+      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | channel.VMesskhodam.top:2083 | 272.44ms
+      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | 89.116.38.208:3456 | 46.04ms
+      - "@vmess_vless_v2rayng | RELAY🚩 | zula.ir:80 | 17.44ms"
+      - 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 243.26ms
+      - 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 235.12ms
+      - "@ovpn2 | RELAY🚩 | b3.iraniancp.click:80 | 72.4ms"
+      - "@vpn_tehran | RELAY🚩 | free.amteamspace.monster:2052 | 429.58ms"
+      - 🇳🇱 @proxystore11 | NL🇳🇱 | 51.15.75.140:443 | 113.99ms
+      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 63.24ms"
+      - 🇺🇸 @yaney_01 | US🇺🇸 | panel2.hodorauth.com:443 | 16.26ms
+      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 16.01ms"
+      - 🇩🇪 @fnet00 | DE🇩🇪 | 209.38.245.39:80 | 124.95ms
+      - "@v2rayng_config_amin | RELAY🚩 | 4MAMKSKMAMKSKMASKMAKSK4AKIWJSDSDxaSASQIWQIMAXMAZXKM.mkasdmaskdkmaskdasdlkasdmkasdasdasmkdkmasd.site.:2087 | 70.05ms"
+      - 🇺🇸 @v2rayng_config_amin | US🇺🇸 | 89.116.38.199:3456 | 46.04ms
+      - 🇬🇧 @PrivateVPNs | GB🇬🇧 | 35.178.172.180:22222 | 121.84ms
+      - "@PrivateVPNs | IE🇮🇪 | 54.229.46.11:22222 | 99.36ms"
+      - "@PrivateVPNs | IE🇮🇪 | 34.245.230.244:22222 | 150.28ms"
+      - 🇺🇸 @DirectVPN | US🇺🇸 | 3.15.3.79:22222 | 35.78ms
+      - 🇺🇸 @DirectVPN | US🇺🇸 | 54.245.40.3:22222 | 49.35ms
+      - 🇺🇸 @NetAccount | US🇺🇸 | us3.aitrjc.xyz:10283 | 98.41ms
+      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | 3.17.74.206:22222 | 81.37ms
+      - 🇫🇷 @vmess_vless_v2rayng | FR🇫🇷 | 13.38.12.86:22222 | 113.88ms
+      - 🇺🇸 @ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 158.4ms
+      - 🇺🇸 @ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 158.75ms
+      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 29.32ms
+      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 14.91ms
+      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 15.89ms
+      - 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.79:443 | 107.63ms
+      - 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 107.68ms
+      - 🇬🇧 @proxyymeliii | GB🇬🇧 | 51.68.206.229:8080 | 113.38ms
+      - 🇫🇷 @vmess_vless_v2rayng | FR🇫🇷 | 54.36.174.181:6679 | 138.35ms
+      - 🇵🇱 @OutlineVpnOfficial | PL🇵🇱 | ak1813.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 188.7ms
+      - 🇸🇬 @OutlineVpnOfficial | SG🇸🇬 | ak1814.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:33087 | 257.95ms
+      - "@OutlineVpnOfficial | UA🇺🇦 | ak1815.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:444 | 199.95ms"
+      - 🇺🇸 @yaney_01 | US🇺🇸 | 104.168.13.80:8080 | 47.1ms
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 26.53ms"
-      - 🇺🇸 @free4allVPN | US🇺🇸 | www.69908657.xyz:443 | 138.5ms
-      - 🇺🇸 @free4allVPN | US🇺🇸 | vus5.0bad.com:443 | 64.4ms
-      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | Dusseldorf.kotick.site:443 | 20.65ms
-      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 89.116.38.191:3456 | 11.97ms
-      - "@prrofile_purple | RELAY🚩 | www.speedtest.net:2095 | 13.91ms"
-      - "@prrofile_purple | FI🇫🇮 | 95.217.17.96:46746 | 117.83ms"
-      - 🇺🇸 @azadi_az_inja_migzare | US🇺🇸 | 89.116.38.193:3456 | 12.64ms
-      - 🇺🇸 @customv2ray | US🇺🇸 | 45.199.138.158:49234 | 90.15ms
-      - "@customv2ray | BY🇧🇾 | internet.life.com.by:443 | 460.94ms"
-      - 🇫🇷 @customv2ray | FR🇫🇷 | 156.249.18.127:48100 | 85.44ms
-      - 🇺🇸 @vpn_ioss | US🇺🇸 | 45.199.138.29:48344 | 91.51ms
-      - 🇩🇪 @ShadowProxy66 | DE🇩🇪 | 45.76.86.164:2087 | 89.9ms
-      - 🇩🇪 @ShadowProxy66 | DE🇩🇪 | 45.76.86.164:2096 | 90.53ms
-      - "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 409.35ms"
-      - 🇺🇸 @Proxy_PJ | US🇺🇸 | 45.199.138.166:55016 | 112.63ms
-      - 🇺🇸 @proxyymeliii | US🇺🇸 | ro1.socifiles.com:2096 | 216.64ms
-      - "@vless_vmess | RELAY🚩 | scaleway.696960.xyz:443 | 21.54ms"
-      - "@vless_vmess | RELAY🚩 | dedi2.1808.cf:443 | 221.27ms"
-      - 🇳🇱 @vless_vmess | NL🇳🇱 | 51.15.75.140:443 | 84.93ms
-      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | channel.VMesskhodam.top:2083 | 279.76ms
-      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | 89.116.38.208:3456 | 15.04ms
-      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | zula.ir:80 | 6.06ms
-      - 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 224.99ms
-      - 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 176.69ms
-      - 🇺🇸 @ovpn2 | US🇺🇸 | b3.iraniancp.click:80 | 142.75ms
-      - 🇺🇸 @vpn_tehran | US🇺🇸 | free.amteamspace.monster:2052 | 19.97ms
-      - "@ConfigsHUB | BY🇧🇾 | internet.life.com.by:443 | 634.57ms"
-      - 🇳🇱 @ConfigsHUB | NL🇳🇱 | 51.15.75.140:443 | 84.66ms
-      - 🇺🇸 @proxystore11 | US🇺🇸 | 156.225.67.229:50881 | 86.05ms
-      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 53.88ms"
-      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 6.39ms"
-      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 6.47ms"
-      - 🇩🇪 @fnet00 | DE🇩🇪 | 209.38.245.39:80 | 97.36ms
-      - 🇺🇸 @v2rayng_config_amin | US🇺🇸 | 89.116.38.199:3456 | 12.41ms
-      - "@PrivateVPNs | SE🇸🇪 | 13.48.48.252:22222 | 114.31ms"
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 3.64.12.197:22222 | 127.63ms
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 18.194.28.220:22222 | 126.77ms
-      - 🇨🇦 @DirectVPN | CA🇨🇦 | 35.183.81.230:22222 | 30.31ms
-      - 🇨🇦 @DirectVPN | CA🇨🇦 | 15.222.236.121:22222 | 23.3ms
-      - 🇺🇸 @DirectVPN | US🇺🇸 | 18.222.115.226:22222 | 17.68ms
-      - 🇺🇸 @NetAccount | US🇺🇸 | us3.aitrjc.xyz:10283 | 82.69ms
-      - 🇭🇰 @oneclickvpnkeys | HK🇭🇰 | nl-node.cvbaoli.cn:38003 | 491.1ms
-      - 🇭🇰 @oneclickvpnkeys | HK🇭🇰 | ru-node.cvbaoli.cn:54579 | 342.54ms
-      - 🇺🇸 @ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 127.68ms
-      - 🇺🇸 @ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 154.47ms
-      - 🇫🇷 @proxystore11 | FR🇫🇷 | ssrsub.t17.trojan.tel:80 | 266.48ms
-      - 🇸🇬 @proxystore11 | SG🇸🇬 | ssrsub.o09.trojan.tel:80 | 544.37ms
-      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 20.84ms
-      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 6.15ms
-      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 5.78ms
-      - 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.79:443 | 79.03ms
-      - 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 79.17ms
-      - 🇬🇧 @proxyymeliii | GB🇬🇧 | 51.68.206.229:8080 | 84.16ms
-      - 🇫🇷 @vmess_vless_v2rayng | FR🇫🇷 | 54.36.174.181:6679 | 105.48ms
-      - 🇵🇱 @OutlineVpnOfficial | PL🇵🇱 | ak1813.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 218.44ms
-      - 🇸🇬 @OutlineVpnOfficial | SG🇸🇬 | ak1814.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:33087 | 372.58ms
-      - "@OutlineVpnOfficial | UA🇺🇦 | ak1815.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:444 | 135.12ms"
-      - 🇺🇸 @yaney_01 | US🇺🇸 | 104.168.13.80:8080 | 72.54ms
+      - 🇺🇸 @free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 56.01ms
+      - 🇺🇸 @free4allVPN | US🇺🇸 | www.69908657.xyz:443 | 380.29ms
+      - 🇺🇸 @free4allVPN | US🇺🇸 | vus5.0bad.com:443 | 63.22ms
+      - 🇫🇷 @oneclickvpnkeys | FR🇫🇷 | 156.249.18.161:42292 | 113.81ms
+      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 156.225.67.229:50881 | 114.28ms
+      - "@prrofile_purple | RELAY🚩 | www.speedtest.net:2095 | 77.06ms"
+      - "@prrofile_purple | FI🇫🇮 | 95.217.17.96:46746 | 145.79ms"
+      - 🇺🇸 @azadi_az_inja_migzare | US🇺🇸 | 89.116.38.191:3456 | 50.62ms
+      - 🇺🇸 @azadi_az_inja_migzare | US🇺🇸 | 89.116.38.193:3456 | 46.1ms
+      - "@customv2ray | BY🇧🇾 | internet.life.com.by:443 | 1087.04ms"
+      - 🇺🇸 @customv2ray | US🇺🇸 | 156.225.67.229:50881 | 111.13ms
+      - 🇺🇸 @vpn_ioss | US🇺🇸 | 45.199.138.29:48344 | 110.36ms
+      - "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 1265.27ms"
+      - 🇩🇪 @hashmakvpn | DE🇩🇪 | 91.107.167.79:8443 | 122.86ms
+      - "@Proxy_PJ | BY🇧🇾 | internet.life.com.by:443 | 1371.89ms"
+      - 🇺🇸 @Proxy_PJ | US🇺🇸 | 45.199.138.166:55016 | 113.42ms
+      - 🇺🇸 @proxyymeliii | US🇺🇸 | ro1.socifiles.com:2096 | 235.68ms
+      - 🇺🇸 @vless_vmess | US🇺🇸 | scaleway.696960.xyz:443 | 71.91ms
+      - 🇺🇸 @vless_vmess | US🇺🇸 | dedi2.1808.cf:443 | 355.13ms
+      - 🇳🇱 @vless_vmess | NL🇳🇱 | 51.15.75.140:443 | 113.81ms
+      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | channel.VMesskhodam.top:2083 | 272.44ms
+      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | 89.116.38.208:3456 | 46.04ms
+      - "@vmess_vless_v2rayng | RELAY🚩 | zula.ir:80 | 17.44ms"
+      - 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 243.26ms
+      - 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 235.12ms
+      - "@ovpn2 | RELAY🚩 | b3.iraniancp.click:80 | 72.4ms"
+      - "@vpn_tehran | RELAY🚩 | free.amteamspace.monster:2052 | 429.58ms"
+      - 🇳🇱 @proxystore11 | NL🇳🇱 | 51.15.75.140:443 | 113.99ms
+      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 63.24ms"
+      - 🇺🇸 @yaney_01 | US🇺🇸 | panel2.hodorauth.com:443 | 16.26ms
+      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 16.01ms"
+      - 🇩🇪 @fnet00 | DE🇩🇪 | 209.38.245.39:80 | 124.95ms
+      - "@v2rayng_config_amin | RELAY🚩 | 4MAMKSKMAMKSKMASKMAKSK4AKIWJSDSDxaSASQIWQIMAXMAZXKM.mkasdmaskdkmaskdasdlkasdmkasdasdasmkdkmasd.site.:2087 | 70.05ms"
+      - 🇺🇸 @v2rayng_config_amin | US🇺🇸 | 89.116.38.199:3456 | 46.04ms
+      - 🇬🇧 @PrivateVPNs | GB🇬🇧 | 35.178.172.180:22222 | 121.84ms
+      - "@PrivateVPNs | IE🇮🇪 | 54.229.46.11:22222 | 99.36ms"
+      - "@PrivateVPNs | IE🇮🇪 | 34.245.230.244:22222 | 150.28ms"
+      - 🇺🇸 @DirectVPN | US🇺🇸 | 3.15.3.79:22222 | 35.78ms
+      - 🇺🇸 @DirectVPN | US🇺🇸 | 54.245.40.3:22222 | 49.35ms
+      - 🇺🇸 @NetAccount | US🇺🇸 | us3.aitrjc.xyz:10283 | 98.41ms
+      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | 3.17.74.206:22222 | 81.37ms
+      - 🇫🇷 @vmess_vless_v2rayng | FR🇫🇷 | 13.38.12.86:22222 | 113.88ms
+      - 🇺🇸 @ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 158.4ms
+      - 🇺🇸 @ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 158.75ms
+      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 29.32ms
+      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 14.91ms
+      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 15.89ms
+      - 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.79:443 | 107.63ms
+      - 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 107.68ms
+      - 🇬🇧 @proxyymeliii | GB🇬🇧 | 51.68.206.229:8080 | 113.38ms
+      - 🇫🇷 @vmess_vless_v2rayng | FR🇫🇷 | 54.36.174.181:6679 | 138.35ms
+      - 🇵🇱 @OutlineVpnOfficial | PL🇵🇱 | ak1813.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 188.7ms
+      - 🇸🇬 @OutlineVpnOfficial | SG🇸🇬 | ak1814.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:33087 | 257.95ms
+      - "@OutlineVpnOfficial | UA🇺🇦 | ak1815.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:444 | 199.95ms"
+      - 🇺🇸 @yaney_01 | US🇺🇸 | 104.168.13.80:8080 | 47.1ms
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -211,65 +199,61 @@ proxy-groups:
       - 🚀 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 26.53ms"
-      - 🇺🇸 @free4allVPN | US🇺🇸 | www.69908657.xyz:443 | 138.5ms
-      - 🇺🇸 @free4allVPN | US🇺🇸 | vus5.0bad.com:443 | 64.4ms
-      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | Dusseldorf.kotick.site:443 | 20.65ms
-      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 89.116.38.191:3456 | 11.97ms
-      - "@prrofile_purple | RELAY🚩 | www.speedtest.net:2095 | 13.91ms"
-      - "@prrofile_purple | FI🇫🇮 | 95.217.17.96:46746 | 117.83ms"
-      - 🇺🇸 @azadi_az_inja_migzare | US🇺🇸 | 89.116.38.193:3456 | 12.64ms
-      - 🇺🇸 @customv2ray | US🇺🇸 | 45.199.138.158:49234 | 90.15ms
-      - "@customv2ray | BY🇧🇾 | internet.life.com.by:443 | 460.94ms"
-      - 🇫🇷 @customv2ray | FR🇫🇷 | 156.249.18.127:48100 | 85.44ms
-      - 🇺🇸 @vpn_ioss | US🇺🇸 | 45.199.138.29:48344 | 91.51ms
-      - 🇩🇪 @ShadowProxy66 | DE🇩🇪 | 45.76.86.164:2087 | 89.9ms
-      - 🇩🇪 @ShadowProxy66 | DE🇩🇪 | 45.76.86.164:2096 | 90.53ms
-      - "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 409.35ms"
-      - 🇺🇸 @Proxy_PJ | US🇺🇸 | 45.199.138.166:55016 | 112.63ms
-      - 🇺🇸 @proxyymeliii | US🇺🇸 | ro1.socifiles.com:2096 | 216.64ms
-      - "@vless_vmess | RELAY🚩 | scaleway.696960.xyz:443 | 21.54ms"
-      - "@vless_vmess | RELAY🚩 | dedi2.1808.cf:443 | 221.27ms"
-      - 🇳🇱 @vless_vmess | NL🇳🇱 | 51.15.75.140:443 | 84.93ms
-      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | channel.VMesskhodam.top:2083 | 279.76ms
-      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | 89.116.38.208:3456 | 15.04ms
-      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | zula.ir:80 | 6.06ms
-      - 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 224.99ms
-      - 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 176.69ms
-      - 🇺🇸 @ovpn2 | US🇺🇸 | b3.iraniancp.click:80 | 142.75ms
-      - 🇺🇸 @vpn_tehran | US🇺🇸 | free.amteamspace.monster:2052 | 19.97ms
-      - "@ConfigsHUB | BY🇧🇾 | internet.life.com.by:443 | 634.57ms"
-      - 🇳🇱 @ConfigsHUB | NL🇳🇱 | 51.15.75.140:443 | 84.66ms
-      - 🇺🇸 @proxystore11 | US🇺🇸 | 156.225.67.229:50881 | 86.05ms
-      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 53.88ms"
-      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 6.39ms"
-      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 6.47ms"
-      - 🇩🇪 @fnet00 | DE🇩🇪 | 209.38.245.39:80 | 97.36ms
-      - 🇺🇸 @v2rayng_config_amin | US🇺🇸 | 89.116.38.199:3456 | 12.41ms
-      - "@PrivateVPNs | SE🇸🇪 | 13.48.48.252:22222 | 114.31ms"
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 3.64.12.197:22222 | 127.63ms
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 18.194.28.220:22222 | 126.77ms
-      - 🇨🇦 @DirectVPN | CA🇨🇦 | 35.183.81.230:22222 | 30.31ms
-      - 🇨🇦 @DirectVPN | CA🇨🇦 | 15.222.236.121:22222 | 23.3ms
-      - 🇺🇸 @DirectVPN | US🇺🇸 | 18.222.115.226:22222 | 17.68ms
-      - 🇺🇸 @NetAccount | US🇺🇸 | us3.aitrjc.xyz:10283 | 82.69ms
-      - 🇭🇰 @oneclickvpnkeys | HK🇭🇰 | nl-node.cvbaoli.cn:38003 | 491.1ms
-      - 🇭🇰 @oneclickvpnkeys | HK🇭🇰 | ru-node.cvbaoli.cn:54579 | 342.54ms
-      - 🇺🇸 @ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 127.68ms
-      - 🇺🇸 @ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 154.47ms
-      - 🇫🇷 @proxystore11 | FR🇫🇷 | ssrsub.t17.trojan.tel:80 | 266.48ms
-      - 🇸🇬 @proxystore11 | SG🇸🇬 | ssrsub.o09.trojan.tel:80 | 544.37ms
-      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 20.84ms
-      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 6.15ms
-      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 5.78ms
-      - 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.79:443 | 79.03ms
-      - 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 79.17ms
-      - 🇬🇧 @proxyymeliii | GB🇬🇧 | 51.68.206.229:8080 | 84.16ms
-      - 🇫🇷 @vmess_vless_v2rayng | FR🇫🇷 | 54.36.174.181:6679 | 105.48ms
-      - 🇵🇱 @OutlineVpnOfficial | PL🇵🇱 | ak1813.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 218.44ms
-      - 🇸🇬 @OutlineVpnOfficial | SG🇸🇬 | ak1814.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:33087 | 372.58ms
-      - "@OutlineVpnOfficial | UA🇺🇦 | ak1815.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:444 | 135.12ms"
-      - 🇺🇸 @yaney_01 | US🇺🇸 | 104.168.13.80:8080 | 72.54ms
+      - 🇺🇸 @free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 56.01ms
+      - 🇺🇸 @free4allVPN | US🇺🇸 | www.69908657.xyz:443 | 380.29ms
+      - 🇺🇸 @free4allVPN | US🇺🇸 | vus5.0bad.com:443 | 63.22ms
+      - 🇫🇷 @oneclickvpnkeys | FR🇫🇷 | 156.249.18.161:42292 | 113.81ms
+      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 156.225.67.229:50881 | 114.28ms
+      - "@prrofile_purple | RELAY🚩 | www.speedtest.net:2095 | 77.06ms"
+      - "@prrofile_purple | FI🇫🇮 | 95.217.17.96:46746 | 145.79ms"
+      - 🇺🇸 @azadi_az_inja_migzare | US🇺🇸 | 89.116.38.191:3456 | 50.62ms
+      - 🇺🇸 @azadi_az_inja_migzare | US🇺🇸 | 89.116.38.193:3456 | 46.1ms
+      - "@customv2ray | BY🇧🇾 | internet.life.com.by:443 | 1087.04ms"
+      - 🇺🇸 @customv2ray | US🇺🇸 | 156.225.67.229:50881 | 111.13ms
+      - 🇺🇸 @vpn_ioss | US🇺🇸 | 45.199.138.29:48344 | 110.36ms
+      - "@ShadowProxy66 | BY🇧🇾 | internet.life.com.by:443 | 1265.27ms"
+      - 🇩🇪 @hashmakvpn | DE🇩🇪 | 91.107.167.79:8443 | 122.86ms
+      - "@Proxy_PJ | BY🇧🇾 | internet.life.com.by:443 | 1371.89ms"
+      - 🇺🇸 @Proxy_PJ | US🇺🇸 | 45.199.138.166:55016 | 113.42ms
+      - 🇺🇸 @proxyymeliii | US🇺🇸 | ro1.socifiles.com:2096 | 235.68ms
+      - 🇺🇸 @vless_vmess | US🇺🇸 | scaleway.696960.xyz:443 | 71.91ms
+      - 🇺🇸 @vless_vmess | US🇺🇸 | dedi2.1808.cf:443 | 355.13ms
+      - 🇳🇱 @vless_vmess | NL🇳🇱 | 51.15.75.140:443 | 113.81ms
+      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | channel.VMesskhodam.top:2083 | 272.44ms
+      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | 89.116.38.208:3456 | 46.04ms
+      - "@vmess_vless_v2rayng | RELAY🚩 | zula.ir:80 | 17.44ms"
+      - 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 243.26ms
+      - 🇺🇸 @Cov2ray | US🇺🇸 | ro1.socifiles.com:2083 | 235.12ms
+      - "@ovpn2 | RELAY🚩 | b3.iraniancp.click:80 | 72.4ms"
+      - "@vpn_tehran | RELAY🚩 | free.amteamspace.monster:2052 | 429.58ms"
+      - 🇳🇱 @proxystore11 | NL🇳🇱 | 51.15.75.140:443 | 113.99ms
+      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 63.24ms"
+      - 🇺🇸 @yaney_01 | US🇺🇸 | panel2.hodorauth.com:443 | 16.26ms
+      - "@yaney_01 | RELAY🚩 | panel2.hodorauth.com:443 | 16.01ms"
+      - 🇩🇪 @fnet00 | DE🇩🇪 | 209.38.245.39:80 | 124.95ms
+      - "@v2rayng_config_amin | RELAY🚩 | 4MAMKSKMAMKSKMASKMAKSK4AKIWJSDSDxaSASQIWQIMAXMAZXKM.mkasdmaskdkmaskdasdlkasdmkasdasdasmkdkmasd.site.:2087 | 70.05ms"
+      - 🇺🇸 @v2rayng_config_amin | US🇺🇸 | 89.116.38.199:3456 | 46.04ms
+      - 🇬🇧 @PrivateVPNs | GB🇬🇧 | 35.178.172.180:22222 | 121.84ms
+      - "@PrivateVPNs | IE🇮🇪 | 54.229.46.11:22222 | 99.36ms"
+      - "@PrivateVPNs | IE🇮🇪 | 34.245.230.244:22222 | 150.28ms"
+      - 🇺🇸 @DirectVPN | US🇺🇸 | 3.15.3.79:22222 | 35.78ms
+      - 🇺🇸 @DirectVPN | US🇺🇸 | 54.245.40.3:22222 | 49.35ms
+      - 🇺🇸 @NetAccount | US🇺🇸 | us3.aitrjc.xyz:10283 | 98.41ms
+      - 🇺🇸 @vmess_vless_v2rayng | US🇺🇸 | 3.17.74.206:22222 | 81.37ms
+      - 🇫🇷 @vmess_vless_v2rayng | FR🇫🇷 | 13.38.12.86:22222 | 113.88ms
+      - 🇺🇸 @ovpn2 | US🇺🇸 | us1.chuqiangtou.net:4003 | 158.4ms
+      - 🇺🇸 @ovpn2 | US🇺🇸 | us3.chuqiangtou.net:4003 | 158.75ms
+      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 29.32ms
+      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 14.91ms
+      - 🇺🇸 @yaney_01 | US🇺🇸 | us02web.zoom.us:443 | 15.89ms
+      - 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.79:443 | 107.63ms
+      - 🇬🇧 @free4allVPN | GB🇬🇧 | 212.102.53.198:443 | 107.68ms
+      - 🇬🇧 @proxyymeliii | GB🇬🇧 | 51.68.206.229:8080 | 113.38ms
+      - 🇫🇷 @vmess_vless_v2rayng | FR🇫🇷 | 54.36.174.181:6679 | 138.35ms
+      - 🇵🇱 @OutlineVpnOfficial | PL🇵🇱 | ak1813.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:6379 | 188.7ms
+      - 🇸🇬 @OutlineVpnOfficial | SG🇸🇬 | ak1814.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:33087 | 257.95ms
+      - "@OutlineVpnOfficial | UA🇺🇦 | ak1815.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:444 | 199.95ms"
+      - 🇺🇸 @yaney_01 | US🇺🇸 | 104.168.13.80:8080 | 47.1ms
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 GLOBAL DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,🎯 GLOBAL DIRECT

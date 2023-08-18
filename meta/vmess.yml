@@ -32,42 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: "@v2raycollectordonate | US🇺🇸 | speedtest.net:443 | 29.67ms | 0️⃣1️⃣"
-    server: 2a01:4f8:c010:64bb::1
-    port: 443
-    type: vmess
-    uuid: d5eea30f-9046-429d-9fa2-17fec71985e6
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: speedtest.net
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /
-      headers:
-        Host:
-          - speedtest.net
-    udp: true
-  - name: "@v2raycollectordonate | US🇺🇸 | Dusseldorf.bobbykotick.rip:443 | 243.33ms | 0️⃣2️⃣"
-    server: soap2day.to
-    port: 443
-    type: vmess
-    uuid: 1AB7B7A7-3629-4D71-ACF9-DB41E7FD054F
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: Dusseldorf.bobbykotick.rip
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Dusseldorf.bobbykotick.rip
-    udp: true
-  - name: "@v2raycollectordonate | RELAY🚩 | Amsterdam.bobbykotick.rip:443 | 54.66ms | 0️⃣3️⃣"
+  - name: "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 159.01ms | 0️⃣1️⃣"
     server: 104.31.16.30
     port: 443
     type: vmess
@@ -83,7 +48,7 @@ proxies:
       headers:
         Host: Amsterdam.bobbykotick.rip
     udp: true
-  - name: "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 15.09ms | 0️⃣4️⃣"
+  - name: "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 6.19ms | 0️⃣2️⃣"
     server: soap2day.to
     port: 443
     type: vmess
@@ -99,7 +64,7 @@ proxies:
       headers:
         Host: Amsterdam.bobbykotick.rip
     udp: true
-  - name: "@v2raycollectordonate | RELAY🚩 | Dusseldorf.bobbykotick.rip:443 | 15.49ms | 0️⃣5️⃣"
+  - name: "@v2raycollectordonate | US🇺🇸 | Dusseldorf.bobbykotick.rip:443 | 254.14ms | 0️⃣3️⃣"
     server: soap2day.to
     port: 443
     type: vmess
@@ -115,7 +80,66 @@ proxies:
       headers:
         Host: Dusseldorf.bobbykotick.rip
     udp: true
-  - name: "@iP_CF | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 58.42ms | 0️⃣1️⃣"
+  - name: "@v2raycollectordonate | US🇺🇸 | www.83993175.xyz:443 | 137.12ms | 0️⃣4️⃣"
+    server: 171.22.116.56
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.83993175.xyz
+    network: ws
+    ws-opts:
+      path: /path/1692094854083
+      headers:
+        Host: www.83993175.xyz
+    udp: true
+  - name: "@v2raycollectordonate | US🇺🇸 | 47.89.211.175:80 | 80.58ms | 0️⃣5️⃣"
+    server: 47.89.211.175
+    port: 80
+    type: vmess
+    uuid: 6cc722d0-f6b5-4179-be13-c15cb9e75dd9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: ws
+    ws-opts:
+      path: /84BxD2shFYFpsiRGXACUPqWt
+      headers:
+        Host: ""
+    udp: true
+  - name: "@v2raycollectordonate | US🇺🇸 | 45.199.138.173:43074 | 87.56ms | 0️⃣6️⃣"
+    server: 45.199.138.173
+    port: 43074
+    type: vmess
+    uuid: 20b30916-e203-412e-8ec0-900f3acd5128
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    udp: true
+  - name: "@v2raycollectordonate | US🇺🇸 | 89.116.38.172:3456 | 12.26ms | 0️⃣7️⃣"
+    server: 89.116.38.172
+    port: 3456
+    type: vmess
+    uuid: 32e49539-f569-403d-b4b6-a8978c040d5d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+    udp: true
+  - name: "@iP_CF | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 27.88ms | 0️⃣1️⃣"
     server: 31.43.179.33
     port: 2053
     type: vmess
@@ -129,7 +153,7 @@ proxies:
     grpc-opts:
       grpc-service-name: /
     udp: true
-  - name: "@azadi_az_inja_migzare | US🇺🇸 | speedtest.net:443 | 13.79ms | 0️⃣1️⃣"
+  - name: "@azadi_az_inja_migzare | US🇺🇸 | speedtest.net:443 | 6.01ms | 0️⃣1️⃣"
     server: 2a01:4f8:c010:64bb::1
     port: 443
     type: vmess
@@ -148,7 +172,7 @@ proxies:
         Host:
           - speedtest.net
     udp: true
-  - name: "@free4allVPN | KR🇰🇷 | 152.67.218.38:443 | 159.69ms | 0️⃣1️⃣"
+  - name: "@free4allVPN | KR🇰🇷 | 152.67.218.38:443 | 192.61ms | 0️⃣1️⃣"
     server: 152.67.218.38
     port: 443
     type: vmess
@@ -164,55 +188,7 @@ proxies:
       headers:
         Host: 152.67.218.38
     udp: true
-  - name: "@free4allVPN | GB🇬🇧 | vuk1.0bad.com:443 | 170.14ms | 0️⃣2️⃣"
-    server: vuk1.0bad.com
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: vuk1.0bad.com
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vuk1.0bad.com
-    udp: true
-  - name: "@oneclickvpnkeys | RELAY🚩 | wxxjp.e5outllok.me:80 | 51.32ms | 0️⃣1️⃣"
-    server: wxxjp.e5outllok.me
-    port: 80
-    type: vmess
-    uuid: 3e129870-4e08-4ede-87f1-4235a06c529e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: wxxjp.e5outllok.me
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: wxxjp.e5outllok.me
-    udp: true
-  - name: "@oneclickvpnkeys | US🇺🇸 | wxxjp.e5outllok.me:80 | 14.77ms | 0️⃣2️⃣"
-    server: 172.67.149.81
-    port: 80
-    type: vmess
-    uuid: 6a5de736-3fff-4c56-b92c-8a948cfdc9e9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: wxxjp.e5outllok.me
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: wxxjp.e5outllok.me
-    udp: true
-  - name: "@oneclickvpnkeys | RELAY🚩 | wxll.e5outllok.me:80 | 55.81ms | 0️⃣3️⃣"
+  - name: "@oneclickvpnkeys | US🇺🇸 | wxll.e5outllok.me:80 | 21.23ms | 0️⃣1️⃣"
     server: wxll.e5outllok.me
     port: 80
     type: vmess
@@ -228,7 +204,26 @@ proxies:
       headers:
         Host: wxll.e5outllok.me
     udp: true
-  - name: "@prrofile_purple | US🇺🇸 | 67.21.64.84:43123 | 38.36ms | 0️⃣1️⃣"
+  - name: "@oneclickvpnkeys | US🇺🇸 | www.baidu.com:443 | 737.54ms | 0️⃣2️⃣"
+    server: 15.235.45.203
+    port: 443
+    type: vmess
+    uuid: eb713638-ec89-49e5-8358-b00a472f788e
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: www.baidu.com
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - www.baidu.com
+    udp: true
+  - name: "@prrofile_purple | US🇺🇸 | 67.21.64.84:43123 | 59.93ms | 0️⃣1️⃣"
     server: 67.21.64.84
     port: 43123
     type: vmess
@@ -239,7 +234,7 @@ proxies:
     skip-cert-verify: true
     servername: ""
     udp: true
-  - name: "@prrofile_purple | US🇺🇸 | 89.116.38.188:3456 | 45.68ms | 0️⃣2️⃣"
+  - name: "@prrofile_purple | US🇺🇸 | 89.116.38.188:3456 | 12.96ms | 0️⃣2️⃣"
     server: 89.116.38.188
     port: 3456
     type: vmess
@@ -255,7 +250,7 @@ proxies:
       path:
         - /
     udp: true
-  - name: "@prrofile_purple | DE🇩🇪 | 116.202.30.76:42000 | 124.62ms | 0️⃣3️⃣"
+  - name: "@prrofile_purple | DE🇩🇪 | 116.202.30.76:42000 | 96.97ms | 0️⃣3️⃣"
     server: 116.202.30.76
     port: 42000
     type: vmess
@@ -266,18 +261,7 @@ proxies:
     skip-cert-verify: true
     servername: ""
     udp: true
-  - name: "@customv2ray | US🇺🇸 | 45.199.138.173:43074 | 138.08ms | 0️⃣1️⃣"
-    server: 45.199.138.173
-    port: 43074
-    type: vmess
-    uuid: 20b30916-e203-412e-8ec0-900f3acd5128
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ""
-    udp: true
-  - name: "@customv2ray | US🇺🇸 | us6.cachexy.cf:80 | 228.29ms | 0️⃣2️⃣"
+  - name: "@customv2ray | US🇺🇸 | us6.cachexy.cf:80 | 470.52ms | 0️⃣2️⃣"
     server: 8.209.90.14
     port: 80
     type: vmess
@@ -293,7 +277,7 @@ proxies:
       headers:
         Host: us6.cachexy.cf
     udp: true
-  - name: "@hashmakvpn | DE🇩🇪 | 91.107.131.254:8443 | 128.66ms | 0️⃣1️⃣"
+  - name: "@hashmakvpn | DE🇩🇪 | 91.107.131.254:8443 | 97.32ms | 0️⃣1️⃣"
     server: 91.107.131.254
     port: 8443
     type: vmess
@@ -309,7 +293,7 @@ proxies:
       path:
         - /
     udp: true
-  - name: "@Proxy_PJ | US🇺🇸 | 89.116.38.185:3456 | 51.14ms | 0️⃣1️⃣"
+  - name: "@Proxy_PJ | US🇺🇸 | 89.116.38.185:3456 | 23.69ms | 0️⃣1️⃣"
     server: 89.116.38.185
     port: 3456
     type: vmess
@@ -325,7 +309,7 @@ proxies:
       path:
         - /
     udp: true
-  - name: "@Proxy_PJ | US🇺🇸 | 89.116.38.193:3456 | 45.91ms | 0️⃣3️⃣"
+  - name: "@Proxy_PJ | US🇺🇸 | 89.116.38.193:3456 | 25ms | 0️⃣3️⃣"
     server: 89.116.38.193
     port: 3456
     type: vmess
@@ -341,7 +325,7 @@ proxies:
       path:
         - /
     udp: true
-  - name: "@v2ray1_ng | FR🇫🇷 | eu-2.0rd.net:443 | 167.7ms | 0️⃣1️⃣"
+  - name: "@v2ray1_ng | FR🇫🇷 | eu-2.0rd.net:443 | 139.85ms | 0️⃣1️⃣"
     server: 95.179.244.111
     port: 443
     type: vmess
@@ -357,7 +341,7 @@ proxies:
       headers:
         Host: eu-2.0rd.net
     udp: true
-  - name: "@v2ray1_ng | US🇺🇸 | 156.225.67.101:53797 | 152.2ms | 0️⃣2️⃣"
+  - name: "@v2ray1_ng | US🇺🇸 | 156.225.67.101:53797 | 103.65ms | 0️⃣2️⃣"
     server: 156.225.67.101
     port: 53797
     type: vmess
@@ -368,7 +352,7 @@ proxies:
     skip-cert-verify: true
     servername: ""
     udp: true
-  - name: "@vless_vmess | RELAY🚩 | ecc.vtcss.top:443 | 309.89ms | 0️⃣1️⃣"
+  - name: "@vless_vmess | US🇺🇸 | ecc.vtcss.top:443 | 288.93ms | 0️⃣1️⃣"
     server: 188.114.96.7
     port: 443
     type: vmess
@@ -384,7 +368,7 @@ proxies:
       headers:
         Host: ecc.vtcss.top
     udp: true
-  - name: "@vless_vmess | RELAY🚩 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 68.6ms | 0️⃣2️⃣"
+  - name: "@vless_vmess | RELAY🚩 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 63.52ms | 0️⃣2️⃣"
     server: 104.20.47.106
     port: 443
     type: vmess
@@ -400,7 +384,7 @@ proxies:
       headers:
         Host: wispy-bread-83b4.bangolan121980.workers.dev
     udp: true
-  - name: "@vmess_vless_v2rayng | RELAY🚩 | www.speedtest.net:2053 | 17.58ms | 0️⃣1️⃣"
+  - name: "@vmess_vless_v2rayng | RELAY🚩 | www.speedtest.net:2053 | 14.8ms | 0️⃣1️⃣"
     server: sub1.blackboly.beauty
     port: 2053
     type: vmess
@@ -419,7 +403,7 @@ proxies:
         Host:
           - www.speedtest.net
     udp: true
-  - name: "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 237.98ms | 0️⃣1️⃣"
+  - name: "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 210ms | 0️⃣1️⃣"
     server: 104.16.106.32
     port: 2096
     type: vmess
@@ -433,7 +417,7 @@ proxies:
     grpc-opts:
       grpc-service-name: vmgrpc
     udp: true
-  - name: "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 215.05ms | 0️⃣2️⃣"
+  - name: "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 211.5ms | 0️⃣2️⃣"
     server: 104.31.16.65
     port: 2096
     type: vmess
@@ -447,7 +431,7 @@ proxies:
     grpc-opts:
       grpc-service-name: vmgrpc
     udp: true
-  - name: "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 236.35ms | 0️⃣3️⃣"
+  - name: "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 172.97ms | 0️⃣3️⃣"
     server: 104.31.16.65
     port: 2096
     type: vmess
@@ -461,23 +445,7 @@ proxies:
     grpc-opts:
       grpc-service-name: vmgrpc
     udp: true
-  - name: "@ConfigsHUB | US🇺🇸 | V2ray.Vmesskhodam.top:8443 | 325.04ms | 0️⃣1️⃣"
-    server: vmesskhodammci1.ddns.net
-    port: 8443
-    type: vmess
-    uuid: 9c6570ee-0739-43ee-9ae1-d543b1aebc6d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: V2ray.Vmesskhodam.top
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: V2ray.Vmesskhodam.top
-    udp: true
-  - name: "@proxystore11 | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 186.73ms | 0️⃣1️⃣"
+  - name: "@proxystore11 | RELAY🚩 | notdirect.howhealthyistoomajreally.homes:443 | 21.05ms | 0️⃣1️⃣"
     server: 172.67.150.82
     port: 443
     type: vmess
@@ -493,7 +461,7 @@ proxies:
       headers:
         Host: notdirect.howhealthyistoomajreally.homes
     udp: true
-  - name: "@yaney_01 | RELAY🚩 | sub2.saintink.eu.org:443 | 164.14ms | 0️⃣1️⃣"
+  - name: "@yaney_01 | US🇺🇸 | sub2.saintink.eu.org:443 | 147.27ms | 0️⃣1️⃣"
     server: wi.saintink.eu.org
     port: 443
     type: vmess
@@ -509,7 +477,7 @@ proxies:
       headers:
         Host: sub2.saintink.eu.org
     udp: true
-  - name: "@yaney_01 | NL🇳🇱 | 157.245.69.64:4531 | 112.03ms | 0️⃣2️⃣"
+  - name: "@yaney_01 | NL🇳🇱 | 157.245.69.64:4531 | 87.19ms | 0️⃣2️⃣"
     server: 157.245.69.64
     port: 4531
     type: vmess
@@ -520,7 +488,7 @@ proxies:
     skip-cert-verify: true
     servername: ""
     udp: true
-  - name: "@yaney_01 | US🇺🇸 | downloads.moecats.xyz:2052 | 107.56ms | 0️⃣3️⃣"
+  - name: "@yaney_01 | US🇺🇸 | downloads.moecats.xyz:2052 | 83.29ms | 0️⃣3️⃣"
     server: free3.moecats.xyz
     port: 2052
     type: vmess
@@ -536,7 +504,23 @@ proxies:
       headers:
         Host: downloads.moecats.xyz
     udp: true
-  - name: "@fnet00 | DE🇩🇪 | 91.107.131.254:8443 | 127.25ms | 0️⃣1️⃣"
+  - name: "@Hope_Net | RELAY🚩 | quranweb15.xyz:443 | 32.23ms | 0️⃣1️⃣"
+    server: quranweb15.xyz
+    port: 443
+    type: vmess
+    uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: quranweb15.xyz
+    network: ws
+    ws-opts:
+      path: /current_time
+      headers:
+        Host: quranweb15.xyz
+    udp: true
+  - name: "@fnet00 | DE🇩🇪 | 91.107.131.254:8443 | 96.17ms | 0️⃣1️⃣"
     server: 91.107.131.254
     port: 8443
     type: vmess
@@ -552,7 +536,7 @@ proxies:
       path:
         - /
     udp: true
-  - name: "@v2Line | FR🇫🇷 | 141.94.222.208:2082 | 121.84ms | 0️⃣1️⃣"
+  - name: "@v2Line | FR🇫🇷 | 141.94.222.208:2082 | 87.27ms | 0️⃣1️⃣"
     server: 141.94.222.208
     port: 2082
     type: vmess
@@ -568,7 +552,7 @@ proxies:
       headers:
         Host: ""
     udp: true
-  - name: "@v2Line | GB🇬🇧 | vuk2.0bad.com:443 | 148.5ms | 0️⃣2️⃣"
+  - name: "@v2Line | GB🇬🇧 | vuk2.0bad.com:443 | 151.44ms | 0️⃣2️⃣"
     server: vuk2.0bad.com
     port: 443
     type: vmess
@@ -584,23 +568,7 @@ proxies:
       headers:
         Host: vuk2.0bad.com
     udp: true
-  - name: "@v2Line | HK🇭🇰 | 8.210.128.146:36788 | 184.7ms | 0️⃣3️⃣"
-    server: 8.210.128.146
-    port: 36788
-    type: vmess
-    uuid: 34ae890c-eada-4160-f7ba-a2d9fba215af
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ""
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: ""
-    udp: true
-  - name: "@Awlix_ir | US🇺🇸 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 14.47ms | 0️⃣1️⃣"
+  - name: "@Awlix_ir | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 21.48ms | 0️⃣1️⃣"
     server: 104.31.16.93
     port: 2053
     type: vmess
@@ -614,7 +582,7 @@ proxies:
     grpc-opts:
       grpc-service-name: /
     udp: true
-  - name: "@Awlix_ir | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 17.55ms | 0️⃣2️⃣"
+  - name: "@Awlix_ir | US🇺🇸 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 6.21ms | 0️⃣2️⃣"
     server: 104.20.19.160
     port: 2053
     type: vmess
@@ -628,7 +596,7 @@ proxies:
     grpc-opts:
       grpc-service-name: /
     udp: true
-  - name: "@Awlix_ir | US🇺🇸 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 57.99ms | 0️⃣3️⃣"
+  - name: "@Awlix_ir | US🇺🇸 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 46ms | 0️⃣3️⃣"
     server: 104.31.16.9
     port: 2096
     type: vmess
@@ -642,11 +610,11 @@ proxies:
     grpc-opts:
       grpc-service-name: /
     udp: true
-  - name: "@FreakConfig | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 512.71ms | 0️⃣1️⃣"
-    server: 104.31.16.30
+  - name: "@FreakConfig | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 421.53ms | 0️⃣1️⃣"
+    server: 104.31.16.65
     port: 443
     type: vmess
-    uuid: F5A0B71E-85AA-48FF-99D1-9F3B8459DA49
+    uuid: 4C73AF78-54D4-44E2-A060-E11D3E461876
     alterId: 0
     cipher: auto
     tls: true
@@ -658,83 +626,66 @@ proxies:
       headers:
         Host: Amsterdam.bobbykotick.rip
     udp: true
-  - name: "@FreakConfig | RELAY🚩 | wxxjp.e5outllok.me:80 | 14.85ms | 0️⃣2️⃣"
-    server: 172.67.149.81
-    port: 80
+  - name: "@FreakConfig | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 6.04ms | 0️⃣2️⃣"
+    server: 172.67.150.82
+    port: 443
     type: vmess
-    uuid: 6a5de736-3fff-4c56-b92c-8a948cfdc9e9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: wxxjp.e5outllok.me
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: wxxjp.e5outllok.me
-    udp: true
-  - name: "@FreakConfig | RELAY🚩 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 15.07ms | 0️⃣3️⃣"
-    server: 104.31.16.9
-    port: 2096
-    type: vmess
-    uuid: d0de37eb-f713-4fce-b2ea-295054dfac76
+    uuid: e35026da-e985-49ca-b43b-276062a535a6
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop
-    network: grpc
-    grpc-opts:
-      grpc-service-name: /
+    servername: notdirect.howhealthyistoomajreally.homes
+    network: ws
+    ws-opts:
+      path: /pNV7izRFLO8rGCkIH66kMFPa
+      headers:
+        Host: notdirect.howhealthyistoomajreally.homes
     udp: true
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
-      - "@v2raycollectordonate | US🇺🇸 | speedtest.net:443 | 29.67ms | 0️⃣1️⃣"
-      - "@v2raycollectordonate | US🇺🇸 | Dusseldorf.bobbykotick.rip:443 | 243.33ms | 0️⃣2️⃣"
-      - "@v2raycollectordonate | RELAY🚩 | Amsterdam.bobbykotick.rip:443 | 54.66ms | 0️⃣3️⃣"
-      - "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 15.09ms | 0️⃣4️⃣"
-      - "@v2raycollectordonate | RELAY🚩 | Dusseldorf.bobbykotick.rip:443 | 15.49ms | 0️⃣5️⃣"
-      - "@iP_CF | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 58.42ms | 0️⃣1️⃣"
-      - "@azadi_az_inja_migzare | US🇺🇸 | speedtest.net:443 | 13.79ms | 0️⃣1️⃣"
-      - "@free4allVPN | KR🇰🇷 | 152.67.218.38:443 | 159.69ms | 0️⃣1️⃣"
-      - "@free4allVPN | GB🇬🇧 | vuk1.0bad.com:443 | 170.14ms | 0️⃣2️⃣"
-      - "@oneclickvpnkeys | RELAY🚩 | wxxjp.e5outllok.me:80 | 51.32ms | 0️⃣1️⃣"
-      - "@oneclickvpnkeys | US🇺🇸 | wxxjp.e5outllok.me:80 | 14.77ms | 0️⃣2️⃣"
-      - "@oneclickvpnkeys | RELAY🚩 | wxll.e5outllok.me:80 | 55.81ms | 0️⃣3️⃣"
-      - "@prrofile_purple | US🇺🇸 | 67.21.64.84:43123 | 38.36ms | 0️⃣1️⃣"
-      - "@prrofile_purple | US🇺🇸 | 89.116.38.188:3456 | 45.68ms | 0️⃣2️⃣"
-      - "@prrofile_purple | DE🇩🇪 | 116.202.30.76:42000 | 124.62ms | 0️⃣3️⃣"
-      - "@customv2ray | US🇺🇸 | 45.199.138.173:43074 | 138.08ms | 0️⃣1️⃣"
-      - "@customv2ray | US🇺🇸 | us6.cachexy.cf:80 | 228.29ms | 0️⃣2️⃣"
-      - "@hashmakvpn | DE🇩🇪 | 91.107.131.254:8443 | 128.66ms | 0️⃣1️⃣"
-      - "@Proxy_PJ | US🇺🇸 | 89.116.38.185:3456 | 51.14ms | 0️⃣1️⃣"
-      - "@Proxy_PJ | US🇺🇸 | 89.116.38.193:3456 | 45.91ms | 0️⃣3️⃣"
-      - "@v2ray1_ng | FR🇫🇷 | eu-2.0rd.net:443 | 167.7ms | 0️⃣1️⃣"
-      - "@v2ray1_ng | US🇺🇸 | 156.225.67.101:53797 | 152.2ms | 0️⃣2️⃣"
-      - "@vless_vmess | RELAY🚩 | ecc.vtcss.top:443 | 309.89ms | 0️⃣1️⃣"
-      - "@vless_vmess | RELAY🚩 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 68.6ms | 0️⃣2️⃣"
-      - "@vmess_vless_v2rayng | RELAY🚩 | www.speedtest.net:2053 | 17.58ms | 0️⃣1️⃣"
-      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 237.98ms | 0️⃣1️⃣"
-      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 215.05ms | 0️⃣2️⃣"
-      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 236.35ms | 0️⃣3️⃣"
-      - "@ConfigsHUB | US🇺🇸 | V2ray.Vmesskhodam.top:8443 | 325.04ms | 0️⃣1️⃣"
-      - "@proxystore11 | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 186.73ms | 0️⃣1️⃣"
-      - "@yaney_01 | RELAY🚩 | sub2.saintink.eu.org:443 | 164.14ms | 0️⃣1️⃣"
-      - "@yaney_01 | NL🇳🇱 | 157.245.69.64:4531 | 112.03ms | 0️⃣2️⃣"
-      - "@yaney_01 | US🇺🇸 | downloads.moecats.xyz:2052 | 107.56ms | 0️⃣3️⃣"
-      - "@fnet00 | DE🇩🇪 | 91.107.131.254:8443 | 127.25ms | 0️⃣1️⃣"
-      - "@v2Line | FR🇫🇷 | 141.94.222.208:2082 | 121.84ms | 0️⃣1️⃣"
-      - "@v2Line | GB🇬🇧 | vuk2.0bad.com:443 | 148.5ms | 0️⃣2️⃣"
-      - "@v2Line | HK🇭🇰 | 8.210.128.146:36788 | 184.7ms | 0️⃣3️⃣"
-      - "@Awlix_ir | US🇺🇸 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 14.47ms | 0️⃣1️⃣"
-      - "@Awlix_ir | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 17.55ms | 0️⃣2️⃣"
-      - "@Awlix_ir | US🇺🇸 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 57.99ms | 0️⃣3️⃣"
-      - "@FreakConfig | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 512.71ms | 0️⃣1️⃣"
-      - "@FreakConfig | RELAY🚩 | wxxjp.e5outllok.me:80 | 14.85ms | 0️⃣2️⃣"
-      - "@FreakConfig | RELAY🚩 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 15.07ms | 0️⃣3️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 159.01ms | 0️⃣1️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 6.19ms | 0️⃣2️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | Dusseldorf.bobbykotick.rip:443 | 254.14ms | 0️⃣3️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | www.83993175.xyz:443 | 137.12ms | 0️⃣4️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | 47.89.211.175:80 | 80.58ms | 0️⃣5️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | 45.199.138.173:43074 | 87.56ms | 0️⃣6️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | 89.116.38.172:3456 | 12.26ms | 0️⃣7️⃣"
+      - "@iP_CF | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 27.88ms | 0️⃣1️⃣"
+      - "@azadi_az_inja_migzare | US🇺🇸 | speedtest.net:443 | 6.01ms | 0️⃣1️⃣"
+      - "@free4allVPN | KR🇰🇷 | 152.67.218.38:443 | 192.61ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | US🇺🇸 | wxll.e5outllok.me:80 | 21.23ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | US🇺🇸 | www.baidu.com:443 | 737.54ms | 0️⃣2️⃣"
+      - "@prrofile_purple | US🇺🇸 | 67.21.64.84:43123 | 59.93ms | 0️⃣1️⃣"
+      - "@prrofile_purple | US🇺🇸 | 89.116.38.188:3456 | 12.96ms | 0️⃣2️⃣"
+      - "@prrofile_purple | DE🇩🇪 | 116.202.30.76:42000 | 96.97ms | 0️⃣3️⃣"
+      - "@customv2ray | US🇺🇸 | us6.cachexy.cf:80 | 470.52ms | 0️⃣2️⃣"
+      - "@hashmakvpn | DE🇩🇪 | 91.107.131.254:8443 | 97.32ms | 0️⃣1️⃣"
+      - "@Proxy_PJ | US🇺🇸 | 89.116.38.185:3456 | 23.69ms | 0️⃣1️⃣"
+      - "@Proxy_PJ | US🇺🇸 | 89.116.38.193:3456 | 25ms | 0️⃣3️⃣"
+      - "@v2ray1_ng | FR🇫🇷 | eu-2.0rd.net:443 | 139.85ms | 0️⃣1️⃣"
+      - "@v2ray1_ng | US🇺🇸 | 156.225.67.101:53797 | 103.65ms | 0️⃣2️⃣"
+      - "@vless_vmess | US🇺🇸 | ecc.vtcss.top:443 | 288.93ms | 0️⃣1️⃣"
+      - "@vless_vmess | RELAY🚩 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 63.52ms | 0️⃣2️⃣"
+      - "@vmess_vless_v2rayng | RELAY🚩 | www.speedtest.net:2053 | 14.8ms | 0️⃣1️⃣"
+      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 210ms | 0️⃣1️⃣"
+      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 211.5ms | 0️⃣2️⃣"
+      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 172.97ms | 0️⃣3️⃣"
+      - "@proxystore11 | RELAY🚩 | notdirect.howhealthyistoomajreally.homes:443 | 21.05ms | 0️⃣1️⃣"
+      - "@yaney_01 | US🇺🇸 | sub2.saintink.eu.org:443 | 147.27ms | 0️⃣1️⃣"
+      - "@yaney_01 | NL🇳🇱 | 157.245.69.64:4531 | 87.19ms | 0️⃣2️⃣"
+      - "@yaney_01 | US🇺🇸 | downloads.moecats.xyz:2052 | 83.29ms | 0️⃣3️⃣"
+      - "@Hope_Net | RELAY🚩 | quranweb15.xyz:443 | 32.23ms | 0️⃣1️⃣"
+      - "@fnet00 | DE🇩🇪 | 91.107.131.254:8443 | 96.17ms | 0️⃣1️⃣"
+      - "@v2Line | FR🇫🇷 | 141.94.222.208:2082 | 87.27ms | 0️⃣1️⃣"
+      - "@v2Line | GB🇬🇧 | vuk2.0bad.com:443 | 151.44ms | 0️⃣2️⃣"
+      - "@Awlix_ir | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 21.48ms | 0️⃣1️⃣"
+      - "@Awlix_ir | US🇺🇸 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 6.21ms | 0️⃣2️⃣"
+      - "@Awlix_ir | US🇺🇸 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 46ms | 0️⃣3️⃣"
+      - "@FreakConfig | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 421.53ms | 0️⃣1️⃣"
+      - "@FreakConfig | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 6.04ms | 0️⃣2️⃣"
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -745,145 +696,136 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@v2raycollectordonate | US🇺🇸 | speedtest.net:443 | 29.67ms | 0️⃣1️⃣"
-      - "@v2raycollectordonate | US🇺🇸 | Dusseldorf.bobbykotick.rip:443 | 243.33ms | 0️⃣2️⃣"
-      - "@v2raycollectordonate | RELAY🚩 | Amsterdam.bobbykotick.rip:443 | 54.66ms | 0️⃣3️⃣"
-      - "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 15.09ms | 0️⃣4️⃣"
-      - "@v2raycollectordonate | RELAY🚩 | Dusseldorf.bobbykotick.rip:443 | 15.49ms | 0️⃣5️⃣"
-      - "@iP_CF | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 58.42ms | 0️⃣1️⃣"
-      - "@azadi_az_inja_migzare | US🇺🇸 | speedtest.net:443 | 13.79ms | 0️⃣1️⃣"
-      - "@free4allVPN | KR🇰🇷 | 152.67.218.38:443 | 159.69ms | 0️⃣1️⃣"
-      - "@free4allVPN | GB🇬🇧 | vuk1.0bad.com:443 | 170.14ms | 0️⃣2️⃣"
-      - "@oneclickvpnkeys | RELAY🚩 | wxxjp.e5outllok.me:80 | 51.32ms | 0️⃣1️⃣"
-      - "@oneclickvpnkeys | US🇺🇸 | wxxjp.e5outllok.me:80 | 14.77ms | 0️⃣2️⃣"
-      - "@oneclickvpnkeys | RELAY🚩 | wxll.e5outllok.me:80 | 55.81ms | 0️⃣3️⃣"
-      - "@prrofile_purple | US🇺🇸 | 67.21.64.84:43123 | 38.36ms | 0️⃣1️⃣"
-      - "@prrofile_purple | US🇺🇸 | 89.116.38.188:3456 | 45.68ms | 0️⃣2️⃣"
-      - "@prrofile_purple | DE🇩🇪 | 116.202.30.76:42000 | 124.62ms | 0️⃣3️⃣"
-      - "@customv2ray | US🇺🇸 | 45.199.138.173:43074 | 138.08ms | 0️⃣1️⃣"
-      - "@customv2ray | US🇺🇸 | us6.cachexy.cf:80 | 228.29ms | 0️⃣2️⃣"
-      - "@hashmakvpn | DE🇩🇪 | 91.107.131.254:8443 | 128.66ms | 0️⃣1️⃣"
-      - "@Proxy_PJ | US🇺🇸 | 89.116.38.185:3456 | 51.14ms | 0️⃣1️⃣"
-      - "@Proxy_PJ | US🇺🇸 | 89.116.38.193:3456 | 45.91ms | 0️⃣3️⃣"
-      - "@v2ray1_ng | FR🇫🇷 | eu-2.0rd.net:443 | 167.7ms | 0️⃣1️⃣"
-      - "@v2ray1_ng | US🇺🇸 | 156.225.67.101:53797 | 152.2ms | 0️⃣2️⃣"
-      - "@vless_vmess | RELAY🚩 | ecc.vtcss.top:443 | 309.89ms | 0️⃣1️⃣"
-      - "@vless_vmess | RELAY🚩 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 68.6ms | 0️⃣2️⃣"
-      - "@vmess_vless_v2rayng | RELAY🚩 | www.speedtest.net:2053 | 17.58ms | 0️⃣1️⃣"
-      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 237.98ms | 0️⃣1️⃣"
-      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 215.05ms | 0️⃣2️⃣"
-      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 236.35ms | 0️⃣3️⃣"
-      - "@ConfigsHUB | US🇺🇸 | V2ray.Vmesskhodam.top:8443 | 325.04ms | 0️⃣1️⃣"
-      - "@proxystore11 | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 186.73ms | 0️⃣1️⃣"
-      - "@yaney_01 | RELAY🚩 | sub2.saintink.eu.org:443 | 164.14ms | 0️⃣1️⃣"
-      - "@yaney_01 | NL🇳🇱 | 157.245.69.64:4531 | 112.03ms | 0️⃣2️⃣"
-      - "@yaney_01 | US🇺🇸 | downloads.moecats.xyz:2052 | 107.56ms | 0️⃣3️⃣"
-      - "@fnet00 | DE🇩🇪 | 91.107.131.254:8443 | 127.25ms | 0️⃣1️⃣"
-      - "@v2Line | FR🇫🇷 | 141.94.222.208:2082 | 121.84ms | 0️⃣1️⃣"
-      - "@v2Line | GB🇬🇧 | vuk2.0bad.com:443 | 148.5ms | 0️⃣2️⃣"
-      - "@v2Line | HK🇭🇰 | 8.210.128.146:36788 | 184.7ms | 0️⃣3️⃣"
-      - "@Awlix_ir | US🇺🇸 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 14.47ms | 0️⃣1️⃣"
-      - "@Awlix_ir | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 17.55ms | 0️⃣2️⃣"
-      - "@Awlix_ir | US🇺🇸 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 57.99ms | 0️⃣3️⃣"
-      - "@FreakConfig | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 512.71ms | 0️⃣1️⃣"
-      - "@FreakConfig | RELAY🚩 | wxxjp.e5outllok.me:80 | 14.85ms | 0️⃣2️⃣"
-      - "@FreakConfig | RELAY🚩 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 15.07ms | 0️⃣3️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 159.01ms | 0️⃣1️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 6.19ms | 0️⃣2️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | Dusseldorf.bobbykotick.rip:443 | 254.14ms | 0️⃣3️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | www.83993175.xyz:443 | 137.12ms | 0️⃣4️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | 47.89.211.175:80 | 80.58ms | 0️⃣5️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | 45.199.138.173:43074 | 87.56ms | 0️⃣6️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | 89.116.38.172:3456 | 12.26ms | 0️⃣7️⃣"
+      - "@iP_CF | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 27.88ms | 0️⃣1️⃣"
+      - "@azadi_az_inja_migzare | US🇺🇸 | speedtest.net:443 | 6.01ms | 0️⃣1️⃣"
+      - "@free4allVPN | KR🇰🇷 | 152.67.218.38:443 | 192.61ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | US🇺🇸 | wxll.e5outllok.me:80 | 21.23ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | US🇺🇸 | www.baidu.com:443 | 737.54ms | 0️⃣2️⃣"
+      - "@prrofile_purple | US🇺🇸 | 67.21.64.84:43123 | 59.93ms | 0️⃣1️⃣"
+      - "@prrofile_purple | US🇺🇸 | 89.116.38.188:3456 | 12.96ms | 0️⃣2️⃣"
+      - "@prrofile_purple | DE🇩🇪 | 116.202.30.76:42000 | 96.97ms | 0️⃣3️⃣"
+      - "@customv2ray | US🇺🇸 | us6.cachexy.cf:80 | 470.52ms | 0️⃣2️⃣"
+      - "@hashmakvpn | DE🇩🇪 | 91.107.131.254:8443 | 97.32ms | 0️⃣1️⃣"
+      - "@Proxy_PJ | US🇺🇸 | 89.116.38.185:3456 | 23.69ms | 0️⃣1️⃣"
+      - "@Proxy_PJ | US🇺🇸 | 89.116.38.193:3456 | 25ms | 0️⃣3️⃣"
+      - "@v2ray1_ng | FR🇫🇷 | eu-2.0rd.net:443 | 139.85ms | 0️⃣1️⃣"
+      - "@v2ray1_ng | US🇺🇸 | 156.225.67.101:53797 | 103.65ms | 0️⃣2️⃣"
+      - "@vless_vmess | US🇺🇸 | ecc.vtcss.top:443 | 288.93ms | 0️⃣1️⃣"
+      - "@vless_vmess | RELAY🚩 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 63.52ms | 0️⃣2️⃣"
+      - "@vmess_vless_v2rayng | RELAY🚩 | www.speedtest.net:2053 | 14.8ms | 0️⃣1️⃣"
+      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 210ms | 0️⃣1️⃣"
+      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 211.5ms | 0️⃣2️⃣"
+      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 172.97ms | 0️⃣3️⃣"
+      - "@proxystore11 | RELAY🚩 | notdirect.howhealthyistoomajreally.homes:443 | 21.05ms | 0️⃣1️⃣"
+      - "@yaney_01 | US🇺🇸 | sub2.saintink.eu.org:443 | 147.27ms | 0️⃣1️⃣"
+      - "@yaney_01 | NL🇳🇱 | 157.245.69.64:4531 | 87.19ms | 0️⃣2️⃣"
+      - "@yaney_01 | US🇺🇸 | downloads.moecats.xyz:2052 | 83.29ms | 0️⃣3️⃣"
+      - "@Hope_Net | RELAY🚩 | quranweb15.xyz:443 | 32.23ms | 0️⃣1️⃣"
+      - "@fnet00 | DE🇩🇪 | 91.107.131.254:8443 | 96.17ms | 0️⃣1️⃣"
+      - "@v2Line | FR🇫🇷 | 141.94.222.208:2082 | 87.27ms | 0️⃣1️⃣"
+      - "@v2Line | GB🇬🇧 | vuk2.0bad.com:443 | 151.44ms | 0️⃣2️⃣"
+      - "@Awlix_ir | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 21.48ms | 0️⃣1️⃣"
+      - "@Awlix_ir | US🇺🇸 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 6.21ms | 0️⃣2️⃣"
+      - "@Awlix_ir | US🇺🇸 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 46ms | 0️⃣3️⃣"
+      - "@FreakConfig | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 421.53ms | 0️⃣1️⃣"
+      - "@FreakConfig | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 6.04ms | 0️⃣2️⃣"
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - "@v2raycollectordonate | US🇺🇸 | speedtest.net:443 | 29.67ms | 0️⃣1️⃣"
-      - "@v2raycollectordonate | US🇺🇸 | Dusseldorf.bobbykotick.rip:443 | 243.33ms | 0️⃣2️⃣"
-      - "@v2raycollectordonate | RELAY🚩 | Amsterdam.bobbykotick.rip:443 | 54.66ms | 0️⃣3️⃣"
-      - "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 15.09ms | 0️⃣4️⃣"
-      - "@v2raycollectordonate | RELAY🚩 | Dusseldorf.bobbykotick.rip:443 | 15.49ms | 0️⃣5️⃣"
-      - "@iP_CF | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 58.42ms | 0️⃣1️⃣"
-      - "@azadi_az_inja_migzare | US🇺🇸 | speedtest.net:443 | 13.79ms | 0️⃣1️⃣"
-      - "@free4allVPN | KR🇰🇷 | 152.67.218.38:443 | 159.69ms | 0️⃣1️⃣"
-      - "@free4allVPN | GB🇬🇧 | vuk1.0bad.com:443 | 170.14ms | 0️⃣2️⃣"
-      - "@oneclickvpnkeys | RELAY🚩 | wxxjp.e5outllok.me:80 | 51.32ms | 0️⃣1️⃣"
-      - "@oneclickvpnkeys | US🇺🇸 | wxxjp.e5outllok.me:80 | 14.77ms | 0️⃣2️⃣"
-      - "@oneclickvpnkeys | RELAY🚩 | wxll.e5outllok.me:80 | 55.81ms | 0️⃣3️⃣"
-      - "@prrofile_purple | US🇺🇸 | 67.21.64.84:43123 | 38.36ms | 0️⃣1️⃣"
-      - "@prrofile_purple | US🇺🇸 | 89.116.38.188:3456 | 45.68ms | 0️⃣2️⃣"
-      - "@prrofile_purple | DE🇩🇪 | 116.202.30.76:42000 | 124.62ms | 0️⃣3️⃣"
-      - "@customv2ray | US🇺🇸 | 45.199.138.173:43074 | 138.08ms | 0️⃣1️⃣"
-      - "@customv2ray | US🇺🇸 | us6.cachexy.cf:80 | 228.29ms | 0️⃣2️⃣"
-      - "@hashmakvpn | DE🇩🇪 | 91.107.131.254:8443 | 128.66ms | 0️⃣1️⃣"
-      - "@Proxy_PJ | US🇺🇸 | 89.116.38.185:3456 | 51.14ms | 0️⃣1️⃣"
-      - "@Proxy_PJ | US🇺🇸 | 89.116.38.193:3456 | 45.91ms | 0️⃣3️⃣"
-      - "@v2ray1_ng | FR🇫🇷 | eu-2.0rd.net:443 | 167.7ms | 0️⃣1️⃣"
-      - "@v2ray1_ng | US🇺🇸 | 156.225.67.101:53797 | 152.2ms | 0️⃣2️⃣"
-      - "@vless_vmess | RELAY🚩 | ecc.vtcss.top:443 | 309.89ms | 0️⃣1️⃣"
-      - "@vless_vmess | RELAY🚩 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 68.6ms | 0️⃣2️⃣"
-      - "@vmess_vless_v2rayng | RELAY🚩 | www.speedtest.net:2053 | 17.58ms | 0️⃣1️⃣"
-      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 237.98ms | 0️⃣1️⃣"
-      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 215.05ms | 0️⃣2️⃣"
-      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 236.35ms | 0️⃣3️⃣"
-      - "@ConfigsHUB | US🇺🇸 | V2ray.Vmesskhodam.top:8443 | 325.04ms | 0️⃣1️⃣"
-      - "@proxystore11 | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 186.73ms | 0️⃣1️⃣"
-      - "@yaney_01 | RELAY🚩 | sub2.saintink.eu.org:443 | 164.14ms | 0️⃣1️⃣"
-      - "@yaney_01 | NL🇳🇱 | 157.245.69.64:4531 | 112.03ms | 0️⃣2️⃣"
-      - "@yaney_01 | US🇺🇸 | downloads.moecats.xyz:2052 | 107.56ms | 0️⃣3️⃣"
-      - "@fnet00 | DE🇩🇪 | 91.107.131.254:8443 | 127.25ms | 0️⃣1️⃣"
-      - "@v2Line | FR🇫🇷 | 141.94.222.208:2082 | 121.84ms | 0️⃣1️⃣"
-      - "@v2Line | GB🇬🇧 | vuk2.0bad.com:443 | 148.5ms | 0️⃣2️⃣"
-      - "@v2Line | HK🇭🇰 | 8.210.128.146:36788 | 184.7ms | 0️⃣3️⃣"
-      - "@Awlix_ir | US🇺🇸 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 14.47ms | 0️⃣1️⃣"
-      - "@Awlix_ir | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 17.55ms | 0️⃣2️⃣"
-      - "@Awlix_ir | US🇺🇸 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 57.99ms | 0️⃣3️⃣"
-      - "@FreakConfig | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 512.71ms | 0️⃣1️⃣"
-      - "@FreakConfig | RELAY🚩 | wxxjp.e5outllok.me:80 | 14.85ms | 0️⃣2️⃣"
-      - "@FreakConfig | RELAY🚩 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 15.07ms | 0️⃣3️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 159.01ms | 0️⃣1️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 6.19ms | 0️⃣2️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | Dusseldorf.bobbykotick.rip:443 | 254.14ms | 0️⃣3️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | www.83993175.xyz:443 | 137.12ms | 0️⃣4️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | 47.89.211.175:80 | 80.58ms | 0️⃣5️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | 45.199.138.173:43074 | 87.56ms | 0️⃣6️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | 89.116.38.172:3456 | 12.26ms | 0️⃣7️⃣"
+      - "@iP_CF | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 27.88ms | 0️⃣1️⃣"
+      - "@azadi_az_inja_migzare | US🇺🇸 | speedtest.net:443 | 6.01ms | 0️⃣1️⃣"
+      - "@free4allVPN | KR🇰🇷 | 152.67.218.38:443 | 192.61ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | US🇺🇸 | wxll.e5outllok.me:80 | 21.23ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | US🇺🇸 | www.baidu.com:443 | 737.54ms | 0️⃣2️⃣"
+      - "@prrofile_purple | US🇺🇸 | 67.21.64.84:43123 | 59.93ms | 0️⃣1️⃣"
+      - "@prrofile_purple | US🇺🇸 | 89.116.38.188:3456 | 12.96ms | 0️⃣2️⃣"
+      - "@prrofile_purple | DE🇩🇪 | 116.202.30.76:42000 | 96.97ms | 0️⃣3️⃣"
+      - "@customv2ray | US🇺🇸 | us6.cachexy.cf:80 | 470.52ms | 0️⃣2️⃣"
+      - "@hashmakvpn | DE🇩🇪 | 91.107.131.254:8443 | 97.32ms | 0️⃣1️⃣"
+      - "@Proxy_PJ | US🇺🇸 | 89.116.38.185:3456 | 23.69ms | 0️⃣1️⃣"
+      - "@Proxy_PJ | US🇺🇸 | 89.116.38.193:3456 | 25ms | 0️⃣3️⃣"
+      - "@v2ray1_ng | FR🇫🇷 | eu-2.0rd.net:443 | 139.85ms | 0️⃣1️⃣"
+      - "@v2ray1_ng | US🇺🇸 | 156.225.67.101:53797 | 103.65ms | 0️⃣2️⃣"
+      - "@vless_vmess | US🇺🇸 | ecc.vtcss.top:443 | 288.93ms | 0️⃣1️⃣"
+      - "@vless_vmess | RELAY🚩 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 63.52ms | 0️⃣2️⃣"
+      - "@vmess_vless_v2rayng | RELAY🚩 | www.speedtest.net:2053 | 14.8ms | 0️⃣1️⃣"
+      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 210ms | 0️⃣1️⃣"
+      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 211.5ms | 0️⃣2️⃣"
+      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 172.97ms | 0️⃣3️⃣"
+      - "@proxystore11 | RELAY🚩 | notdirect.howhealthyistoomajreally.homes:443 | 21.05ms | 0️⃣1️⃣"
+      - "@yaney_01 | US🇺🇸 | sub2.saintink.eu.org:443 | 147.27ms | 0️⃣1️⃣"
+      - "@yaney_01 | NL🇳🇱 | 157.245.69.64:4531 | 87.19ms | 0️⃣2️⃣"
+      - "@yaney_01 | US🇺🇸 | downloads.moecats.xyz:2052 | 83.29ms | 0️⃣3️⃣"
+      - "@Hope_Net | RELAY🚩 | quranweb15.xyz:443 | 32.23ms | 0️⃣1️⃣"
+      - "@fnet00 | DE🇩🇪 | 91.107.131.254:8443 | 96.17ms | 0️⃣1️⃣"
+      - "@v2Line | FR🇫🇷 | 141.94.222.208:2082 | 87.27ms | 0️⃣1️⃣"
+      - "@v2Line | GB🇬🇧 | vuk2.0bad.com:443 | 151.44ms | 0️⃣2️⃣"
+      - "@Awlix_ir | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 21.48ms | 0️⃣1️⃣"
+      - "@Awlix_ir | US🇺🇸 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 6.21ms | 0️⃣2️⃣"
+      - "@Awlix_ir | US🇺🇸 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 46ms | 0️⃣3️⃣"
+      - "@FreakConfig | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 421.53ms | 0️⃣1️⃣"
+      - "@FreakConfig | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 6.04ms | 0️⃣2️⃣"
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@v2raycollectordonate | US🇺🇸 | speedtest.net:443 | 29.67ms | 0️⃣1️⃣"
-      - "@v2raycollectordonate | US🇺🇸 | Dusseldorf.bobbykotick.rip:443 | 243.33ms | 0️⃣2️⃣"
-      - "@v2raycollectordonate | RELAY🚩 | Amsterdam.bobbykotick.rip:443 | 54.66ms | 0️⃣3️⃣"
-      - "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 15.09ms | 0️⃣4️⃣"
-      - "@v2raycollectordonate | RELAY🚩 | Dusseldorf.bobbykotick.rip:443 | 15.49ms | 0️⃣5️⃣"
-      - "@iP_CF | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 58.42ms | 0️⃣1️⃣"
-      - "@azadi_az_inja_migzare | US🇺🇸 | speedtest.net:443 | 13.79ms | 0️⃣1️⃣"
-      - "@free4allVPN | KR🇰🇷 | 152.67.218.38:443 | 159.69ms | 0️⃣1️⃣"
-      - "@free4allVPN | GB🇬🇧 | vuk1.0bad.com:443 | 170.14ms | 0️⃣2️⃣"
-      - "@oneclickvpnkeys | RELAY🚩 | wxxjp.e5outllok.me:80 | 51.32ms | 0️⃣1️⃣"
-      - "@oneclickvpnkeys | US🇺🇸 | wxxjp.e5outllok.me:80 | 14.77ms | 0️⃣2️⃣"
-      - "@oneclickvpnkeys | RELAY🚩 | wxll.e5outllok.me:80 | 55.81ms | 0️⃣3️⃣"
-      - "@prrofile_purple | US🇺🇸 | 67.21.64.84:43123 | 38.36ms | 0️⃣1️⃣"
-      - "@prrofile_purple | US🇺🇸 | 89.116.38.188:3456 | 45.68ms | 0️⃣2️⃣"
-      - "@prrofile_purple | DE🇩🇪 | 116.202.30.76:42000 | 124.62ms | 0️⃣3️⃣"
-      - "@customv2ray | US🇺🇸 | 45.199.138.173:43074 | 138.08ms | 0️⃣1️⃣"
-      - "@customv2ray | US🇺🇸 | us6.cachexy.cf:80 | 228.29ms | 0️⃣2️⃣"
-      - "@hashmakvpn | DE🇩🇪 | 91.107.131.254:8443 | 128.66ms | 0️⃣1️⃣"
-      - "@Proxy_PJ | US🇺🇸 | 89.116.38.185:3456 | 51.14ms | 0️⃣1️⃣"
-      - "@Proxy_PJ | US🇺🇸 | 89.116.38.193:3456 | 45.91ms | 0️⃣3️⃣"
-      - "@v2ray1_ng | FR🇫🇷 | eu-2.0rd.net:443 | 167.7ms | 0️⃣1️⃣"
-      - "@v2ray1_ng | US🇺🇸 | 156.225.67.101:53797 | 152.2ms | 0️⃣2️⃣"
-      - "@vless_vmess | RELAY🚩 | ecc.vtcss.top:443 | 309.89ms | 0️⃣1️⃣"
-      - "@vless_vmess | RELAY🚩 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 68.6ms | 0️⃣2️⃣"
-      - "@vmess_vless_v2rayng | RELAY🚩 | www.speedtest.net:2053 | 17.58ms | 0️⃣1️⃣"
-      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 237.98ms | 0️⃣1️⃣"
-      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 215.05ms | 0️⃣2️⃣"
-      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 236.35ms | 0️⃣3️⃣"
-      - "@ConfigsHUB | US🇺🇸 | V2ray.Vmesskhodam.top:8443 | 325.04ms | 0️⃣1️⃣"
-      - "@proxystore11 | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 186.73ms | 0️⃣1️⃣"
-      - "@yaney_01 | RELAY🚩 | sub2.saintink.eu.org:443 | 164.14ms | 0️⃣1️⃣"
-      - "@yaney_01 | NL🇳🇱 | 157.245.69.64:4531 | 112.03ms | 0️⃣2️⃣"
-      - "@yaney_01 | US🇺🇸 | downloads.moecats.xyz:2052 | 107.56ms | 0️⃣3️⃣"
-      - "@fnet00 | DE🇩🇪 | 91.107.131.254:8443 | 127.25ms | 0️⃣1️⃣"
-      - "@v2Line | FR🇫🇷 | 141.94.222.208:2082 | 121.84ms | 0️⃣1️⃣"
-      - "@v2Line | GB🇬🇧 | vuk2.0bad.com:443 | 148.5ms | 0️⃣2️⃣"
-      - "@v2Line | HK🇭🇰 | 8.210.128.146:36788 | 184.7ms | 0️⃣3️⃣"
-      - "@Awlix_ir | US🇺🇸 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 14.47ms | 0️⃣1️⃣"
-      - "@Awlix_ir | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 17.55ms | 0️⃣2️⃣"
-      - "@Awlix_ir | US🇺🇸 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 57.99ms | 0️⃣3️⃣"
-      - "@FreakConfig | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 512.71ms | 0️⃣1️⃣"
-      - "@FreakConfig | RELAY🚩 | wxxjp.e5outllok.me:80 | 14.85ms | 0️⃣2️⃣"
-      - "@FreakConfig | RELAY🚩 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 15.07ms | 0️⃣3️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 159.01ms | 0️⃣1️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 6.19ms | 0️⃣2️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | Dusseldorf.bobbykotick.rip:443 | 254.14ms | 0️⃣3️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | www.83993175.xyz:443 | 137.12ms | 0️⃣4️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | 47.89.211.175:80 | 80.58ms | 0️⃣5️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | 45.199.138.173:43074 | 87.56ms | 0️⃣6️⃣"
+      - "@v2raycollectordonate | US🇺🇸 | 89.116.38.172:3456 | 12.26ms | 0️⃣7️⃣"
+      - "@iP_CF | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 27.88ms | 0️⃣1️⃣"
+      - "@azadi_az_inja_migzare | US🇺🇸 | speedtest.net:443 | 6.01ms | 0️⃣1️⃣"
+      - "@free4allVPN | KR🇰🇷 | 152.67.218.38:443 | 192.61ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | US🇺🇸 | wxll.e5outllok.me:80 | 21.23ms | 0️⃣1️⃣"
+      - "@oneclickvpnkeys | US🇺🇸 | www.baidu.com:443 | 737.54ms | 0️⃣2️⃣"
+      - "@prrofile_purple | US🇺🇸 | 67.21.64.84:43123 | 59.93ms | 0️⃣1️⃣"
+      - "@prrofile_purple | US🇺🇸 | 89.116.38.188:3456 | 12.96ms | 0️⃣2️⃣"
+      - "@prrofile_purple | DE🇩🇪 | 116.202.30.76:42000 | 96.97ms | 0️⃣3️⃣"
+      - "@customv2ray | US🇺🇸 | us6.cachexy.cf:80 | 470.52ms | 0️⃣2️⃣"
+      - "@hashmakvpn | DE🇩🇪 | 91.107.131.254:8443 | 97.32ms | 0️⃣1️⃣"
+      - "@Proxy_PJ | US🇺🇸 | 89.116.38.185:3456 | 23.69ms | 0️⃣1️⃣"
+      - "@Proxy_PJ | US🇺🇸 | 89.116.38.193:3456 | 25ms | 0️⃣3️⃣"
+      - "@v2ray1_ng | FR🇫🇷 | eu-2.0rd.net:443 | 139.85ms | 0️⃣1️⃣"
+      - "@v2ray1_ng | US🇺🇸 | 156.225.67.101:53797 | 103.65ms | 0️⃣2️⃣"
+      - "@vless_vmess | US🇺🇸 | ecc.vtcss.top:443 | 288.93ms | 0️⃣1️⃣"
+      - "@vless_vmess | RELAY🚩 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 63.52ms | 0️⃣2️⃣"
+      - "@vmess_vless_v2rayng | RELAY🚩 | www.speedtest.net:2053 | 14.8ms | 0️⃣1️⃣"
+      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 210ms | 0️⃣1️⃣"
+      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 211.5ms | 0️⃣2️⃣"
+      - "@Cov2ray | US🇺🇸 | ro1.socifiles.com:2096 | 172.97ms | 0️⃣3️⃣"
+      - "@proxystore11 | RELAY🚩 | notdirect.howhealthyistoomajreally.homes:443 | 21.05ms | 0️⃣1️⃣"
+      - "@yaney_01 | US🇺🇸 | sub2.saintink.eu.org:443 | 147.27ms | 0️⃣1️⃣"
+      - "@yaney_01 | NL🇳🇱 | 157.245.69.64:4531 | 87.19ms | 0️⃣2️⃣"
+      - "@yaney_01 | US🇺🇸 | downloads.moecats.xyz:2052 | 83.29ms | 0️⃣3️⃣"
+      - "@Hope_Net | RELAY🚩 | quranweb15.xyz:443 | 32.23ms | 0️⃣1️⃣"
+      - "@fnet00 | DE🇩🇪 | 91.107.131.254:8443 | 96.17ms | 0️⃣1️⃣"
+      - "@v2Line | FR🇫🇷 | 141.94.222.208:2082 | 87.27ms | 0️⃣1️⃣"
+      - "@v2Line | GB🇬🇧 | vuk2.0bad.com:443 | 151.44ms | 0️⃣2️⃣"
+      - "@Awlix_ir | RELAY🚩 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 21.48ms | 0️⃣1️⃣"
+      - "@Awlix_ir | US🇺🇸 | jofdji.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2053 | 6.21ms | 0️⃣2️⃣"
+      - "@Awlix_ir | US🇺🇸 | fjfyujfuykjyufk.irancel-mokhabera-mamad-raitel-mic-irancel-hamrah-aval-server.shop:2096 | 46ms | 0️⃣3️⃣"
+      - "@FreakConfig | US🇺🇸 | Amsterdam.bobbykotick.rip:443 | 421.53ms | 0️⃣1️⃣"
+      - "@FreakConfig | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 6.04ms | 0️⃣2️⃣"
 rules:
   - MATCH,MANUAL

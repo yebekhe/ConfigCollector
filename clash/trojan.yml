@@ -5,51 +5,54 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇩🇪 @v2raycollectordonate | DE🇩🇪 | 5.199.143.230:443 | 153.66ms | 0️⃣1️⃣, server: 5.199.143.230, port: 443, type: trojan, password: 092ab6fae1, sni: de1.connecton.surf, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 @PrivateVPNs | DE🇩🇪 | 52.57.179.170:22222 | 170.24ms | 0️⃣1️⃣, server: 52.57.179.170, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 @PrivateVPNs | DE🇩🇪 | 52.57.99.176:22222 | 189.02ms | 0️⃣2️⃣, server: 52.57.99.176, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 @PrivateVPNs | FR🇫🇷 | 13.39.180.117:22222 | 198.11ms | 0️⃣3️⃣, server: 13.39.180.117, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 @DirectVPN | FR🇫🇷 | 15.237.10.146:22222 | 168.2ms | 0️⃣1️⃣, server: 15.237.10.146, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 @DirectVPN | GB🇬🇧 | 35.178.252.121:22222 | 147.91ms | 0️⃣2️⃣, server: 35.178.252.121, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: "@DirectVPN | IE🇮🇪 | 34.240.109.8:22222 | 137.97ms | 0️⃣3️⃣", server: 34.240.109.8, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp3.yihaobao.xyz:10079 | 125.62ms | 0️⃣1️⃣, server: jp3.yihaobao.xyz, port: 10079, type: trojan, password: f7c73566-f8aa-47d3-96ea-92535c788de8, sni: tls.yihaobao.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp4.yihaobao.xyz:10078 | 126ms | 0️⃣2️⃣, server: jp4.yihaobao.xyz, port: 10078, type: trojan, password: f7c73566-f8aa-47d3-96ea-92535c788de8, sni: tls.yihaobao.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp5.yihaobao.xyz:10074 | 121.25ms | 0️⃣3️⃣, server: jp5.yihaobao.xyz, port: 10074, type: trojan, password: f7c73566-f8aa-47d3-96ea-92535c788de8, sni: tls.yihaobao.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 70.86ms | 0️⃣1️⃣, server: 51.81.82.15, port: 443, type: trojan, password: 938a20c0-3f42-11ee-add7-1239d0255272, skip-cert-verify: false, udp: true}
+  - {name: "@v2raycollectordonate | RELAY🚩 | ap.biglog.sbs:443 | 124.56ms | 0️⃣1️⃣", server: ap.biglog.sbs, port: 443, type: trojan, password: a3f6a1ba-2b87-4f08-b56d-4a1faf29e8a5, sni: cdn.biglog.sbs, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 @v2raycollectordonate | DE🇩🇪 | 5.199.143.230:443 | 84.32ms | 0️⃣2️⃣, server: 5.199.143.230, port: 443, type: trojan, password: 092ab6fae1, sni: de1.connecton.surf, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 @PrivateVPNs | GB🇬🇧 | 3.11.203.141:22222 | 88.45ms | 0️⃣1️⃣, server: 3.11.203.141, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: "@PrivateVPNs | IE🇮🇪 | 52.17.254.160:22222 | 74.29ms | 0️⃣2️⃣", server: 52.17.254.160, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: "@PrivateVPNs | IE🇮🇪 | 63.32.241.108:22222 | 67.53ms | 0️⃣3️⃣", server: 63.32.241.108, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇷 @DirectVPN | FR🇫🇷 | 13.36.231.37:22222 | 96.5ms | 0️⃣1️⃣, server: 13.36.231.37, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 @DirectVPN | DE🇩🇪 | 52.58.144.54:22222 | 98.65ms | 0️⃣2️⃣, server: 52.58.144.54, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: "@DirectVPN | RELAY🚩 | 13.49.161.67:22222 | 105.65ms | 0️⃣3️⃣", server: 13.49.161.67, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp4.yihaobao.xyz:10078 | 182.45ms | 0️⃣1️⃣, server: jp4.yihaobao.xyz, port: 10078, type: trojan, password: f7c73566-f8aa-47d3-96ea-92535c788de8, sni: tls.yihaobao.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp5.yihaobao.xyz:10074 | 182.02ms | 0️⃣2️⃣, server: jp5.yihaobao.xyz, port: 10074, type: trojan, password: f7c73566-f8aa-47d3-96ea-92535c788de8, sni: tls.yihaobao.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 69.64ms | 0️⃣3️⃣, server: 163.123.192.34, port: 443, type: trojan, password: a00330bc-7f67-4bad-a59b-481cd2d67456, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 2.4ms | 0️⃣1️⃣, server: 51.81.82.15, port: 443, type: trojan, password: 938a20c0-3f42-11ee-add7-1239d0255272, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🚀 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - DIRECT
-      - 🇩🇪 @v2raycollectordonate | DE🇩🇪 | 5.199.143.230:443 | 153.66ms | 0️⃣1️⃣
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 52.57.179.170:22222 | 170.24ms | 0️⃣1️⃣
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 52.57.99.176:22222 | 189.02ms | 0️⃣2️⃣
-      - 🇫🇷 @PrivateVPNs | FR🇫🇷 | 13.39.180.117:22222 | 198.11ms | 0️⃣3️⃣
-      - 🇫🇷 @DirectVPN | FR🇫🇷 | 15.237.10.146:22222 | 168.2ms | 0️⃣1️⃣
-      - 🇬🇧 @DirectVPN | GB🇬🇧 | 35.178.252.121:22222 | 147.91ms | 0️⃣2️⃣
-      - "@DirectVPN | IE🇮🇪 | 34.240.109.8:22222 | 137.97ms | 0️⃣3️⃣"
-      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp3.yihaobao.xyz:10079 | 125.62ms | 0️⃣1️⃣
-      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp4.yihaobao.xyz:10078 | 126ms | 0️⃣2️⃣
-      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp5.yihaobao.xyz:10074 | 121.25ms | 0️⃣3️⃣
-      - 🇺🇸 @v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 70.86ms | 0️⃣1️⃣
+      - "@v2raycollectordonate | RELAY🚩 | ap.biglog.sbs:443 | 124.56ms | 0️⃣1️⃣"
+      - 🇩🇪 @v2raycollectordonate | DE🇩🇪 | 5.199.143.230:443 | 84.32ms | 0️⃣2️⃣
+      - 🇬🇧 @PrivateVPNs | GB🇬🇧 | 3.11.203.141:22222 | 88.45ms | 0️⃣1️⃣
+      - "@PrivateVPNs | IE🇮🇪 | 52.17.254.160:22222 | 74.29ms | 0️⃣2️⃣"
+      - "@PrivateVPNs | IE🇮🇪 | 63.32.241.108:22222 | 67.53ms | 0️⃣3️⃣"
+      - 🇫🇷 @DirectVPN | FR🇫🇷 | 13.36.231.37:22222 | 96.5ms | 0️⃣1️⃣
+      - 🇩🇪 @DirectVPN | DE🇩🇪 | 52.58.144.54:22222 | 98.65ms | 0️⃣2️⃣
+      - "@DirectVPN | RELAY🚩 | 13.49.161.67:22222 | 105.65ms | 0️⃣3️⃣"
+      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp4.yihaobao.xyz:10078 | 182.45ms | 0️⃣1️⃣
+      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp5.yihaobao.xyz:10074 | 182.02ms | 0️⃣2️⃣
+      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 69.64ms | 0️⃣3️⃣
+      - 🇺🇸 @v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 2.4ms | 0️⃣1️⃣
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪 @v2raycollectordonate | DE🇩🇪 | 5.199.143.230:443 | 153.66ms | 0️⃣1️⃣
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 52.57.179.170:22222 | 170.24ms | 0️⃣1️⃣
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 52.57.99.176:22222 | 189.02ms | 0️⃣2️⃣
-      - 🇫🇷 @PrivateVPNs | FR🇫🇷 | 13.39.180.117:22222 | 198.11ms | 0️⃣3️⃣
-      - 🇫🇷 @DirectVPN | FR🇫🇷 | 15.237.10.146:22222 | 168.2ms | 0️⃣1️⃣
-      - 🇬🇧 @DirectVPN | GB🇬🇧 | 35.178.252.121:22222 | 147.91ms | 0️⃣2️⃣
-      - "@DirectVPN | IE🇮🇪 | 34.240.109.8:22222 | 137.97ms | 0️⃣3️⃣"
-      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp3.yihaobao.xyz:10079 | 125.62ms | 0️⃣1️⃣
-      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp4.yihaobao.xyz:10078 | 126ms | 0️⃣2️⃣
-      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp5.yihaobao.xyz:10074 | 121.25ms | 0️⃣3️⃣
-      - 🇺🇸 @v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 70.86ms | 0️⃣1️⃣
+      - "@v2raycollectordonate | RELAY🚩 | ap.biglog.sbs:443 | 124.56ms | 0️⃣1️⃣"
+      - 🇩🇪 @v2raycollectordonate | DE🇩🇪 | 5.199.143.230:443 | 84.32ms | 0️⃣2️⃣
+      - 🇬🇧 @PrivateVPNs | GB🇬🇧 | 3.11.203.141:22222 | 88.45ms | 0️⃣1️⃣
+      - "@PrivateVPNs | IE🇮🇪 | 52.17.254.160:22222 | 74.29ms | 0️⃣2️⃣"
+      - "@PrivateVPNs | IE🇮🇪 | 63.32.241.108:22222 | 67.53ms | 0️⃣3️⃣"
+      - 🇫🇷 @DirectVPN | FR🇫🇷 | 13.36.231.37:22222 | 96.5ms | 0️⃣1️⃣
+      - 🇩🇪 @DirectVPN | DE🇩🇪 | 52.58.144.54:22222 | 98.65ms | 0️⃣2️⃣
+      - "@DirectVPN | RELAY🚩 | 13.49.161.67:22222 | 105.65ms | 0️⃣3️⃣"
+      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp4.yihaobao.xyz:10078 | 182.45ms | 0️⃣1️⃣
+      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp5.yihaobao.xyz:10074 | 182.02ms | 0️⃣2️⃣
+      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 69.64ms | 0️⃣3️⃣
+      - 🇺🇸 @v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 2.4ms | 0️⃣1️⃣
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -67,17 +70,18 @@ proxy-groups:
       - 🚀 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - 🇩🇪 @v2raycollectordonate | DE🇩🇪 | 5.199.143.230:443 | 153.66ms | 0️⃣1️⃣
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 52.57.179.170:22222 | 170.24ms | 0️⃣1️⃣
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 52.57.99.176:22222 | 189.02ms | 0️⃣2️⃣
-      - 🇫🇷 @PrivateVPNs | FR🇫🇷 | 13.39.180.117:22222 | 198.11ms | 0️⃣3️⃣
-      - 🇫🇷 @DirectVPN | FR🇫🇷 | 15.237.10.146:22222 | 168.2ms | 0️⃣1️⃣
-      - 🇬🇧 @DirectVPN | GB🇬🇧 | 35.178.252.121:22222 | 147.91ms | 0️⃣2️⃣
-      - "@DirectVPN | IE🇮🇪 | 34.240.109.8:22222 | 137.97ms | 0️⃣3️⃣"
-      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp3.yihaobao.xyz:10079 | 125.62ms | 0️⃣1️⃣
-      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp4.yihaobao.xyz:10078 | 126ms | 0️⃣2️⃣
-      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp5.yihaobao.xyz:10074 | 121.25ms | 0️⃣3️⃣
-      - 🇺🇸 @v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 70.86ms | 0️⃣1️⃣
+      - "@v2raycollectordonate | RELAY🚩 | ap.biglog.sbs:443 | 124.56ms | 0️⃣1️⃣"
+      - 🇩🇪 @v2raycollectordonate | DE🇩🇪 | 5.199.143.230:443 | 84.32ms | 0️⃣2️⃣
+      - 🇬🇧 @PrivateVPNs | GB🇬🇧 | 3.11.203.141:22222 | 88.45ms | 0️⃣1️⃣
+      - "@PrivateVPNs | IE🇮🇪 | 52.17.254.160:22222 | 74.29ms | 0️⃣2️⃣"
+      - "@PrivateVPNs | IE🇮🇪 | 63.32.241.108:22222 | 67.53ms | 0️⃣3️⃣"
+      - 🇫🇷 @DirectVPN | FR🇫🇷 | 13.36.231.37:22222 | 96.5ms | 0️⃣1️⃣
+      - 🇩🇪 @DirectVPN | DE🇩🇪 | 52.58.144.54:22222 | 98.65ms | 0️⃣2️⃣
+      - "@DirectVPN | RELAY🚩 | 13.49.161.67:22222 | 105.65ms | 0️⃣3️⃣"
+      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp4.yihaobao.xyz:10078 | 182.45ms | 0️⃣1️⃣
+      - 🇯🇵 @oneclickvpnkeys | JP🇯🇵 | jp5.yihaobao.xyz:10074 | 182.02ms | 0️⃣2️⃣
+      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 163.123.192.34:443 | 69.64ms | 0️⃣3️⃣
+      - 🇺🇸 @v2ray1_ng | US🇺🇸 | 51.81.82.15:443 | 2.4ms | 0️⃣1️⃣
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 GLOBAL DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,🎯 GLOBAL DIRECT

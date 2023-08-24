@@ -5,54 +5,48 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "@PrivateVPNs | SE🇸🇪 | 13.51.2.172:22222 | 105.95ms | 0️⃣1️⃣", server: 13.51.2.172, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 @PrivateVPNs | DE🇩🇪 | 18.197.162.98:22222 | 138.43ms | 0️⃣2️⃣, server: 18.197.162.98, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 @PrivateVPNs | DE🇩🇪 | 3.122.166.123:22222 | 122.6ms | 0️⃣3️⃣, server: 3.122.166.123, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 @DirectVPN | DE🇩🇪 | 3.78.104.84:22222 | 93.76ms | 0️⃣1️⃣, server: 3.78.104.84, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 @DirectVPN | FR🇫🇷 | 13.36.49.142:22222 | 84.47ms | 0️⃣2️⃣, server: 13.36.49.142, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 @DirectVPN | GB🇬🇧 | 13.41.98.67:22222 | 77.4ms | 0️⃣3️⃣, server: 13.41.98.67, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 @oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 139.04ms | 0️⃣1️⃣, server: ho1one.09vpn.com, port: 2083, type: trojan, password: u7448158457, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 @oneclickvpnkeys | DE🇩🇪 | 5.75.254.127:443 | 95.3ms | 0️⃣2️⃣, server: 5.75.254.127, port: 443, type: trojan, password: 7d19968f-426c-4fcf-be2e-c96549f3b13e, sni: b2.talamala.co, skip-cert-verify: false, udp: true}
-  - {name: "@oneclickvpnkeys | IL🇮🇱 | 83.229.81.120:2083 | 137.89ms | 0️⃣3️⃣", server: 83.229.81.120, port: 2083, type: trojan, password: u5971153074, sni: is1kam.09vpn.com, skip-cert-verify: false, udp: true}
-  - {name: "@vmess_vless_v2rayng | IE🇮🇪 | 54.75.247.45:22222 | 68.43ms | 0️⃣1️⃣", server: 54.75.247.45, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: "@vmess_vless_v2rayng | IE🇮🇪 | 34.246.114.125:22222 | 113.99ms | 0️⃣2️⃣", server: 34.246.114.125, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 93.36ms | 0️⃣1️⃣", server: 482.outline-vpn.cloud, port: 443, type: trojan, password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8, sni: ftp.pardazesh.tech, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 @v2raycollectordonate | DE🇩🇪 | 7.batenburgenergietechniek.org:110 | 237.08ms | 0️⃣1️⃣, server: 7.batenburgenergietechniek.org, port: 110, type: trojan, password: 4e26d79e-0d8f-4ae5-9fdb-d379bd86c327, sni: 7.batenburgenergietechniek.org, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇷 @PrivateVPNs | FR🇫🇷 | 13.39.145.176:22222 | 133.7ms | 0️⃣1️⃣, server: 13.39.145.176, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 @PrivateVPNs | GB🇬🇧 | 3.11.140.32:22222 | 88.91ms | 0️⃣2️⃣, server: 3.11.140.32, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 @DirectVPN | DE🇩🇪 | 3.120.117.162:22222 | 123.29ms | 0️⃣1️⃣, server: 3.120.117.162, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇷 @DirectVPN | FR🇫🇷 | 13.39.191.219:22222 | 83.6ms | 0️⃣3️⃣, server: 13.39.191.219, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 @oneclickvpnkeys | DE🇩🇪 | 5.75.254.127:443 | 94.61ms | 0️⃣1️⃣, server: 5.75.254.127, port: 443, type: trojan, password: 7d19968f-426c-4fcf-be2e-c96549f3b13e, sni: b2.talamala.co, skip-cert-verify: false, udp: true}
+  - {name: "@oneclickvpnkeys | IL🇮🇱 | 83.229.81.120:2083 | 136.93ms | 0️⃣2️⃣", server: 83.229.81.120, port: 2083, type: trojan, password: u5971153074, sni: is1kam.09vpn.com, skip-cert-verify: false, udp: true}
+  - {name: "@vmess_vless_v2rayng | IE🇮🇪 | 54.75.247.45:22222 | 121.42ms | 0️⃣1️⃣", server: 54.75.247.45, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: "@vmess_vless_v2rayng | IE🇮🇪 | 34.246.114.125:22222 | 91.66ms | 0️⃣2️⃣", server: 34.246.114.125, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 29.63ms | 0️⃣1️⃣", server: 482.outline-vpn.cloud, port: 443, type: trojan, password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8, sni: ftp.pardazesh.tech, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🚀 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - DIRECT
-      - "@PrivateVPNs | SE🇸🇪 | 13.51.2.172:22222 | 105.95ms | 0️⃣1️⃣"
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 18.197.162.98:22222 | 138.43ms | 0️⃣2️⃣
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 3.122.166.123:22222 | 122.6ms | 0️⃣3️⃣
-      - 🇩🇪 @DirectVPN | DE🇩🇪 | 3.78.104.84:22222 | 93.76ms | 0️⃣1️⃣
-      - 🇫🇷 @DirectVPN | FR🇫🇷 | 13.36.49.142:22222 | 84.47ms | 0️⃣2️⃣
-      - 🇬🇧 @DirectVPN | GB🇬🇧 | 13.41.98.67:22222 | 77.4ms | 0️⃣3️⃣
-      - 🇫🇷 @oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 139.04ms | 0️⃣1️⃣
-      - 🇩🇪 @oneclickvpnkeys | DE🇩🇪 | 5.75.254.127:443 | 95.3ms | 0️⃣2️⃣
-      - "@oneclickvpnkeys | IL🇮🇱 | 83.229.81.120:2083 | 137.89ms | 0️⃣3️⃣"
-      - "@vmess_vless_v2rayng | IE🇮🇪 | 54.75.247.45:22222 | 68.43ms | 0️⃣1️⃣"
-      - "@vmess_vless_v2rayng | IE🇮🇪 | 34.246.114.125:22222 | 113.99ms | 0️⃣2️⃣"
-      - "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 93.36ms | 0️⃣1️⃣"
+      - 🇩🇪 @v2raycollectordonate | DE🇩🇪 | 7.batenburgenergietechniek.org:110 | 237.08ms | 0️⃣1️⃣
+      - 🇫🇷 @PrivateVPNs | FR🇫🇷 | 13.39.145.176:22222 | 133.7ms | 0️⃣1️⃣
+      - 🇬🇧 @PrivateVPNs | GB🇬🇧 | 3.11.140.32:22222 | 88.91ms | 0️⃣2️⃣
+      - 🇩🇪 @DirectVPN | DE🇩🇪 | 3.120.117.162:22222 | 123.29ms | 0️⃣1️⃣
+      - 🇫🇷 @DirectVPN | FR🇫🇷 | 13.39.191.219:22222 | 83.6ms | 0️⃣3️⃣
+      - 🇩🇪 @oneclickvpnkeys | DE🇩🇪 | 5.75.254.127:443 | 94.61ms | 0️⃣1️⃣
+      - "@oneclickvpnkeys | IL🇮🇱 | 83.229.81.120:2083 | 136.93ms | 0️⃣2️⃣"
+      - "@vmess_vless_v2rayng | IE🇮🇪 | 54.75.247.45:22222 | 121.42ms | 0️⃣1️⃣"
+      - "@vmess_vless_v2rayng | IE🇮🇪 | 34.246.114.125:22222 | 91.66ms | 0️⃣2️⃣"
+      - "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 29.63ms | 0️⃣1️⃣"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@PrivateVPNs | SE🇸🇪 | 13.51.2.172:22222 | 105.95ms | 0️⃣1️⃣"
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 18.197.162.98:22222 | 138.43ms | 0️⃣2️⃣
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 3.122.166.123:22222 | 122.6ms | 0️⃣3️⃣
-      - 🇩🇪 @DirectVPN | DE🇩🇪 | 3.78.104.84:22222 | 93.76ms | 0️⃣1️⃣
-      - 🇫🇷 @DirectVPN | FR🇫🇷 | 13.36.49.142:22222 | 84.47ms | 0️⃣2️⃣
-      - 🇬🇧 @DirectVPN | GB🇬🇧 | 13.41.98.67:22222 | 77.4ms | 0️⃣3️⃣
-      - 🇫🇷 @oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 139.04ms | 0️⃣1️⃣
-      - 🇩🇪 @oneclickvpnkeys | DE🇩🇪 | 5.75.254.127:443 | 95.3ms | 0️⃣2️⃣
-      - "@oneclickvpnkeys | IL🇮🇱 | 83.229.81.120:2083 | 137.89ms | 0️⃣3️⃣"
-      - "@vmess_vless_v2rayng | IE🇮🇪 | 54.75.247.45:22222 | 68.43ms | 0️⃣1️⃣"
-      - "@vmess_vless_v2rayng | IE🇮🇪 | 34.246.114.125:22222 | 113.99ms | 0️⃣2️⃣"
-      - "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 93.36ms | 0️⃣1️⃣"
+      - 🇩🇪 @v2raycollectordonate | DE🇩🇪 | 7.batenburgenergietechniek.org:110 | 237.08ms | 0️⃣1️⃣
+      - 🇫🇷 @PrivateVPNs | FR🇫🇷 | 13.39.145.176:22222 | 133.7ms | 0️⃣1️⃣
+      - 🇬🇧 @PrivateVPNs | GB🇬🇧 | 3.11.140.32:22222 | 88.91ms | 0️⃣2️⃣
+      - 🇩🇪 @DirectVPN | DE🇩🇪 | 3.120.117.162:22222 | 123.29ms | 0️⃣1️⃣
+      - 🇫🇷 @DirectVPN | FR🇫🇷 | 13.39.191.219:22222 | 83.6ms | 0️⃣3️⃣
+      - 🇩🇪 @oneclickvpnkeys | DE🇩🇪 | 5.75.254.127:443 | 94.61ms | 0️⃣1️⃣
+      - "@oneclickvpnkeys | IL🇮🇱 | 83.229.81.120:2083 | 136.93ms | 0️⃣2️⃣"
+      - "@vmess_vless_v2rayng | IE🇮🇪 | 54.75.247.45:22222 | 121.42ms | 0️⃣1️⃣"
+      - "@vmess_vless_v2rayng | IE🇮🇪 | 34.246.114.125:22222 | 91.66ms | 0️⃣2️⃣"
+      - "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 29.63ms | 0️⃣1️⃣"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -70,18 +64,16 @@ proxy-groups:
       - 🚀 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "@PrivateVPNs | SE🇸🇪 | 13.51.2.172:22222 | 105.95ms | 0️⃣1️⃣"
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 18.197.162.98:22222 | 138.43ms | 0️⃣2️⃣
-      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 3.122.166.123:22222 | 122.6ms | 0️⃣3️⃣
-      - 🇩🇪 @DirectVPN | DE🇩🇪 | 3.78.104.84:22222 | 93.76ms | 0️⃣1️⃣
-      - 🇫🇷 @DirectVPN | FR🇫🇷 | 13.36.49.142:22222 | 84.47ms | 0️⃣2️⃣
-      - 🇬🇧 @DirectVPN | GB🇬🇧 | 13.41.98.67:22222 | 77.4ms | 0️⃣3️⃣
-      - 🇫🇷 @oneclickvpnkeys | FR🇫🇷 | ho1one.09vpn.com:2083 | 139.04ms | 0️⃣1️⃣
-      - 🇩🇪 @oneclickvpnkeys | DE🇩🇪 | 5.75.254.127:443 | 95.3ms | 0️⃣2️⃣
-      - "@oneclickvpnkeys | IL🇮🇱 | 83.229.81.120:2083 | 137.89ms | 0️⃣3️⃣"
-      - "@vmess_vless_v2rayng | IE🇮🇪 | 54.75.247.45:22222 | 68.43ms | 0️⃣1️⃣"
-      - "@vmess_vless_v2rayng | IE🇮🇪 | 34.246.114.125:22222 | 113.99ms | 0️⃣2️⃣"
-      - "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 93.36ms | 0️⃣1️⃣"
+      - 🇩🇪 @v2raycollectordonate | DE🇩🇪 | 7.batenburgenergietechniek.org:110 | 237.08ms | 0️⃣1️⃣
+      - 🇫🇷 @PrivateVPNs | FR🇫🇷 | 13.39.145.176:22222 | 133.7ms | 0️⃣1️⃣
+      - 🇬🇧 @PrivateVPNs | GB🇬🇧 | 3.11.140.32:22222 | 88.91ms | 0️⃣2️⃣
+      - 🇩🇪 @DirectVPN | DE🇩🇪 | 3.120.117.162:22222 | 123.29ms | 0️⃣1️⃣
+      - 🇫🇷 @DirectVPN | FR🇫🇷 | 13.39.191.219:22222 | 83.6ms | 0️⃣3️⃣
+      - 🇩🇪 @oneclickvpnkeys | DE🇩🇪 | 5.75.254.127:443 | 94.61ms | 0️⃣1️⃣
+      - "@oneclickvpnkeys | IL🇮🇱 | 83.229.81.120:2083 | 136.93ms | 0️⃣2️⃣"
+      - "@vmess_vless_v2rayng | IE🇮🇪 | 54.75.247.45:22222 | 121.42ms | 0️⃣1️⃣"
+      - "@vmess_vless_v2rayng | IE🇮🇪 | 34.246.114.125:22222 | 91.66ms | 0️⃣2️⃣"
+      - "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 29.63ms | 0️⃣1️⃣"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 GLOBAL DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,🎯 GLOBAL DIRECT

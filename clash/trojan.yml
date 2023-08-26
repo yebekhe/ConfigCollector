@@ -5,42 +5,33 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇬🇧 @PrivateVPNs | GB🇬🇧 | 18.170.249.18:22222 | 95.06ms | 0️⃣1️⃣, server: 18.170.249.18, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: "@PrivateVPNs | IE🇮🇪 | 34.246.113.211:22222 | 83.85ms | 0️⃣2️⃣", server: 34.246.113.211, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 @DirectVPN | GB🇬🇧 | 52.56.210.73:22222 | 89.28ms | 0️⃣1️⃣, server: 52.56.210.73, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: "@DirectVPN | IE🇮🇪 | 54.72.59.192:22222 | 82.04ms | 0️⃣2️⃣", server: 54.72.59.192, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @DirectVPN | US🇺🇸 | 35.175.58.98:22222 | 6.28ms | 0️⃣3️⃣, server: 35.175.58.98, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: "@oneclickvpnkeys | IR🇮🇷 | s1.adsmahsa.xyz:18981 | 178.69ms | 0️⃣1️⃣", server: s1.adsmahsa.xyz, port: 18981, type: trojan, password: 2vWwWzDyjT, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 52.38.40.249:22222 | 81.23ms | 0️⃣2️⃣, server: 52.38.40.249, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
-  - {name: "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 35.99ms | 0️⃣1️⃣", server: 482.outline-vpn.cloud, port: 443, type: trojan, password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8, sni: ftp.pardazesh.tech, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 @PrivateVPNs | DE🇩🇪 | 52.57.34.64:22222 | 160.8ms | 0️⃣1️⃣, server: 52.57.34.64, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 @DirectVPN | US🇺🇸 | 52.33.103.175:22222 | 80.73ms | 0️⃣1️⃣, server: 52.33.103.175, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 @DirectVPN | DE🇩🇪 | 3.74.218.213:22222 | 161.5ms | 0️⃣2️⃣, server: 3.74.218.213, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: "@DirectVPN | SE🇸🇪 | 16.170.174.119:22222 | 175.97ms | 0️⃣3️⃣", server: 16.170.174.119, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false, udp: true}
+  - {name: "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 22.8ms | 0️⃣1️⃣", server: 482.outline-vpn.cloud, port: 443, type: trojan, password: d8fd35e7-25f7-452d-852a-6ad1cfb3c9b8, sni: ftp.pardazesh.tech, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🚀 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - DIRECT
-      - 🇬🇧 @PrivateVPNs | GB🇬🇧 | 18.170.249.18:22222 | 95.06ms | 0️⃣1️⃣
-      - "@PrivateVPNs | IE🇮🇪 | 34.246.113.211:22222 | 83.85ms | 0️⃣2️⃣"
-      - 🇬🇧 @DirectVPN | GB🇬🇧 | 52.56.210.73:22222 | 89.28ms | 0️⃣1️⃣
-      - "@DirectVPN | IE🇮🇪 | 54.72.59.192:22222 | 82.04ms | 0️⃣2️⃣"
-      - 🇺🇸 @DirectVPN | US🇺🇸 | 35.175.58.98:22222 | 6.28ms | 0️⃣3️⃣
-      - "@oneclickvpnkeys | IR🇮🇷 | s1.adsmahsa.xyz:18981 | 178.69ms | 0️⃣1️⃣"
-      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 52.38.40.249:22222 | 81.23ms | 0️⃣2️⃣
-      - "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 35.99ms | 0️⃣1️⃣"
+      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 52.57.34.64:22222 | 160.8ms | 0️⃣1️⃣
+      - 🇺🇸 @DirectVPN | US🇺🇸 | 52.33.103.175:22222 | 80.73ms | 0️⃣1️⃣
+      - 🇩🇪 @DirectVPN | DE🇩🇪 | 3.74.218.213:22222 | 161.5ms | 0️⃣2️⃣
+      - "@DirectVPN | SE🇸🇪 | 16.170.174.119:22222 | 175.97ms | 0️⃣3️⃣"
+      - "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 22.8ms | 0️⃣1️⃣"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧 @PrivateVPNs | GB🇬🇧 | 18.170.249.18:22222 | 95.06ms | 0️⃣1️⃣
-      - "@PrivateVPNs | IE🇮🇪 | 34.246.113.211:22222 | 83.85ms | 0️⃣2️⃣"
-      - 🇬🇧 @DirectVPN | GB🇬🇧 | 52.56.210.73:22222 | 89.28ms | 0️⃣1️⃣
-      - "@DirectVPN | IE🇮🇪 | 54.72.59.192:22222 | 82.04ms | 0️⃣2️⃣"
-      - 🇺🇸 @DirectVPN | US🇺🇸 | 35.175.58.98:22222 | 6.28ms | 0️⃣3️⃣
-      - "@oneclickvpnkeys | IR🇮🇷 | s1.adsmahsa.xyz:18981 | 178.69ms | 0️⃣1️⃣"
-      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 52.38.40.249:22222 | 81.23ms | 0️⃣2️⃣
-      - "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 35.99ms | 0️⃣1️⃣"
+      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 52.57.34.64:22222 | 160.8ms | 0️⃣1️⃣
+      - 🇺🇸 @DirectVPN | US🇺🇸 | 52.33.103.175:22222 | 80.73ms | 0️⃣1️⃣
+      - 🇩🇪 @DirectVPN | DE🇩🇪 | 3.74.218.213:22222 | 161.5ms | 0️⃣2️⃣
+      - "@DirectVPN | SE🇸🇪 | 16.170.174.119:22222 | 175.97ms | 0️⃣3️⃣"
+      - "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 22.8ms | 0️⃣1️⃣"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -58,14 +49,11 @@ proxy-groups:
       - 🚀 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - 🇬🇧 @PrivateVPNs | GB🇬🇧 | 18.170.249.18:22222 | 95.06ms | 0️⃣1️⃣
-      - "@PrivateVPNs | IE🇮🇪 | 34.246.113.211:22222 | 83.85ms | 0️⃣2️⃣"
-      - 🇬🇧 @DirectVPN | GB🇬🇧 | 52.56.210.73:22222 | 89.28ms | 0️⃣1️⃣
-      - "@DirectVPN | IE🇮🇪 | 54.72.59.192:22222 | 82.04ms | 0️⃣2️⃣"
-      - 🇺🇸 @DirectVPN | US🇺🇸 | 35.175.58.98:22222 | 6.28ms | 0️⃣3️⃣
-      - "@oneclickvpnkeys | IR🇮🇷 | s1.adsmahsa.xyz:18981 | 178.69ms | 0️⃣1️⃣"
-      - 🇺🇸 @oneclickvpnkeys | US🇺🇸 | 52.38.40.249:22222 | 81.23ms | 0️⃣2️⃣
-      - "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 35.99ms | 0️⃣1️⃣"
+      - 🇩🇪 @PrivateVPNs | DE🇩🇪 | 52.57.34.64:22222 | 160.8ms | 0️⃣1️⃣
+      - 🇺🇸 @DirectVPN | US🇺🇸 | 52.33.103.175:22222 | 80.73ms | 0️⃣1️⃣
+      - 🇩🇪 @DirectVPN | DE🇩🇪 | 3.74.218.213:22222 | 161.5ms | 0️⃣2️⃣
+      - "@DirectVPN | SE🇸🇪 | 16.170.174.119:22222 | 175.97ms | 0️⃣3️⃣"
+      - "@VmessProtocol | RELAY🚩 | 482.outline-vpn.cloud:443 | 22.8ms | 0️⃣1️⃣"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 GLOBAL DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,🎯 GLOBAL DIRECT
